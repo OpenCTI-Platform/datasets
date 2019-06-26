@@ -1,0 +1,67 @@
+[
+	{
+		"name": "Activists",
+		"description": "",
+		"subsectors": []
+	},
+	{
+		"name": "Agriculture",
+		"description": "",
+		"subsectors": []
+	},
+	{
+		"name": "Arts",
+		"description": "",
+		"subsectors": []
+	},
+	{
+		"name": "Education",
+		"description": "",
+		"subsectors": [
+			{
+				"name": "Universities",
+				"description": ""
+			}
+		]
+	},
+	{
+		"name": "Energy",
+		"description": "",
+		"subsectors": [
+			{
+				"name": "Electricity",
+				"description": ""
+			},
+			{
+				"name": "Nuclear",
+				"description": "Nuclear power is the use of nuclear reactions that release nuclear energy to generate heat, which most frequently is then used in steam turbines to produce electricity in a nuclear power plant. As a nuclear technology, nuclear power can be obtained from nuclear fission, nuclear decay and nuclear fusion reactions."
+			},
+			{
+				"name": "Gas",
+				"description": ""
+			},
+			{
+				"name": "Petroleum",
+				"description": "The petroleum industry, also known as the oil industry or the oil patch, includes the global processes of exploration, extraction, refining, transporting (often by oil tankers and pipelines), and marketing of petroleum products."
+			}
+		]
+	},
+	{
+		"name": "Transport",
+		"description": "",
+		"subsectors": [
+			{
+				"name": "Aviation",
+				"description": ""
+			},
+			{
+				"name": "Rail",
+				"description": ""
+			},
+			{
+				"name": "Maritime",
+				"description": ""
+			},
+		]
+	}
+]
