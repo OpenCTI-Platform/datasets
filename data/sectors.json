@@ -162,7 +162,7 @@
 				"name": "Parliamentary chambers",
 				"description": ""
 			}
-			]
+		]
 	},
 	{
 		"name": "Health",
@@ -176,7 +176,7 @@
 				"name": "Pharmacy and drugs",
 				"description": ""
 			}
-			]
+		]
 	},
 	{
 		"name": "Hospitality",
@@ -194,7 +194,7 @@
 				"name": "Tourism industry",
 				"description": "All private entities in the tourism industry except for transportations companies."
 			}
-			]
+		]
 	},
 	{
 		"name": "Technologies",
@@ -208,7 +208,7 @@
 				"name": "Gaming",
 				"description": ""
 			}
-			]
+		]
 	},
 	{
 		"name": "Unknown",
@@ -232,7 +232,7 @@
 				"name": "Construction",
 				"description": ""
 			}
-			]
+		]
 	},
 	{
 		"name": "Retail",
@@ -262,8 +262,8 @@
 			{
 				"name": "Medias and audiovisual",
 				"description": "Communication outlets and people working in these outlets used to deliver information by print, broadcast or Internet."
-			},
-			]
+			}
+		]
 	},
 	{
 		"name": "Consulting",
@@ -281,7 +281,7 @@
 				"name": "Engineering consulting",
 				"description": ""
 			}
-			]
+		]
 	},
 	{
 		"name": "Mining",
@@ -308,11 +308,11 @@
 			{
 				"name": "Political organizations",
 				"description": ""
-			}
+			},
 			{
 				"name": "Dissidents",
 				"description": ""
 			}
-			]
+		]
 	}
 ]
