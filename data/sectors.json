@@ -1,32 +1,48 @@
 [
 	{
-		"name": "Activists",
-		"description": "",
-		"subsectors": []
-	},
-	{
 		"name": "Agriculture",
-		"description": "",
+		"description": "Private entities specialized in the growth, culture, transport and transformation of plants or livestock for food.",
 		"subsectors": []
 	},
 	{
-		"name": "Arts",
-		"description": "",
-		"subsectors": []
-	},
-	{
-		"name": "Education",
+		"name": "Culture and entertainment",
 		"description": "",
 		"subsectors": [
 			{
+				"name": "Culture",
+				"description": ""
+			},	
+			{
+				"name": "Sports",
+				"description": ""
+			},
+			{
+				"name": "Movies industry",
+				"description": ""
+			}
+		]
+	},
+	{
+		"name": "Education and research",
+		"description": "Public or private entities operating to facilitate learning and acquiring knowledge and skills and all research activities.",
+		"subsectors": [
+			{
 				"name": "Universities",
+				"description": ""
+			},
+			{
+				"name": "Schools",
+				"description": ""
+			},
+			{
+				"name": "Think tanks",
 				"description": ""
 			}
 		]
 	},
 	{
 		"name": "Energy",
-		"description": "",
+		"description": "Public and private entities operating to extract, store, transport and process fuel, entities managing energy plants and energy storage and distribution and entities managing fuel waste.",
 		"subsectors": [
 			{
 				"name": "Electricity",
@@ -34,15 +50,19 @@
 			},
 			{
 				"name": "Nuclear",
-				"description": "Nuclear power is the use of nuclear reactions that release nuclear energy to generate heat, which most frequently is then used in steam turbines to produce electricity in a nuclear power plant. As a nuclear technology, nuclear power can be obtained from nuclear fission, nuclear decay and nuclear fusion reactions."
+				"description": "Civilian entities involved in the extraction and transport of nuclear fuel, civilian entities operating nuclear plants for civilian purposes, entities processing nuclear waste."
 			},
 			{
 				"name": "Gas",
 				"description": ""
 			},
 			{
-				"name": "Petroleum",
-				"description": "The petroleum industry, also known as the oil industry or the oil patch, includes the global processes of exploration, extraction, refining, transporting (often by oil tankers and pipelines), and marketing of petroleum products."
+				"name": "Oil",
+				"description": "The oil industry includes the global processes of exploration, extraction, refining, transporting (often by oil tankers and pipelines), and marketing of petroleum products."
+			},
+			{
+				"name": "Renewable energies",
+				"description": ""
 			}
 		]
 	},
@@ -52,16 +72,247 @@
 		"subsectors": [
 			{
 				"name": "Aviation",
-				"description": ""
+				"description": "All entities transporting people or goods by plane, managing or exploiting airports and structures, trafic authorities and plane manufacturers. Includes all civilian space activities."
 			},
 			{
 				"name": "Rail",
-				"description": ""
+				"description": "Public and private entities managing rail infrastructures, rail transportation, exploiting intelligent rail transport systems and the rail industry"
 			},
 			{
 				"name": "Maritime",
+				"description": "All entities transporting people or good by naval means, managing or exploiting naval structures (ports), naval manufactures and trafic authorities."
+			},
+			{
+				"name": "Road",
+				"description": "Public and private entities managing road infrastructures, road transportation, exploiting intelligent transport systems and the automotive industry."
+			}
+		]
+	},
+	{
+		"name": "Defense",
+		"description": "Public and private organizations involved in the production of weapons, planning and conducting military operations.",
+		"subsectors": [
+			{
+				"name": "Ministry of defense",
+				"description": "Includes the military and all defense related-space activities."
+			},
+			{
+				"name": "Defense contractors",
+				"description": ""
+			},
+			{
+				"name": "Research and development",
+				"description": "R&D for defense or military purposes."
+			}
+		]
+	},
+	{
+		"name": "Banking and finance",
+		"description": "",
+		"subsectors": [
+			{
+				"name": "Banking institutions",
+				"description": "Includes Central Banks."
+			},
+			{
+				"name": "Financial organizations",
+				"description": ""
+			},
+			{
+				"name": "Insurance services",
+				"description": ""
+			},
+			{
+				"name": "Market infrastructures",
 				"description": ""
 			}
 		]
+	},
+	{
+		"name": "Diplomacy",
+		"description": "Public or private entities which are actors of or involved in international relations activities.",
+		"subsectors": [
+			{
+				"name": "Ministry of foreign affairs",
+				"description": ""
+			},
+			{
+				"name": "Specialized think tanks",
+				"description": ""
+			},
+			{
+				"name": "International organizations",
+				"description": ""
+			}
+		]
+	},
+	{
+		"name": "Government and administrations",
+		"description": "Civilian administrations or institutions, including parliamentary institutions and local administrations.",
+		"subsectors": [
+			{
+				"name": "Central administration and Ministries",
+				"description": ""
+			},
+			{
+				"name": "Local administrations",
+				"description": ""
+			},
+			{
+				"name": "Parliamentary chambers",
+				"description": ""
+			}
+			]
+	},
+	{
+		"name": "Health",
+		"description": "Public and private entities involved in all services and manufacturing of good related to public health.",
+		"subsectors": [
+			{
+				"name": "Medical care structures",
+				"description": ""
+			},
+			{
+				"name": "Pharmacy and drugs",
+				"description": ""
+			}
+			]
+	},
+	{
+		"name": "Hospitality",
+		"description": "Private structures involved in receiving and entertaining people.",
+		"subsectors": [
+			{
+				"name": "Hotels",
+				"description": ""
+			},
+			{
+				"name": "Restaurants",
+				"description": ""
+			},
+			{
+				"name": "Tourism industry",
+				"description": "All private entities in the tourism industry except for transportations companies."
+			}
+			]
+	},
+	{
+		"name": "Technologies",
+		"description": "Private entities related to the research, development, manufacturing and distribution of electronics, softwares, computers and products related to information technologies.",
+		"subsectors": [
+			{
+				"name": "High-tech",
+				"description": ""
+			},
+			{
+				"name": "Gaming",
+				"description": ""
+			}
+			]
+	},
+	{
+		"name": "Unknown",
+		"description": "",
+		"subsectors": []
+	},
+	{
+		"name": "Justice",
+		"description": "",
+		"subsectors": []
+	},
+	{
+		"name": "Manufacturing",
+		"description": "Private entities specialized in the transformation of raw materials into manufactured goods, except for transportation and technologies.",
+		"subsectors": [
+			{
+				"name": "Industry",
+				"description": ""
+			},
+			{
+				"name": "Construction",
+				"description": ""
+			}
+			]
+	},
+	{
+		"name": "Retail",
+		"description": "Private entities transporting and selling consumer goods and services to customers through multiple channels of distribution to earn a profit.",
+		"subsectors": []
+	},	
+	{
+		"name": "Telecommunications",
+		"description": "Private and public entities involved in the production, transportand dissemination of information and communication signals.",
+		"subsectors": [
+			{
+				"name": "Communication service providers",
+				"description": ""
+			},
+			{
+				"name": "Hosting service provider",
+				"description": ""
+			},
+			{
+				"name": "IXPs",
+				"description": ""
+			},
+			{
+				"name": "DNS services",
+				"description": ""
+			},
+			{
+				"name": "Medias and audiovisual",
+				"description": "Communication outlets and people working in these outlets used to deliver information by print, broadcast or Internet."
+			},
+			]
+	},
+	{
+		"name": "Consulting",
+		"description": "Private organism providing expert advice in a specific field to external entities.",
+		"subsectors": [
+			{
+				"name": "Legal consulting",
+				"description": ""
+			},
+			{
+				"name": "IT consulting",
+				"description": ""
+			},
+			{
+				"name": "Engineering consulting",
+				"description": ""
+			}
+			]
+	},
+	{
+		"name": "Mining",
+		"description": "All activities related to the extraction, transport and sell of mineral and metal reserves.",
+		"subsectors": []
+	},
+	{
+		"name": "Water",
+		"description": "All public and private structures involved in the collection, transport and distribution of water for consumption purposes.",
+		"subsectors": []
+	},
+	{
+		"name": "Civil society",
+		"description": "Non-governemental entities, or individuals independant of governements, which may be linked by interests or activities aiming at promoting the interests and the will of citizens.",
+		"subsectors": [
+			{
+				"name": "Non governmental organizations",
+				"description": "NGOs"
+			},
+			{
+				"name": "Citizens",
+				"description": ""
+			},
+			{
+				"name": "Political organizations",
+				"description": ""
+			}
+			{
+				"name": "Dissidents",
+				"description": ""
+			}
+			]
 	}
 ]
