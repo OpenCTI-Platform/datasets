@@ -10,15 +10,15 @@
 		"subsectors": [
 			{
 				"name": "Culture",
-				"description": ""
+				"description": "Private and public entities involved in creating, producting, and distributing goods and services that are cultural in nature, or protecting it."
 			},	
 			{
 				"name": "Sports",
-				"description": ""
+				"description": "Private and public entities involved in producing, organizing, promoting  goods and services associated with sports."
 			},
 			{
 				"name": "Movies industry",
-				"description": ""
+				"description": "Private and public entities involved in filmmaking."
 			}
 		]
 	},
@@ -28,15 +28,19 @@
 		"subsectors": [
 			{
 				"name": "Universities",
-				"description": ""
+				"description": "Institutions delivering high level education and research sanctionned by academic degrees."
 			},
 			{
 				"name": "Schools",
-				"description": ""
+				"description": "Primary and secondary schools or equivalent."
 			},
 			{
 				"name": "Think tanks",
-				"description": ""
+				"description": "Research institute/center and organization which performs research concerning mostly social sciences."
+			},
+			{
+				"name": "Scientific research centers & Laboratories",
+				"description": "Research institute and laboratories wich performs research concerning scientific topics."
 			}
 		]
 	},
@@ -46,7 +50,7 @@
 		"subsectors": [
 			{
 				"name": "Electricity",
-				"description": ""
+				"description": "Public or private entities involved in the storage, transport and distribution of electricity to end customers."
 			},
 			{
 				"name": "Nuclear",
@@ -54,7 +58,7 @@
 			},
 			{
 				"name": "Gas",
-				"description": ""
+				"description": "Public or private entities involved in exploration, extraction, refining, transporting and marketing of natural gas products."
 			},
 			{
 				"name": "Oil",
@@ -62,7 +66,7 @@
 			},
 			{
 				"name": "Renewable energies",
-				"description": ""
+				"description": "Public and private entities involved in the production of electricity based on renewable ressources."
 			}
 		]
 	},
@@ -98,7 +102,7 @@
 			},
 			{
 				"name": "Defense contractors",
-				"description": ""
+				"description": "Private entities providing products or services in support of military or intelligence capacities."
 			},
 			{
 				"name": "Research and development",
@@ -133,16 +137,16 @@
 		"description": "Public or private entities which are actors of or involved in international relations activities.",
 		"subsectors": [
 			{
-				"name": "Ministry of foreign affairs",
-				"description": ""
+				"name": "Ministries of foreign affairs",
+				"description": "Governmental entities in charge of the diplomatic actions."
 			},
 			{
 				"name": "Specialized think tanks",
-				"description": ""
+				"description": "Research institutes specialized in policy and advocacy on diplomatic subjects."
 			},
 			{
-				"name": "International organizations",
-				"description": ""
+				"name": "Intergovernmental organizations (IGOs)",
+				"description": "International organizations made up primarily of sovereign states and involved in setting international agendas and policies."
 			}
 		]
 	},
@@ -152,15 +156,15 @@
 		"subsectors": [
 			{
 				"name": "Central administration and Ministries",
-				"description": ""
+				"description": "Exclude Ministries of Foreign Affairs and Ministries of Defense"
 			},
 			{
 				"name": "Local administrations",
-				"description": ""
+				"description": "Public administrations administring a local territory under the global authority of a central governement."
 			},
 			{
 				"name": "Parliamentary chambers",
-				"description": ""
+				"description": "Legislative bodies of a governement."
 			}
 		]
 	},
@@ -169,12 +173,16 @@
 		"description": "Public and private entities involved in all services and manufacturing of good related to public health.",
 		"subsectors": [
 			{
-				"name": "Medical care structures",
-				"description": ""
+				"name": "Healthcare services",
+				"description": "Hospital and other direct medical practice activities."
 			},
 			{
-				"name": "Pharmacy and drugs",
-				"description": ""
+				"name": "Pharmacy and drugs manufacturing",
+				"description": "Public and private entities involved in producing medicinal products and drugs."
+			},
+			{
+				"name": "Healthcare research",
+				"description": "Public and private research centers focusing on Health improvement."
 			}
 		]
 	},
