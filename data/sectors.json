@@ -1,40 +1,43 @@
 {
     "type": "bundle",
-    "id": "bundle--88c59c4d-95b7-48bc-9fef-f94164023405",
+    "id": "bundle--be8fef31-ea0a-4a50-b1a9-4fac2c0ae2e5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
             "id": "identity--0c90429a-647f-4e1b-ae2e-a007fec01ae8",
-            "created": "2019-07-11T10:56:16.672Z",
-            "modified": "2019-07-11T10:56:16.672Z",
+            "created": "2019-07-11T11:58:01.075Z",
+            "modified": "2019-07-11T11:58:01.075Z",
             "name": "Agriculture",
             "description": "Private entities specialized in the growth, culture, transport and transformation of plants or livestock for food.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
-            "created": "2019-07-11T10:56:16.672Z",
-            "modified": "2019-07-11T10:56:16.672Z",
+            "created": "2019-07-11T11:58:01.075Z",
+            "modified": "2019-07-11T11:58:01.075Z",
             "name": "Culture and entertainment",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--7095afff-2cf3-47a7-b782-7613f58b50f4",
-            "created": "2019-07-11T10:56:16.672Z",
-            "modified": "2019-07-11T10:56:16.672Z",
+            "created": "2019-07-11T11:58:01.075Z",
+            "modified": "2019-07-11T11:58:01.075Z",
             "name": "Culture",
             "description": "Private and public entities involved in creating, producting, and distributing goods and services that are cultural in nature, or protecting it.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--3087b0ae-5a31-4f6f-a820-b5d63be99333",
-            "created": "2019-07-11T10:56:16.672Z",
-            "modified": "2019-07-11T10:56:16.672Z",
+            "id": "relationship--3d959000-47cb-46f2-9d4d-ac283bb8c2ff",
+            "created": "2019-07-11T11:58:01.075Z",
+            "modified": "2019-07-11T11:58:01.075Z",
             "relationship_type": "gathering",
             "description": "Sector Culture is a subsector of Culture and entertainment",
             "source_ref": "identity--7095afff-2cf3-47a7-b782-7613f58b50f4",
@@ -46,17 +49,18 @@
         {
             "type": "identity",
             "id": "identity--e7966f9f-4d44-4adf-93b0-77cbee5c5106",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Sports",
             "description": "Private and public entities involved in producing, organizing, promoting  goods and services associated with sports.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--e9da80f6-01dd-44b6-aa2b-dd6372097090",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "id": "relationship--5fb8d3bb-8b35-4d89-ae28-b6dd05fb2bb2",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "relationship_type": "gathering",
             "description": "Sector Sports is a subsector of Culture and entertainment",
             "source_ref": "identity--e7966f9f-4d44-4adf-93b0-77cbee5c5106",
@@ -68,17 +72,18 @@
         {
             "type": "identity",
             "id": "identity--c145a6eb-c948-43ef-8f27-1305dba1b586",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Movies industry",
             "description": "Private and public entities involved in filmmaking.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--18d2ecf9-3629-4a75-85b2-e38f837a59be",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "id": "relationship--c65ee188-4ba0-4b42-b882-5384cbac20c0",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "relationship_type": "gathering",
             "description": "Sector Movies industry is a subsector of Culture and entertainment",
             "source_ref": "identity--c145a6eb-c948-43ef-8f27-1305dba1b586",
@@ -90,26 +95,28 @@
         {
             "type": "identity",
             "id": "identity--410d2368-a448-47aa-80ca-4b09ea2b339a",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Education and research",
             "description": "Public or private entities operating to facilitate learning and acquiring knowledge and skills and all research activities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--1d7205a8-5a46-4bf2-9007-d56be02dcad6",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Universities",
             "description": "Institutions delivering high level education and research sanctionned by academic degrees.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--6a6b63af-a3d8-4485-ab74-ba94c51051e9",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "id": "relationship--ec0641f0-5a54-4f5d-b256-49d21b0983ac",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "relationship_type": "gathering",
             "description": "Sector Universities is a subsector of Education and research",
             "source_ref": "identity--1d7205a8-5a46-4bf2-9007-d56be02dcad6",
@@ -121,17 +128,18 @@
         {
             "type": "identity",
             "id": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Schools",
             "description": "Primary and secondary schools or equivalent.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--f0c6ee41-5960-459b-a18c-a6aafd4b106b",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "id": "relationship--67ff51e0-ef9d-407d-80b0-569dc34b7bf8",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "relationship_type": "gathering",
             "description": "Sector Schools is a subsector of Education and research",
             "source_ref": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
@@ -143,17 +151,18 @@
         {
             "type": "identity",
             "id": "identity--762f989d-5eb2-46b7-9f30-5353009a4a31",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Think tanks",
             "description": "Research institute/center and organization which performs research concerning mostly social sciences.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--c25513fc-ceb6-4a1a-8522-4d6fe7bd3b0c",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "id": "relationship--2aa92b29-f296-485a-80e8-8a10e834ee69",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "relationship_type": "gathering",
             "description": "Sector Think tanks is a subsector of Education and research",
             "source_ref": "identity--762f989d-5eb2-46b7-9f30-5353009a4a31",
@@ -165,17 +174,18 @@
         {
             "type": "identity",
             "id": "identity--a50e0da4-7868-4c7f-b8c6-a0946d619ed9",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Scientific research centers & Laboratories",
             "description": "Research institute and laboratories wich performs research concerning scientific topics.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--b4d2e522-ceb3-4255-a8de-1e02cfebf624",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "id": "relationship--e4e78639-fbe6-4c62-a40a-c0243ed1341f",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "relationship_type": "gathering",
             "description": "Sector Scientific research centers & Laboratories is a subsector of Education and research",
             "source_ref": "identity--a50e0da4-7868-4c7f-b8c6-a0946d619ed9",
@@ -187,26 +197,28 @@
         {
             "type": "identity",
             "id": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
-            "created": "2019-07-11T10:56:16.673Z",
-            "modified": "2019-07-11T10:56:16.673Z",
+            "created": "2019-07-11T11:58:01.076Z",
+            "modified": "2019-07-11T11:58:01.076Z",
             "name": "Energy",
             "description": "Public and private entities operating to extract, store, transport and process fuel, entities managing energy plants and energy storage and distribution and entities managing fuel waste.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--e8b655e0-d895-4362-aacc-679647141c42",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Electricity",
             "description": "Public or private entities involved in the storage, transport and distribution of electricity to end customers.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--0e150a2c-a081-48a1-96d8-d253863218af",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--e4e2010d-2744-42e2-b2d8-aad1c51698f9",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Electricity is a subsector of Energy",
             "source_ref": "identity--e8b655e0-d895-4362-aacc-679647141c42",
@@ -218,17 +230,18 @@
         {
             "type": "identity",
             "id": "identity--c3b13a21-3b89-4c2f-871c-14c4fd04e290",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Nuclear",
             "description": "Civilian entities involved in the extraction and transport of nuclear fuel, civilian entities operating nuclear plants for civilian purposes, entities processing nuclear waste.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--f6c78e5b-51ac-4c49-8355-7fbb251ea0d8",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--bd48a1d9-f6c7-4e2d-b8e9-4c987e30f269",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Nuclear is a subsector of Energy",
             "source_ref": "identity--c3b13a21-3b89-4c2f-871c-14c4fd04e290",
@@ -240,17 +253,18 @@
         {
             "type": "identity",
             "id": "identity--4a3c2734-f6fb-40ae-91c9-0ef2e1a43114",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Gas",
             "description": "Public or private entities involved in exploration, extraction, refining, transporting and marketing of natural gas products.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--8d8a6e2e-2690-4391-bccb-677f8b582a4a",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--0d7c6c82-dd3f-4e45-b366-84a03de0245f",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Gas is a subsector of Energy",
             "source_ref": "identity--4a3c2734-f6fb-40ae-91c9-0ef2e1a43114",
@@ -262,17 +276,18 @@
         {
             "type": "identity",
             "id": "identity--22d9e69f-d211-41cc-a5e5-d012366eaa73",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Oil",
             "description": "The oil industry includes the global processes of exploration, extraction, refining, transporting (often by oil tankers and pipelines), and marketing of petroleum products.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--5b29fbc2-552c-4f81-a50c-723d7a71dfcd",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--cbb127e4-59e7-4364-b4b5-a79e44958fe5",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Oil is a subsector of Energy",
             "source_ref": "identity--22d9e69f-d211-41cc-a5e5-d012366eaa73",
@@ -284,17 +299,18 @@
         {
             "type": "identity",
             "id": "identity--89f89245-0dfd-4d20-a157-57ce7c829847",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Renewable energies",
             "description": "Public and private entities involved in the production of electricity based on renewable ressources.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--203fe60c-2677-4a88-9bef-2bfc6c1102b6",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--ef30a124-c91e-4a72-ac18-d3e80f8beaef",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Renewable energies is a subsector of Energy",
             "source_ref": "identity--89f89245-0dfd-4d20-a157-57ce7c829847",
@@ -306,26 +322,28 @@
         {
             "type": "identity",
             "id": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Transport",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--f1aeb7a2-0f3e-4fb0-ade5-a50297afe65d",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Aviation",
             "description": "All entities transporting people or goods by plane, managing or exploiting airports and structures, trafic authorities and plane manufacturers. Includes all civilian space activities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--f73f9332-f79e-43a5-a5f2-e5b6efb193c8",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--62ebf4a1-5803-42ce-b55b-0b2a373cee53",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Aviation is a subsector of Transport",
             "source_ref": "identity--f1aeb7a2-0f3e-4fb0-ade5-a50297afe65d",
@@ -337,17 +355,18 @@
         {
             "type": "identity",
             "id": "identity--0f5a665e-fb32-411a-ac6f-f63eeb71f71e",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Rail",
             "description": "Public and private entities managing rail infrastructures, rail transportation, exploiting intelligent rail transport systems and the rail industry",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--f83ba681-16d2-4ffb-80ba-bc83d9168757",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--1536a768-fdd9-48a3-acdd-4e9163b08a65",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Rail is a subsector of Transport",
             "source_ref": "identity--0f5a665e-fb32-411a-ac6f-f63eeb71f71e",
@@ -359,17 +378,18 @@
         {
             "type": "identity",
             "id": "identity--1ce54804-3089-4fd1-9a1d-6ed3aa65d887",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Maritime",
             "description": "All entities transporting people or good by naval means, managing or exploiting naval structures (ports), naval manufactures and trafic authorities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--2de421fc-92cf-45cb-b157-1245ba6a70ad",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "id": "relationship--73966795-d502-4f64-9240-b0015c0ea00c",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Maritime is a subsector of Transport",
             "source_ref": "identity--1ce54804-3089-4fd1-9a1d-6ed3aa65d887",
@@ -381,17 +401,18 @@
         {
             "type": "identity",
             "id": "identity--de61c7c3-ae8d-4064-90be-7c290d7e2a73",
-            "created": "2019-07-11T10:56:16.674Z",
-            "modified": "2019-07-11T10:56:16.674Z",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "name": "Road",
             "description": "Public and private entities managing road infrastructures, road transportation, exploiting intelligent transport systems and the automotive industry.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--4cdef104-be3c-42da-b68d-d36476a0d44d",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--0bb2ada5-df85-41fd-86c2-02b7633087b1",
+            "created": "2019-07-11T11:58:01.077Z",
+            "modified": "2019-07-11T11:58:01.077Z",
             "relationship_type": "gathering",
             "description": "Sector Road is a subsector of Transport",
             "source_ref": "identity--de61c7c3-ae8d-4064-90be-7c290d7e2a73",
@@ -403,26 +424,28 @@
         {
             "type": "identity",
             "id": "identity--96853bde-72b2-4564-a133-c2d58206c117",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Defense",
             "description": "Public and private organizations involved in the production of weapons, planning and conducting military operations.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--b6e14529-565d-4540-8fc3-6a28661aaf6e",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Ministry of defense",
             "description": "Includes the military and all defense related-space activities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--3d88f64e-dde0-490d-b45a-f58bbc2169a6",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--dcd85fae-d4f9-47ab-b3cd-06d16bf0e6f5",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Ministry of defense is a subsector of Defense",
             "source_ref": "identity--b6e14529-565d-4540-8fc3-6a28661aaf6e",
@@ -434,17 +457,18 @@
         {
             "type": "identity",
             "id": "identity--2bc42030-ab93-4fe2-8272-6a2975745ff8",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Defense contractors",
             "description": "Private entities providing products or services in support of military or intelligence capacities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--97f42d4b-e10d-442f-8ada-bd977be079ad",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--add7b155-dba4-4ab6-af44-1f2f18ef3155",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Defense contractors is a subsector of Defense",
             "source_ref": "identity--2bc42030-ab93-4fe2-8272-6a2975745ff8",
@@ -456,17 +480,18 @@
         {
             "type": "identity",
             "id": "identity--d0db92e3-af8a-4990-a067-2f76998e726c",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Research and development",
             "description": "R&D for defense or military purposes.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--f586ed46-c7da-4f7f-997b-cf9a15be0c57",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--23bb1fb1-80ee-4104-aaba-4b080a010769",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Research and development is a subsector of Defense",
             "source_ref": "identity--d0db92e3-af8a-4990-a067-2f76998e726c",
@@ -478,26 +503,28 @@
         {
             "type": "identity",
             "id": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Banking and finance",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--cda34d5b-c9d8-4a61-85ce-5f00760bebb9",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Banking institutions",
             "description": "Includes Central Banks.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--8ddcbe4e-2509-4940-83a8-c7fa4ee825a4",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--ca481221-b3f8-4abd-baad-94a7a894a8c0",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Banking institutions is a subsector of Banking and finance",
             "source_ref": "identity--cda34d5b-c9d8-4a61-85ce-5f00760bebb9",
@@ -509,17 +536,18 @@
         {
             "type": "identity",
             "id": "identity--9255487f-19a2-4490-b587-d5d6e2c466de",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Financial organizations",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--d1826a52-db74-4a4b-8d17-bbca433e10ed",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--55dd0826-ba32-43a4-9508-d998d32b5184",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Financial organizations is a subsector of Banking and finance",
             "source_ref": "identity--9255487f-19a2-4490-b587-d5d6e2c466de",
@@ -531,17 +559,18 @@
         {
             "type": "identity",
             "id": "identity--3eda5dc7-6dc0-46ae-8093-5aa89963dc4e",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Insurance services",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--26c95dc8-e083-4514-9772-cd5f25b37aa2",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--7107707a-7320-40f7-ae6a-c14d187c134c",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Insurance services is a subsector of Banking and finance",
             "source_ref": "identity--3eda5dc7-6dc0-46ae-8093-5aa89963dc4e",
@@ -553,17 +582,18 @@
         {
             "type": "identity",
             "id": "identity--89bb5038-94a0-4491-b4cb-4a0fe4ac82e0",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Market infrastructures",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--5686d2bc-8692-4a73-9c1d-35d45e8091c3",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--24657979-a308-4a65-ae89-bd9eb62bf4fd",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Market infrastructures is a subsector of Banking and finance",
             "source_ref": "identity--89bb5038-94a0-4491-b4cb-4a0fe4ac82e0",
@@ -575,26 +605,28 @@
         {
             "type": "identity",
             "id": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Diplomacy",
             "description": "Public or private entities which are actors of or involved in international relations activities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--332b79eb-2090-4b7f-9b0b-9b95fbdca682",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Ministries of foreign affairs",
             "description": "Governmental entities in charge of the diplomatic actions.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--bc48c9b9-8d49-4915-a153-7fd434e6ae9b",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "id": "relationship--a8a6a410-e392-46f9-a7cf-954ffaf885af",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "relationship_type": "gathering",
             "description": "Sector Ministries of foreign affairs is a subsector of Diplomacy",
             "source_ref": "identity--332b79eb-2090-4b7f-9b0b-9b95fbdca682",
@@ -606,17 +638,18 @@
         {
             "type": "identity",
             "id": "identity--2b24bbc0-4e5f-4af9-85d6-86ff470bd7de",
-            "created": "2019-07-11T10:56:16.675Z",
-            "modified": "2019-07-11T10:56:16.675Z",
+            "created": "2019-07-11T11:58:01.078Z",
+            "modified": "2019-07-11T11:58:01.078Z",
             "name": "Specialized think tanks",
             "description": "Research institutes specialized in policy and advocacy on diplomatic subjects.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--634042c6-561c-48c4-91c3-cbe36c7e3f81",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--2e17a688-d005-48d8-bd31-f9195cec7cb5",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Specialized think tanks is a subsector of Diplomacy",
             "source_ref": "identity--2b24bbc0-4e5f-4af9-85d6-86ff470bd7de",
@@ -628,17 +661,18 @@
         {
             "type": "identity",
             "id": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Intergovernmental organizations (IGOs)",
             "description": "International organizations made up primarily of sovereign states and involved in setting international agendas and policies.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--5554a552-c05b-45c7-a6e5-9f2af0a6162c",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--5efe317f-5dfa-4050-b4e0-bbd1604d2ec3",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Intergovernmental organizations (IGOs) is a subsector of Diplomacy",
             "source_ref": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
@@ -650,26 +684,28 @@
         {
             "type": "identity",
             "id": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Government and administrations",
             "description": "Civilian administrations or institutions, including parliamentary institutions and local administrations.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Central administration and Ministries",
             "description": "Exclude Ministries of Foreign Affairs and Ministries of Defense",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--7242a36a-fab0-4683-9869-d0bc638ed86d",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--b97ac2f3-8292-4354-a2fc-705879b4b782",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Central administration and Ministries is a subsector of Government and administrations",
             "source_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
@@ -681,17 +717,18 @@
         {
             "type": "identity",
             "id": "identity--c5d9f749-f61c-43dd-a11e-785a8aeab032",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Local administrations",
             "description": "Public administrations administring a local territory under the global authority of a central governement.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--3856eb65-86c7-4d56-a2cf-8bd52320a508",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--13e66beb-e0c8-4677-b44a-e3b0b4572864",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Local administrations is a subsector of Government and administrations",
             "source_ref": "identity--c5d9f749-f61c-43dd-a11e-785a8aeab032",
@@ -703,17 +740,18 @@
         {
             "type": "identity",
             "id": "identity--8a9f413e-c990-4478-bdc4-db4440744fce",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Parliamentary chambers",
             "description": "Legislative bodies of a governement.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--03ba1d98-f132-4059-891c-01c4e1fe4d96",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--18f9e0cb-a20e-4cef-90a8-0026ece204e4",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Parliamentary chambers is a subsector of Government and administrations",
             "source_ref": "identity--8a9f413e-c990-4478-bdc4-db4440744fce",
@@ -725,26 +763,28 @@
         {
             "type": "identity",
             "id": "identity--59644f64-2a06-406c-978b-6a4b8f7dac3a",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Health",
             "description": "Public and private entities involved in all services and manufacturing of good related to public health.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--33986379-9641-417e-b821-669588580ecb",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Healthcare services",
             "description": "Hospital and other direct medical practice activities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--91d75b00-c71c-4aac-965d-e98776d99ec9",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--da3bb249-e06e-4032-8676-87126c5a7e9e",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Healthcare services is a subsector of Health",
             "source_ref": "identity--33986379-9641-417e-b821-669588580ecb",
@@ -756,17 +796,18 @@
         {
             "type": "identity",
             "id": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Pharmacy and drugs manufacturing",
             "description": "Public and private entities involved in producing medicinal products and drugs.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--c94133e4-912d-4045-b7d3-3fb770857a75",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--4234ffbb-6025-43d0-8473-d0d73ed6bd2d",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Pharmacy and drugs manufacturing is a subsector of Health",
             "source_ref": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
@@ -778,17 +819,18 @@
         {
             "type": "identity",
             "id": "identity--769af810-c705-4743-aea3-936fc7c426cd",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Healthcare research",
             "description": "Public and private research centers focusing on Health improvement.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--fad7c5f3-3ae1-41ad-9321-8ba3eb87845c",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--f9048271-a295-4db8-9d9a-ad7e3187b658",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Healthcare research is a subsector of Health",
             "source_ref": "identity--769af810-c705-4743-aea3-936fc7c426cd",
@@ -800,26 +842,28 @@
         {
             "type": "identity",
             "id": "identity--8248830f-4c88-4174-820f-c2ea8ddcc1d7",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Hospitality",
             "description": "Private structures involved in receiving and entertaining people.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--806e87ee-ed41-4629-ab47-28dc0424caef",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "name": "Hotels",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--4d8a8534-1a2e-4482-8ce9-b9ad90f96317",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "id": "relationship--b5d1e476-6c4a-4864-a5aa-cf5dbdea7d07",
+            "created": "2019-07-11T11:58:01.079Z",
+            "modified": "2019-07-11T11:58:01.079Z",
             "relationship_type": "gathering",
             "description": "Sector Hotels is a subsector of Hospitality",
             "source_ref": "identity--806e87ee-ed41-4629-ab47-28dc0424caef",
@@ -831,17 +875,18 @@
         {
             "type": "identity",
             "id": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
-            "created": "2019-07-11T10:56:16.676Z",
-            "modified": "2019-07-11T10:56:16.676Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Restaurants",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--ac2aedd6-bf26-4bbe-b30d-ab993c3bb16a",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "id": "relationship--bb623a1b-aac1-4b05-b67b-f3a0afbf4152",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "relationship_type": "gathering",
             "description": "Sector Restaurants is a subsector of Hospitality",
             "source_ref": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
@@ -853,17 +898,18 @@
         {
             "type": "identity",
             "id": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Tourism industry",
             "description": "All private entities in the tourism industry except for transportations companies.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--a6be094b-8745-4a82-9a17-92e0267183cd",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "id": "relationship--fad68d84-b28f-4468-a7af-59dcb018a4c3",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "relationship_type": "gathering",
             "description": "Sector Tourism industry is a subsector of Hospitality",
             "source_ref": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
@@ -875,26 +921,28 @@
         {
             "type": "identity",
             "id": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Technologies",
             "description": "Private entities related to the research, development, manufacturing and distribution of electronics, softwares, computers and products related to information technologies.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--f82271f9-fcf8-4f29-8dfb-18c58b05c546",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "High-tech",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--a0943442-c306-4218-aa36-07488c43ec3b",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "id": "relationship--32fe3002-5329-4e46-b9ae-130010b708a2",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "relationship_type": "gathering",
             "description": "Sector High-tech is a subsector of Technologies",
             "source_ref": "identity--f82271f9-fcf8-4f29-8dfb-18c58b05c546",
@@ -906,17 +954,18 @@
         {
             "type": "identity",
             "id": "identity--9b292648-8173-4220-8948-dcffc2edc740",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Gaming",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--7669270e-4963-4139-8f90-e0f949d29cd3",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "id": "relationship--db07c64f-0511-4706-9975-8651db41b00f",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "relationship_type": "gathering",
             "description": "Sector Gaming is a subsector of Technologies",
             "source_ref": "identity--9b292648-8173-4220-8948-dcffc2edc740",
@@ -928,44 +977,48 @@
         {
             "type": "identity",
             "id": "identity--a8e78952-7a75-4a4d-b6c3-44c3007de616",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Unknown",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--bd6bd33d-dec5-4121-9c09-663dc449dd7b",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Justice",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Manufacturing",
             "description": "Private entities specialized in the transformation of raw materials into manufactured goods, except for transportation and technologies.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Industry",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--dbd8edf1-c135-4871-b03e-31d034afd242",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "id": "relationship--3a17e14d-01cd-4d80-a9ad-50cf47dbf629",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "relationship_type": "gathering",
             "description": "Sector Industry is a subsector of Manufacturing",
             "source_ref": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
@@ -977,17 +1030,18 @@
         {
             "type": "identity",
             "id": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Construction",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--da387e13-d821-42c4-8251-72ec6e47a5be",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "id": "relationship--591a43d2-f5a1-4b95-b310-4e870767d6f9",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "relationship_type": "gathering",
             "description": "Sector Construction is a subsector of Manufacturing",
             "source_ref": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
@@ -999,35 +1053,38 @@
         {
             "type": "identity",
             "id": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Retail",
             "description": "Private entities transporting and selling consumer goods and services to customers through multiple channels of distribution to earn a profit.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Telecommunications",
             "description": "Private and public entities involved in the production, transportand dissemination of information and communication signals.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--d360e3ce-0eca-4f6d-829f-71a97d06d0b4",
-            "created": "2019-07-11T10:56:16.677Z",
-            "modified": "2019-07-11T10:56:16.677Z",
+            "created": "2019-07-11T11:58:01.080Z",
+            "modified": "2019-07-11T11:58:01.080Z",
             "name": "Communication service providers",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--fb2f3c2c-1d17-4230-a2ad-a9f0e6b9bdba",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--c09df038-24f5-4a5f-a5d9-e34fcca41cb3",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector Communication service providers is a subsector of Telecommunications",
             "source_ref": "identity--d360e3ce-0eca-4f6d-829f-71a97d06d0b4",
@@ -1039,17 +1096,18 @@
         {
             "type": "identity",
             "id": "identity--d0744246-6c86-429a-ad93-2648bd2d3299",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Hosting service provider",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--9921886d-6e23-494f-a60d-2693da7f4b2e",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--d343c074-dbd3-4a10-a81a-b2bfdeffbaa7",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector Hosting service provider is a subsector of Telecommunications",
             "source_ref": "identity--d0744246-6c86-429a-ad93-2648bd2d3299",
@@ -1061,17 +1119,18 @@
         {
             "type": "identity",
             "id": "identity--ef8181b8-3ee5-421a-b6bc-d2e5ec9e5241",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "IXPs",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--c1eb1a9b-6d9f-435c-b76c-fb00dad20a81",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--97369507-8e38-4855-89a5-0856bef56d62",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector IXPs is a subsector of Telecommunications",
             "source_ref": "identity--ef8181b8-3ee5-421a-b6bc-d2e5ec9e5241",
@@ -1083,17 +1142,18 @@
         {
             "type": "identity",
             "id": "identity--5f826570-13f8-4ddc-abd9-583a22870bd7",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "DNS services",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--8265f8cd-995c-454e-8a28-686d2f49b1f2",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--e2d0be4b-7914-4502-a831-e1e0f0b28b7b",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector DNS services is a subsector of Telecommunications",
             "source_ref": "identity--5f826570-13f8-4ddc-abd9-583a22870bd7",
@@ -1105,17 +1165,18 @@
         {
             "type": "identity",
             "id": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Medias and audiovisual",
             "description": "Communication outlets and people working in these outlets used to deliver information by print, broadcast or Internet.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--3b1fce51-68d9-40e3-bff0-d60d3540b334",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--ff35e9d7-7613-4a06-ba24-aae90500b3e6",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector Medias and audiovisual is a subsector of Telecommunications",
             "source_ref": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
@@ -1127,26 +1188,28 @@
         {
             "type": "identity",
             "id": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Consulting",
             "description": "Private organism providing expert advice in a specific field to external entities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Legal consulting",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--91409ca8-5be2-4c30-a24b-c3662d2d1038",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--e9c2bad8-142e-4550-861a-be5fe6b91537",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector Legal consulting is a subsector of Consulting",
             "source_ref": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
@@ -1158,17 +1221,18 @@
         {
             "type": "identity",
             "id": "identity--360f3368-b911-4bb1-a7f9-0a8e4ef4e023",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "IT consulting",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--7d97ef2a-2231-4db7-b24d-5aa443cac713",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--5c275fe0-2258-412b-ba13-0bbc2a92f43c",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector IT consulting is a subsector of Consulting",
             "source_ref": "identity--360f3368-b911-4bb1-a7f9-0a8e4ef4e023",
@@ -1180,17 +1244,18 @@
         {
             "type": "identity",
             "id": "identity--6612ac1e-8495-47b5-8819-f2033edba2e8",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Engineering consulting",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--2d73a408-872a-4540-96c3-29eda681c806",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--f7d014b7-b29b-4b09-aac0-e112b2fbd7e3",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "relationship_type": "gathering",
             "description": "Sector Engineering consulting is a subsector of Consulting",
             "source_ref": "identity--6612ac1e-8495-47b5-8819-f2033edba2e8",
@@ -1202,44 +1267,48 @@
         {
             "type": "identity",
             "id": "identity--be6cc9cf-10a2-46b3-b5cd-4c3be99441f6",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Mining",
             "description": "All activities related to the extraction, transport and sell of mineral and metal reserves.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--f3f6b9af-6048-46bc-8fe2-048cb27ca31c",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Water",
             "description": "All public and private structures involved in the collection, transport and distribution of water for consumption purposes.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Civil society",
             "description": "Non-governemental entities, or individuals independant of governements, which may be linked by interests or activities aiming at promoting the interests and the will of citizens.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "identity",
             "id": "identity--381bd576-3b81-4932-9589-18a67b355379",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "created": "2019-07-11T11:58:01.081Z",
+            "modified": "2019-07-11T11:58:01.081Z",
             "name": "Non governmental organizations",
             "description": "NGOs",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--b289cb17-a37c-486b-8626-29d00646dfd7",
-            "created": "2019-07-11T10:56:16.678Z",
-            "modified": "2019-07-11T10:56:16.678Z",
+            "id": "relationship--52f44196-df83-47f2-a725-0a0b0d24c769",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "relationship_type": "gathering",
             "description": "Sector Non governmental organizations is a subsector of Civil society",
             "source_ref": "identity--381bd576-3b81-4932-9589-18a67b355379",
@@ -1251,17 +1320,18 @@
         {
             "type": "identity",
             "id": "identity--9afcd3be-12e7-4f54-8dbe-8c22cecb592c",
-            "created": "2019-07-11T10:56:16.679Z",
-            "modified": "2019-07-11T10:56:16.679Z",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "name": "Citizens",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--db0a89ed-20ba-4a9a-9ff8-e007bc051b8d",
-            "created": "2019-07-11T10:56:16.679Z",
-            "modified": "2019-07-11T10:56:16.679Z",
+            "id": "relationship--146da807-26d5-4148-8ae2-836b1a65f1d7",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "relationship_type": "gathering",
             "description": "Sector Citizens is a subsector of Civil society",
             "source_ref": "identity--9afcd3be-12e7-4f54-8dbe-8c22cecb592c",
@@ -1273,17 +1343,18 @@
         {
             "type": "identity",
             "id": "identity--84ba267e-9fdd-4086-b4d7-df02ab02f085",
-            "created": "2019-07-11T10:56:16.679Z",
-            "modified": "2019-07-11T10:56:16.679Z",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "name": "Political organizations",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--6a07e295-ce0c-4eaa-bfdb-74f62806d1f0",
-            "created": "2019-07-11T10:56:16.679Z",
-            "modified": "2019-07-11T10:56:16.679Z",
+            "id": "relationship--549f5499-d93c-4621-a2b6-64e8d1e168a8",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "relationship_type": "gathering",
             "description": "Sector Political organizations is a subsector of Civil society",
             "source_ref": "identity--84ba267e-9fdd-4086-b4d7-df02ab02f085",
@@ -1295,17 +1366,18 @@
         {
             "type": "identity",
             "id": "identity--3292e7aa-d173-4adc-97d5-d303bdb9603c",
-            "created": "2019-07-11T10:56:16.679Z",
-            "modified": "2019-07-11T10:56:16.679Z",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "name": "Dissidents",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "x_opencti_identity_type": "sector"
         },
         {
             "type": "relationship",
-            "id": "relationship--568557e2-2cc2-415c-a69a-3570ae7448ad",
-            "created": "2019-07-11T10:56:16.679Z",
-            "modified": "2019-07-11T10:56:16.679Z",
+            "id": "relationship--868d7115-baba-4f4d-bc89-46d9cd94c7f4",
+            "created": "2019-07-11T11:58:01.082Z",
+            "modified": "2019-07-11T11:58:01.082Z",
             "relationship_type": "gathering",
             "description": "Sector Dissidents is a subsector of Civil society",
             "source_ref": "identity--3292e7aa-d173-4adc-97d5-d303bdb9603c",
