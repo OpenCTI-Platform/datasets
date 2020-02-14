@@ -26,6 +26,9 @@
             "description": "Private entities specialized in the growth, culture, transport and transformation of plants or livestock for food.",
             "identity_class": "class",
             "x_opencti_identity_type": "sector"
+            "x_opencti_aliases": [
+                "Agriculture"
+            ],
         },
         {
             "type": "identity",
@@ -346,6 +349,10 @@
             "description": "All entities transporting people or goods by plane, managing or exploiting airports and structures, traffic authorities and plane manufacturers. Includes all civilian space activities.",
             "identity_class": "class",
             "x_opencti_identity_type": "sector"
+            "x_opencti_aliases": [
+                "Aerospace",
+                "Aviation"
+            ],
         },
         {
             "type": "relationship",
@@ -421,6 +428,9 @@
             "description": "Public and private entities managing road infrastructures, road transportation, exploiting intelligent transport systems and the automotive industry.",
             "identity_class": "class",
             "x_opencti_identity_type": "sector"
+            "x_opencti_aliases": [
+                "Automotive"
+            ]
         },
         {
             "type": "relationship",
