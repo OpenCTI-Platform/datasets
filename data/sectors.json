@@ -30,6 +30,9 @@
                 "Agribusiness"
             ],
             "x_opencti_identity_type": "sector"
+            "x_opencti_aliases": [
+                "Agriculture"
+            ],
         },
         {
             "type": "identity",
@@ -352,6 +355,10 @@
                 "Aerospace"
             ],
             "x_opencti_identity_type": "sector"
+            "x_opencti_aliases": [
+                "Aerospace",
+                "Aviation"
+            ],
         },
         {
             "type": "relationship",
@@ -427,6 +434,9 @@
             "description": "Public and private entities managing road infrastructures, road transportation, exploiting intelligent transport systems and the automotive industry.",
             "identity_class": "class",
             "x_opencti_identity_type": "sector"
+            "x_opencti_aliases": [
+                "Automotive"
+            ]
         },
         {
             "type": "relationship",
