@@ -2080,10 +2080,10 @@
             "name": "Bonaire",
             "latitude": 12.191097,
             "longitude": -68.249714,
-            "country": "",
+            "country": "BES",
             "x_opencti_aliases": [
-                "",
-                ""
+                "BES",
+                "BQ"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5742,11 +5742,7 @@
             "name": "Sark",
             "latitude": 49.463533,
             "longitude": -2.561737,
-            "country": "",
-            "x_opencti_aliases": [
-                "",
-                ""
-            ],
+            "country": "Sark",
             "x_opencti_location_type": "Country"
         },
         {
