@@ -68,7 +68,8 @@
             "country": "DZA",
             "x_opencti_aliases": [
                 "DZA",
-                "DZ"
+                "DZ",
+                "People's Democratic Republic of Algeria"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -98,7 +99,8 @@
             "country": "EGY",
             "x_opencti_aliases": [
                 "EGY",
-                "EG"
+                "EG",
+                "Arab Republic of Egypt"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -158,7 +160,8 @@
             "country": "MAR",
             "x_opencti_aliases": [
                 "MAR",
-                "MA"
+                "MA",
+                "Kingdom of Morocco"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -188,7 +191,9 @@
             "country": "SDN",
             "x_opencti_aliases": [
                 "SDN",
-                "SD"
+                "SD",
+                "Sudan (the)",
+                "Republic of the Sudan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -218,7 +223,8 @@
             "country": "TUN",
             "x_opencti_aliases": [
                 "TUN",
-                "TN"
+                "TN",
+                "Republic of Tunisia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -304,7 +310,8 @@
             "country": "IOT",
             "x_opencti_aliases": [
                 "IOT",
-                "IO"
+                "IO",
+                "British Indian Ocean Territory (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -334,7 +341,8 @@
             "country": "BDI",
             "x_opencti_aliases": [
                 "BDI",
-                "BI"
+                "BI",
+                "Republic of Burundi"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -364,7 +372,9 @@
             "country": "COM",
             "x_opencti_aliases": [
                 "COM",
-                "KM"
+                "KM",
+                "Union of the Comoros",
+                "Comoros (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -394,7 +404,8 @@
             "country": "DJI",
             "x_opencti_aliases": [
                 "DJI",
-                "DJ"
+                "DJ",
+                "Republic of Djibouti"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -424,7 +435,8 @@
             "country": "ERI",
             "x_opencti_aliases": [
                 "ERI",
-                "ER"
+                "ER",
+                "the State of Eritrea"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -454,7 +466,8 @@
             "country": "ETH",
             "x_opencti_aliases": [
                 "ETH",
-                "ET"
+                "ET",
+                "Federal Democratic Republic of Ethiopia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -484,7 +497,8 @@
             "country": "ATF",
             "x_opencti_aliases": [
                 "ATF",
-                "TF"
+                "TF",
+                "French Southern Territories (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -514,7 +528,8 @@
             "country": "KEN",
             "x_opencti_aliases": [
                 "KEN",
-                "KE"
+                "KE",
+                "Republic of Kenya"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -544,7 +559,8 @@
             "country": "MDG",
             "x_opencti_aliases": [
                 "MDG",
-                "MG"
+                "MG",
+                "Republic of Madagascar"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -574,7 +590,8 @@
             "country": "MWI",
             "x_opencti_aliases": [
                 "MWI",
-                "MW"
+                "MW",
+                "Republic of Malawi"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -604,7 +621,8 @@
             "country": "MUS",
             "x_opencti_aliases": [
                 "MUS",
-                "MU"
+                "MU",
+                "Republic of Mauritius"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -664,7 +682,8 @@
             "country": "MOZ",
             "x_opencti_aliases": [
                 "MOZ",
-                "MZ"
+                "MZ",
+                "Republic of Mozambique"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -724,7 +743,8 @@
             "country": "RWA",
             "x_opencti_aliases": [
                 "RWA",
-                "RW"
+                "RW",
+                "Rwandese Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -754,7 +774,8 @@
             "country": "SYC",
             "x_opencti_aliases": [
                 "SYC",
-                "SC"
+                "SC",
+                "Republic of Seychelles"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -784,7 +805,8 @@
             "country": "SOM",
             "x_opencti_aliases": [
                 "SOM",
-                "SO"
+                "SO",
+                "Federal Republic of Somalia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -814,7 +836,8 @@
             "country": "SSD",
             "x_opencti_aliases": [
                 "SSD",
-                "SS"
+                "SS",
+                "Republic of South Sudan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -844,7 +867,8 @@
             "country": "UGA",
             "x_opencti_aliases": [
                 "UGA",
-                "UG"
+                "UG",
+                "Republic of Uganda"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -874,7 +898,10 @@
             "country": "TZA",
             "x_opencti_aliases": [
                 "TZA",
-                "TZ"
+                "TZ",
+                "Tanzania",
+                "Tanzania, United Republic of",
+                "Tanzania, the United Republic of"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -904,7 +931,8 @@
             "country": "ZMB",
             "x_opencti_aliases": [
                 "ZMB",
-                "ZM"
+                "ZM",
+                "Republic of Zambia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -934,7 +962,8 @@
             "country": "ZWE",
             "x_opencti_aliases": [
                 "ZWE",
-                "ZW"
+                "ZW",
+                "Republic of Zimbabwe"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -964,7 +993,8 @@
             "country": "AGO",
             "x_opencti_aliases": [
                 "AGO",
-                "AO"
+                "AO",
+                "Republic of Angola"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -994,7 +1024,8 @@
             "country": "CMR",
             "x_opencti_aliases": [
                 "CMR",
-                "CM"
+                "CM",
+                "Republic of Cameroon"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1024,7 +1055,8 @@
             "country": "CAF",
             "x_opencti_aliases": [
                 "CAF",
-                "CF"
+                "CF",
+                "Central African Republic (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1054,7 +1086,8 @@
             "country": "TCD",
             "x_opencti_aliases": [
                 "TCD",
-                "TD"
+                "TD",
+                "Republic of Chad"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1084,7 +1117,9 @@
             "country": "COG",
             "x_opencti_aliases": [
                 "COG",
-                "CG"
+                "CG",
+                "Republic of the Congo",
+                "Congo (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1114,7 +1149,9 @@
             "country": "COD",
             "x_opencti_aliases": [
                 "COD",
-                "CD"
+                "CD",
+                "Congo, The Democratic Republic of the",
+                "Congo (the Democratic Republic of the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1144,7 +1181,8 @@
             "country": "GNQ",
             "x_opencti_aliases": [
                 "GNQ",
-                "GQ"
+                "GQ",
+                "Republic of Equatorial Guinea"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1174,7 +1212,8 @@
             "country": "GAB",
             "x_opencti_aliases": [
                 "GAB",
-                "GA"
+                "GA",
+                "Gabonese Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1204,7 +1243,8 @@
             "country": "STP",
             "x_opencti_aliases": [
                 "STP",
-                "ST"
+                "ST",
+                "Democratic Republic of Sao Tome and Principe"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1234,7 +1274,8 @@
             "country": "BWA",
             "x_opencti_aliases": [
                 "BWA",
-                "BW"
+                "BW",
+                "Republic of Botswana"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1264,7 +1305,8 @@
             "country": "SWZ",
             "x_opencti_aliases": [
                 "SWZ",
-                "SZ"
+                "SZ",
+                "Kingdom of Eswatini"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1294,7 +1336,8 @@
             "country": "LSO",
             "x_opencti_aliases": [
                 "LSO",
-                "LS"
+                "LS",
+                "Kingdom of Lesotho"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1324,7 +1367,8 @@
             "country": "NAM",
             "x_opencti_aliases": [
                 "NAM",
-                "NA"
+                "NA",
+                "Republic of Namibia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1354,7 +1398,8 @@
             "country": "ZAF",
             "x_opencti_aliases": [
                 "ZAF",
-                "ZA"
+                "ZA",
+                "Republic of South Africa"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1384,7 +1429,8 @@
             "country": "BEN",
             "x_opencti_aliases": [
                 "BEN",
-                "BJ"
+                "BJ",
+                "Republic of Benin"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1444,7 +1490,8 @@
             "country": "CPV",
             "x_opencti_aliases": [
                 "CPV",
-                "CV"
+                "CV",
+                "Republic of Cabo Verde"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1474,7 +1521,10 @@
             "country": "CIV",
             "x_opencti_aliases": [
                 "CIV",
-                "CI"
+                "CI",
+                "Republic of C\u00f4te d'Ivoire",
+                "C\u00f4te d'Ivoire",
+                "Ivory Coast"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1504,7 +1554,9 @@
             "country": "GMB",
             "x_opencti_aliases": [
                 "GMB",
-                "GM"
+                "GM",
+                "Republic of the Gambia",
+                "Gambia (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1534,7 +1586,8 @@
             "country": "GHA",
             "x_opencti_aliases": [
                 "GHA",
-                "GH"
+                "GH",
+                "Republic of Ghana"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1564,7 +1617,8 @@
             "country": "GIN",
             "x_opencti_aliases": [
                 "GIN",
-                "GN"
+                "GN",
+                "Republic of Guinea"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1594,7 +1648,8 @@
             "country": "GNB",
             "x_opencti_aliases": [
                 "GNB",
-                "GW"
+                "GW",
+                "Republic of Guinea-Bissau"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1624,7 +1679,8 @@
             "country": "LBR",
             "x_opencti_aliases": [
                 "LBR",
-                "LR"
+                "LR",
+                "Republic of Liberia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1654,7 +1710,8 @@
             "country": "MLI",
             "x_opencti_aliases": [
                 "MLI",
-                "ML"
+                "ML",
+                "Republic of Mali"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1684,7 +1741,8 @@
             "country": "MRT",
             "x_opencti_aliases": [
                 "MRT",
-                "MR"
+                "MR",
+                "Islamic Republic of Mauritania"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1714,7 +1772,9 @@
             "country": "NER",
             "x_opencti_aliases": [
                 "NER",
-                "NE"
+                "NE",
+                "Republic of the Niger",
+                "Niger (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1744,7 +1804,8 @@
             "country": "NGA",
             "x_opencti_aliases": [
                 "NGA",
-                "NG"
+                "NG",
+                "Federal Republic of Nigeria"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1774,7 +1835,8 @@
             "country": "SHN",
             "x_opencti_aliases": [
                 "SHN",
-                "SH"
+                "SH",
+                "Saint Helena, Ascension and Tristan da Cunha"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1804,7 +1866,8 @@
             "country": "SEN",
             "x_opencti_aliases": [
                 "SEN",
-                "SN"
+                "SN",
+                "Republic of Senegal"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1834,7 +1897,8 @@
             "country": "SLE",
             "x_opencti_aliases": [
                 "SLE",
-                "SL"
+                "SL",
+                "Republic of Sierra Leone"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -1864,7 +1928,8 @@
             "country": "TGO",
             "x_opencti_aliases": [
                 "TGO",
-                "TG"
+                "TG",
+                "Togolese Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2023,7 +2088,9 @@
             "country": "BHS",
             "x_opencti_aliases": [
                 "BHS",
-                "BS"
+                "BS",
+                "Bahamas (the)",
+                "Commonwealth of the Bahamas"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2083,7 +2150,8 @@
             "country": "BES",
             "x_opencti_aliases": [
                 "BES",
-                "BQ"
+                "BQ",
+                "Bonaire, Sint Eustatius and Saba"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2113,7 +2181,9 @@
             "country": "VGB",
             "x_opencti_aliases": [
                 "VGB",
-                "VG"
+                "VG",
+                "Virgin Islands, British",
+                "Virgin Islands (British)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2143,7 +2213,8 @@
             "country": "CYM",
             "x_opencti_aliases": [
                 "CYM",
-                "KY"
+                "KY",
+                "Cayman Islands (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2173,7 +2244,8 @@
             "country": "CUB",
             "x_opencti_aliases": [
                 "CUB",
-                "CU"
+                "CU",
+                "Republic of Cuba"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2231,7 +2303,8 @@
             "country": "DMA",
             "x_opencti_aliases": [
                 "DMA",
-                "DM"
+                "DM",
+                "Commonwealth of Dominica"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2261,7 +2334,8 @@
             "country": "DOM",
             "x_opencti_aliases": [
                 "DOM",
-                "DO"
+                "DO",
+                "Dominican Republic (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2351,7 +2425,8 @@
             "country": "HTI",
             "x_opencti_aliases": [
                 "HTI",
-                "HT"
+                "HT",
+                "Republic of Haiti"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2587,7 +2662,9 @@
             "country": "MAF",
             "x_opencti_aliases": [
                 "MAF",
-                "MF"
+                "MF",
+                "Saint Martin",
+                "Saint Martin (French part)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2645,7 +2722,8 @@
             "country": "SXM",
             "x_opencti_aliases": [
                 "SXM",
-                "SX"
+                "SX",
+                "Sint Maarten"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2675,7 +2753,8 @@
             "country": "TTO",
             "x_opencti_aliases": [
                 "TTO",
-                "TT"
+                "TT",
+                "Republic of Trinidad and Tobago"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2705,7 +2784,8 @@
             "country": "TCA",
             "x_opencti_aliases": [
                 "TCA",
-                "TC"
+                "TC",
+                "Turks and Caicos Islands (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2735,7 +2815,10 @@
             "country": "VIR",
             "x_opencti_aliases": [
                 "VIR",
-                "VI"
+                "VI",
+                "Virgin Islands (U.S.)",
+                "Virgin Islands, U.S.",
+                "Virgin Islands of the United States"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2795,7 +2878,8 @@
             "country": "CRI",
             "x_opencti_aliases": [
                 "CRI",
-                "CR"
+                "CR",
+                "Republic of Costa Rica"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2825,7 +2909,8 @@
             "country": "SLV",
             "x_opencti_aliases": [
                 "SLV",
-                "SV"
+                "SV",
+                "Republic of El Salvador"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2855,7 +2940,8 @@
             "country": "GTM",
             "x_opencti_aliases": [
                 "GTM",
-                "GT"
+                "GT",
+                "Republic of Guatemala"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2885,7 +2971,8 @@
             "country": "HND",
             "x_opencti_aliases": [
                 "HND",
-                "HN"
+                "HN",
+                "Republic of Honduras"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2915,7 +3002,8 @@
             "country": "MEX",
             "x_opencti_aliases": [
                 "MEX",
-                "MX"
+                "MX",
+                "United Mexican States"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2945,7 +3033,8 @@
             "country": "NIC",
             "x_opencti_aliases": [
                 "NIC",
-                "NI"
+                "NI",
+                "Republic of Nicaragua"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -2975,7 +3064,8 @@
             "country": "PAN",
             "x_opencti_aliases": [
                 "PAN",
-                "PA"
+                "PA",
+                "Republic of Panama"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3005,7 +3095,8 @@
             "country": "ARG",
             "x_opencti_aliases": [
                 "ARG",
-                "AR"
+                "AR",
+                "Argentine Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3035,7 +3126,9 @@
             "country": "BOL",
             "x_opencti_aliases": [
                 "BOL",
-                "BO"
+                "BO",
+                "Plurinational State of Bolivia",
+                "Bolivia, Plurinational State of"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3095,7 +3188,8 @@
             "country": "BRA",
             "x_opencti_aliases": [
                 "BRA",
-                "BR"
+                "BR",
+                "Federative Republic of Brazil"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3125,7 +3219,8 @@
             "country": "CHL",
             "x_opencti_aliases": [
                 "CHL",
-                "CL"
+                "CL",
+                "Republic of Chile"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3155,7 +3250,8 @@
             "country": "COL",
             "x_opencti_aliases": [
                 "COL",
-                "CO"
+                "CO",
+                "Republic of Colombia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3185,7 +3281,8 @@
             "country": "ECU",
             "x_opencti_aliases": [
                 "ECU",
-                "EC"
+                "EC",
+                "Republic of Ecuador"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3215,7 +3312,9 @@
             "country": "FLK",
             "x_opencti_aliases": [
                 "FLK",
-                "FK"
+                "FK",
+                "Falkland Islands",
+                "Falkland Islands (the) [Malvinas]"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3275,7 +3374,8 @@
             "country": "GUY",
             "x_opencti_aliases": [
                 "GUY",
-                "GY"
+                "GY",
+                "Republic of Guyana"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3305,7 +3405,8 @@
             "country": "PRY",
             "x_opencti_aliases": [
                 "PRY",
-                "PY"
+                "PY",
+                "Republic of Paraguay"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3335,7 +3436,8 @@
             "country": "PER",
             "x_opencti_aliases": [
                 "PER",
-                "PE"
+                "PE",
+                "Republic of Peru"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3395,7 +3497,8 @@
             "country": "SUR",
             "x_opencti_aliases": [
                 "SUR",
-                "SR"
+                "SR",
+                "Republic of Suriname"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3425,7 +3528,8 @@
             "country": "URY",
             "x_opencti_aliases": [
                 "URY",
-                "UY"
+                "UY",
+                "Eastern Republic of Uruguay"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3455,7 +3559,9 @@
             "country": "VEN",
             "x_opencti_aliases": [
                 "VEN",
-                "VE"
+                "VE",
+                "Bolivarian Republic of Venezuela",
+                "Venezuela, Bolivarian Republic of"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3631,7 +3737,9 @@
             "country": "USA",
             "x_opencti_aliases": [
                 "USA",
-                "US"
+                "US",
+                "United States of America (the)",
+                "United States"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3700,7 +3808,8 @@
             "country": "KAZ",
             "x_opencti_aliases": [
                 "KAZ",
-                "KZ"
+                "KZ",
+                "Republic of Kazakhstan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3730,7 +3839,8 @@
             "country": "KGZ",
             "x_opencti_aliases": [
                 "KGZ",
-                "KG"
+                "KG",
+                "Kyrgyz Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3760,7 +3870,8 @@
             "country": "TJK",
             "x_opencti_aliases": [
                 "TJK",
-                "TJ"
+                "TJ",
+                "Republic of Tajikistan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3820,7 +3931,8 @@
             "country": "UZB",
             "x_opencti_aliases": [
                 "UZB",
-                "UZ"
+                "UZ",
+                "Republic of Uzbekistan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3874,7 +3986,8 @@
             "country": "CHN",
             "x_opencti_aliases": [
                 "CHN",
-                "CN"
+                "CN",
+                "People's Republic of China"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3904,7 +4017,9 @@
             "country": "HKG",
             "x_opencti_aliases": [
                 "HKG",
-                "HK"
+                "HK",
+                "Hong Kong Special Administrative Region of China",
+                "Hong Kong"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3934,7 +4049,9 @@
             "country": "MAC",
             "x_opencti_aliases": [
                 "MAC",
-                "MO"
+                "MO",
+                "Macao",
+                "Macao Special Administrative Region of China"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -3964,7 +4081,10 @@
             "country": "PRK",
             "x_opencti_aliases": [
                 "PRK",
-                "KP"
+                "KP",
+                "Korea, Democratic People's Republic of",
+                "Korea (the Democratic People's Republic of)",
+                "North Kora"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4054,7 +4174,10 @@
             "country": "KOR",
             "x_opencti_aliases": [
                 "KOR",
-                "KR"
+                "KR",
+                "South Korea",
+                "Korea, Republic of",
+                "Korea (the Republic of)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4138,7 +4261,8 @@
             "country": "KHM",
             "x_opencti_aliases": [
                 "KHM",
-                "KH"
+                "KH",
+                "Kingdom of Cambodia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4168,7 +4292,8 @@
             "country": "IDN",
             "x_opencti_aliases": [
                 "IDN",
-                "ID"
+                "ID",
+                "Republic of Indonesia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4198,7 +4323,9 @@
             "country": "LAO",
             "x_opencti_aliases": [
                 "LAO",
-                "LA"
+                "LA",
+                "Laos",
+                "Lao People's Democratic Republic (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4258,7 +4385,8 @@
             "country": "MMR",
             "x_opencti_aliases": [
                 "MMR",
-                "MM"
+                "MM",
+                "Republic of Myanmar"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4288,7 +4416,9 @@
             "country": "PHL",
             "x_opencti_aliases": [
                 "PHL",
-                "PH"
+                "PH",
+                "Republic of the Philippines",
+                "Philippines (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4318,7 +4448,8 @@
             "country": "SGP",
             "x_opencti_aliases": [
                 "SGP",
-                "SG"
+                "SG",
+                "Republic of Singapore"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4348,7 +4479,8 @@
             "country": "THA",
             "x_opencti_aliases": [
                 "THA",
-                "TH"
+                "TH",
+                "Kingdom of Thailand"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4378,7 +4510,8 @@
             "country": "TLS",
             "x_opencti_aliases": [
                 "TLS",
-                "TL"
+                "TL",
+                "Democratic Republic of Timor-Leste"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4408,7 +4541,8 @@
             "country": "VNM",
             "x_opencti_aliases": [
                 "VNM",
-                "VN"
+                "VN",
+                "Socialist Republic of Viet Nam"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4462,7 +4596,8 @@
             "country": "AFG",
             "x_opencti_aliases": [
                 "AFG",
-                "AF"
+                "AF",
+                "Islamic Republic of Afghanistan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4492,7 +4627,8 @@
             "country": "BGD",
             "x_opencti_aliases": [
                 "BGD",
-                "BD"
+                "BD",
+                "People's Republic of Bangladesh"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4522,7 +4658,8 @@
             "country": "BTN",
             "x_opencti_aliases": [
                 "BTN",
-                "BT"
+                "BT",
+                "Kingdom of Bhutan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4552,7 +4689,8 @@
             "country": "IND",
             "x_opencti_aliases": [
                 "IND",
-                "IN"
+                "IN",
+                "Republic of India"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4582,7 +4720,10 @@
             "country": "IRN",
             "x_opencti_aliases": [
                 "IRN",
-                "IR"
+                "IR",
+                "Iran, Islamic Republic of",
+                "Islamic Republic of Iran",
+                "Iran"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4612,7 +4753,8 @@
             "country": "MDV",
             "x_opencti_aliases": [
                 "MDV",
-                "MV"
+                "MV",
+                "Republic of Maldives"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4642,7 +4784,8 @@
             "country": "NPL",
             "x_opencti_aliases": [
                 "NPL",
-                "NP"
+                "NP",
+                "Federal Democratic Republic of Nepal"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4672,7 +4815,8 @@
             "country": "PAK",
             "x_opencti_aliases": [
                 "PAK",
-                "PK"
+                "PK",
+                "Islamic Republic of Pakistan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4702,7 +4846,8 @@
             "country": "LKA",
             "x_opencti_aliases": [
                 "LKA",
-                "LK"
+                "LK",
+                "Democratic Socialist Republic of Sri Lanka"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4756,7 +4901,8 @@
             "country": "ARM",
             "x_opencti_aliases": [
                 "ARM",
-                "AM"
+                "AM",
+                "Republic of Armenia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4786,7 +4932,8 @@
             "country": "AZE",
             "x_opencti_aliases": [
                 "AZE",
-                "AZ"
+                "AZ",
+                "Republic of Azerbaijan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4816,7 +4963,8 @@
             "country": "BHR",
             "x_opencti_aliases": [
                 "BHR",
-                "BH"
+                "BH",
+                "Kingdom of Bahrain"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4876,7 +5024,8 @@
             "country": "IRQ",
             "x_opencti_aliases": [
                 "IRQ",
-                "IQ"
+                "IQ",
+                "Republic of Iraq"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4906,7 +5055,8 @@
             "country": "ISR",
             "x_opencti_aliases": [
                 "ISR",
-                "IL"
+                "IL",
+                "State of Israel"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4936,7 +5086,8 @@
             "country": "JOR",
             "x_opencti_aliases": [
                 "JOR",
-                "JO"
+                "JO",
+                "Hashemite Kingdom of Jordan"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4966,7 +5117,8 @@
             "country": "KWT",
             "x_opencti_aliases": [
                 "KWT",
-                "KW"
+                "KW",
+                "State of Kuwait"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -4996,7 +5148,8 @@
             "country": "LBN",
             "x_opencti_aliases": [
                 "LBN",
-                "LB"
+                "LB",
+                "Lebanese Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5026,7 +5179,8 @@
             "country": "OMN",
             "x_opencti_aliases": [
                 "OMN",
-                "OM"
+                "OM",
+                "Sultanate of Oman"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5056,7 +5210,8 @@
             "country": "QAT",
             "x_opencti_aliases": [
                 "QAT",
-                "QA"
+                "QA",
+                "State of Qatar"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5086,7 +5241,8 @@
             "country": "SAU",
             "x_opencti_aliases": [
                 "SAU",
-                "SA"
+                "SA",
+                "Kingdom of Saudi Arabia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5116,7 +5272,10 @@
             "country": "PSE",
             "x_opencti_aliases": [
                 "PSE",
-                "PS"
+                "PS",
+                "Palestine",
+                "Palestine, State of",
+                "the State of Palestine"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5146,7 +5305,9 @@
             "country": "SYR",
             "x_opencti_aliases": [
                 "SYR",
-                "SY"
+                "SY",
+                "Syrian Arab Republic (the)",
+                "Syria"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5176,7 +5337,8 @@
             "country": "TUR",
             "x_opencti_aliases": [
                 "TUR",
-                "TR"
+                "TR",
+                "Republic of Turkey"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5206,7 +5368,8 @@
             "country": "ARE",
             "x_opencti_aliases": [
                 "ARE",
-                "AE"
+                "AE",
+                "United Arab Emirates (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5236,7 +5399,8 @@
             "country": "YEM",
             "x_opencti_aliases": [
                 "YEM",
-                "YE"
+                "YE",
+                "Republic of Yemen"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5266,7 +5430,8 @@
             "country": "CYP",
             "x_opencti_aliases": [
                 "CYP",
-                "CY"
+                "CY",
+                "Republic of Cyprus"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5331,7 +5496,8 @@
             "country": "BLR",
             "x_opencti_aliases": [
                 "BLR",
-                "BY"
+                "BY",
+                "Republic of Belarus"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5361,7 +5527,8 @@
             "country": "BGR",
             "x_opencti_aliases": [
                 "BGR",
-                "BG"
+                "BG",
+                "Republic of Bulgaria"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5391,7 +5558,8 @@
             "country": "CZE",
             "x_opencti_aliases": [
                 "CZE",
-                "CZ"
+                "CZ",
+                "Czech Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5451,7 +5619,8 @@
             "country": "POL",
             "x_opencti_aliases": [
                 "POL",
-                "PL"
+                "PL",
+                "Republic of Poland"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5481,7 +5650,10 @@
             "country": "MDA",
             "x_opencti_aliases": [
                 "MDA",
-                "MD"
+                "MD",
+                "Moldova (the Republic of)",
+                "Moldova, Republic of",
+                "Moldova"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5541,7 +5713,9 @@
             "country": "RUS",
             "x_opencti_aliases": [
                 "RUS",
-                "RU"
+                "RU",
+                "Russian Federation (the)",
+                "Russia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5571,7 +5745,8 @@
             "country": "SVK",
             "x_opencti_aliases": [
                 "SVK",
-                "SK"
+                "SK",
+                "Slovak Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5771,7 +5946,8 @@
             "country": "DNK",
             "x_opencti_aliases": [
                 "DNK",
-                "DK"
+                "DK",
+                "Kingdom of Denmark"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5801,7 +5977,8 @@
             "country": "EST",
             "x_opencti_aliases": [
                 "EST",
-                "EE"
+                "EE",
+                "Republic of Estonia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5831,7 +6008,8 @@
             "country": "FRO",
             "x_opencti_aliases": [
                 "FRO",
-                "FO"
+                "FO",
+                "Faroe Islands (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5861,7 +6039,8 @@
             "country": "FIN",
             "x_opencti_aliases": [
                 "FIN",
-                "FI"
+                "FI",
+                "Republic of Finland"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5891,7 +6070,8 @@
             "country": "ISL",
             "x_opencti_aliases": [
                 "ISL",
-                "IS"
+                "IS",
+                "Republic of Iceland"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -5981,7 +6161,8 @@
             "country": "LVA",
             "x_opencti_aliases": [
                 "LVA",
-                "LV"
+                "LV",
+                "Republic of Latvia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6011,7 +6192,8 @@
             "country": "LTU",
             "x_opencti_aliases": [
                 "LTU",
-                "LT"
+                "LT",
+                "Republic of Lithuania"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6041,7 +6223,8 @@
             "country": "NOR",
             "x_opencti_aliases": [
                 "NOR",
-                "NO"
+                "NO",
+                "Kingdom of Norway"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6071,7 +6254,8 @@
             "country": "SJM",
             "x_opencti_aliases": [
                 "SJM",
-                "SJ"
+                "SJ",
+                "Svalbard and Jan Mayen"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6101,7 +6285,8 @@
             "country": "SWE",
             "x_opencti_aliases": [
                 "SWE",
-                "SE"
+                "SE",
+                "Kingdom of Sweden"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6131,7 +6316,9 @@
             "country": "GBR",
             "x_opencti_aliases": [
                 "GBR",
-                "GB"
+                "GB",
+                "United Kingdom of Great Britain and Northern Ireland (the)",
+                "United Kingdom"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6185,7 +6372,8 @@
             "country": "ALB",
             "x_opencti_aliases": [
                 "ALB",
-                "AL"
+                "AL",
+                "Republic of Albania"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6215,7 +6403,8 @@
             "country": "AND",
             "x_opencti_aliases": [
                 "AND",
-                "AD"
+                "AD",
+                "Principality of Andorra"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6245,7 +6434,8 @@
             "country": "BIH",
             "x_opencti_aliases": [
                 "BIH",
-                "BA"
+                "BA",
+                "Republic of Bosnia and Herzegovina"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6275,7 +6465,8 @@
             "country": "HRV",
             "x_opencti_aliases": [
                 "HRV",
-                "HR"
+                "HR",
+                "Republic of Croatia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6335,7 +6526,8 @@
             "country": "GRC",
             "x_opencti_aliases": [
                 "GRC",
-                "GR"
+                "GR",
+                "Hellenic Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6365,7 +6557,9 @@
             "country": "VAT",
             "x_opencti_aliases": [
                 "VAT",
-                "VA"
+                "VA",
+                "Holy See (Vatican City State)",
+                "Holy See (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6395,7 +6589,8 @@
             "country": "ITA",
             "x_opencti_aliases": [
                 "ITA",
-                "IT"
+                "IT",
+                "Italian Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6425,7 +6620,8 @@
             "country": "MLT",
             "x_opencti_aliases": [
                 "MLT",
-                "MT"
+                "MT",
+                "Republic of Malta"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6485,7 +6681,8 @@
             "country": "MKD",
             "x_opencti_aliases": [
                 "MKD",
-                "MK"
+                "MK",
+                "Republic of North Macedonia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6515,7 +6712,8 @@
             "country": "PRT",
             "x_opencti_aliases": [
                 "PRT",
-                "PT"
+                "PT",
+                "Portuguese Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6545,7 +6743,8 @@
             "country": "SMR",
             "x_opencti_aliases": [
                 "SMR",
-                "SM"
+                "SM",
+                "Republic of San Marino"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6575,7 +6774,8 @@
             "country": "SRB",
             "x_opencti_aliases": [
                 "SRB",
-                "RS"
+                "RS",
+                "Republic of Serbia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6605,7 +6805,8 @@
             "country": "SVN",
             "x_opencti_aliases": [
                 "SVN",
-                "SI"
+                "SI",
+                "Republic of Slovenia"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6635,7 +6836,8 @@
             "country": "ESP",
             "x_opencti_aliases": [
                 "ESP",
-                "ES"
+                "ES",
+                "Kingdom of Spain"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6691,7 +6893,8 @@
             "country": "AUT",
             "x_opencti_aliases": [
                 "AUT",
-                "AT"
+                "AT",
+                "Republic of Austria"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6721,7 +6924,8 @@
             "country": "BEL",
             "x_opencti_aliases": [
                 "BEL",
-                "BE"
+                "BE",
+                "Kingdom of Belgium"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6751,7 +6955,8 @@
             "country": "FRA",
             "x_opencti_aliases": [
                 "FRA",
-                "FR"
+                "FR",
+                "French Republic"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6781,7 +6986,8 @@
             "country": "DEU",
             "x_opencti_aliases": [
                 "DEU",
-                "DE"
+                "DE",
+                "Federal Republic of Germany"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6811,7 +7017,8 @@
             "country": "LIE",
             "x_opencti_aliases": [
                 "LIE",
-                "LI"
+                "LI",
+                "Principality of Liechtenstein"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6841,7 +7048,8 @@
             "country": "LUX",
             "x_opencti_aliases": [
                 "LUX",
-                "LU"
+                "LU",
+                "Grand Duchy of Luxembourg"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6871,7 +7079,8 @@
             "country": "MCO",
             "x_opencti_aliases": [
                 "MCO",
-                "MC"
+                "MC",
+                "Principality of Monaco"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6901,7 +7110,9 @@
             "country": "NLD",
             "x_opencti_aliases": [
                 "NLD",
-                "NL"
+                "NL",
+                "Netherlands (the)",
+                "Kingdom of the Netherlands"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -6931,7 +7142,8 @@
             "country": "CHE",
             "x_opencti_aliases": [
                 "CHE",
-                "CH"
+                "CH",
+                "Swiss Confederation"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7056,7 +7268,8 @@
             "country": "CCK",
             "x_opencti_aliases": [
                 "CCK",
-                "CC"
+                "CC",
+                "Cocos (Keeling) Islands (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7200,7 +7413,8 @@
             "country": "FJI",
             "x_opencti_aliases": [
                 "FJI",
-                "FJ"
+                "FJ",
+                "Republic of Fiji"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7260,7 +7474,8 @@
             "country": "PNG",
             "x_opencti_aliases": [
                 "PNG",
-                "PG"
+                "PG",
+                "Independent State of Papua New Guinea"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7320,7 +7535,8 @@
             "country": "VUT",
             "x_opencti_aliases": [
                 "VUT",
-                "VU"
+                "VU",
+                "Republic of Vanuatu"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7404,7 +7620,8 @@
             "country": "KIR",
             "x_opencti_aliases": [
                 "KIR",
-                "KI"
+                "KI",
+                "Republic of Kiribati"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7434,7 +7651,9 @@
             "country": "MHL",
             "x_opencti_aliases": [
                 "MHL",
-                "MH"
+                "MH",
+                "Marshall Islands (the)",
+                "Republic of the Marshall Islands"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7464,7 +7683,10 @@
             "country": "FSM",
             "x_opencti_aliases": [
                 "FSM",
-                "FM"
+                "FM",
+                "Federated States of Micronesia",
+                "Micronesia",
+                "Micronesia, Federated States of"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7494,7 +7716,8 @@
             "country": "NRU",
             "x_opencti_aliases": [
                 "NRU",
-                "NR"
+                "NR",
+                "Republic of Nauru"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7524,7 +7747,9 @@
             "country": "MNP",
             "x_opencti_aliases": [
                 "MNP",
-                "MP"
+                "MP",
+                "Northern Mariana Islands (the)",
+                "Commonwealth of the Northern Mariana Islands"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7554,7 +7779,8 @@
             "country": "PLW",
             "x_opencti_aliases": [
                 "PLW",
-                "PW"
+                "PW",
+                "Republic of Palau"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7582,7 +7808,8 @@
             "country": "UMI",
             "x_opencti_aliases": [
                 "UMI",
-                "UM"
+                "UM",
+                "United States Minor Outlying Islands (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7666,7 +7893,8 @@
             "country": "COK",
             "x_opencti_aliases": [
                 "COK",
-                "CK"
+                "CK",
+                "Cook Islands (the)"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7786,7 +8014,8 @@
             "country": "WSM",
             "x_opencti_aliases": [
                 "WSM",
-                "WS"
+                "WS",
+                "Independent State of Samoa"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7846,7 +8075,8 @@
             "country": "TON",
             "x_opencti_aliases": [
                 "TON",
-                "TO"
+                "TO",
+                "Kingdom of Tonga"
             ],
             "x_opencti_location_type": "Country"
         },
@@ -7906,7 +8136,8 @@
             "country": "WLF",
             "x_opencti_aliases": [
                 "WLF",
-                "WF"
+                "WF",
+                "Wallis and Futuna"
             ],
             "x_opencti_location_type": "Country"
         },
