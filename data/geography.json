@@ -5910,6 +5910,32 @@
         {
             "type": "location",
             "spec_version": "2.1",
+            "id": "location--5b1a1ef6-07a7-4d71-9ae3-6949959deecc",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2020-09-08T07:54:26.075236Z",
+            "modified": "2020-09-08T07:54:26.075236Z",
+            "name": "Sark",
+            "latitude": 49.463533,
+            "longitude": -2.561737,
+            "country": "Sark",
+            "x_opencti_location_type": "Country"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0f480ed9-7207-40bb-afb6-b457baa84ab1",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2020-09-08T07:54:26.075335Z",
+            "modified": "2020-09-08T07:54:26.075335Z",
+            "relationship_type": "located-at",
+            "description": "Country Sark is a located in Northern Europe",
+            "source_ref": "location--5b1a1ef6-07a7-4d71-9ae3-6949959deecc",
+            "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
+            "confidence": 100
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
             "id": "location--757b3812-ae65-47b1-a0bb-0bec356e14ce",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
             "created": "2020-09-08T07:54:26.075427Z",
