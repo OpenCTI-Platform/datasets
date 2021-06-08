@@ -81,7 +81,7 @@
             "created": "2020-09-08T07:54:26.021271Z",
             "modified": "2020-09-08T07:54:26.021271Z",
             "relationship_type": "located-at",
-            "description": "Country Algeria is a located in Northern Africa",
+            "description": "Country Algeria is located in Northern Africa",
             "source_ref": "location--5bed1f53-93bc-4331-a049-17e31db03753",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -112,7 +112,7 @@
             "created": "2020-09-08T07:54:26.021606Z",
             "modified": "2020-09-08T07:54:26.021606Z",
             "relationship_type": "located-at",
-            "description": "Country Egypt is a located in Northern Africa",
+            "description": "Country Egypt is located in Northern Africa",
             "source_ref": "location--f11306b1-79c9-4284-a088-3f80217fa022",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -142,7 +142,7 @@
             "created": "2020-09-08T07:54:26.021946Z",
             "modified": "2020-09-08T07:54:26.021946Z",
             "relationship_type": "located-at",
-            "description": "Country Libya is a located in Northern Africa",
+            "description": "Country Libya is located in Northern Africa",
             "source_ref": "location--3201b1e1-4a79-4570-af3d-77a49b7f321a",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -173,7 +173,7 @@
             "created": "2020-09-08T07:54:26.022288Z",
             "modified": "2020-09-08T07:54:26.022288Z",
             "relationship_type": "located-at",
-            "description": "Country Morocco is a located in Northern Africa",
+            "description": "Country Morocco is located in Northern Africa",
             "source_ref": "location--0281b548-c19e-4465-ba15-871bd88e45ad",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -205,7 +205,7 @@
             "created": "2020-09-08T07:54:26.022615Z",
             "modified": "2020-09-08T07:54:26.022615Z",
             "relationship_type": "located-at",
-            "description": "Country Sudan is a located in Northern Africa",
+            "description": "Country Sudan is located in Northern Africa",
             "source_ref": "location--772ad3c9-fa4e-4df3-9b6f-b622f8e6b391",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -236,7 +236,7 @@
             "created": "2020-09-08T07:54:26.022942Z",
             "modified": "2020-09-08T07:54:26.022942Z",
             "relationship_type": "located-at",
-            "description": "Country Tunisia is a located in Northern Africa",
+            "description": "Country Tunisia is located in Northern Africa",
             "source_ref": "location--5d081829-67f6-446f-bf3f-aa89eb5966f4",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -266,7 +266,7 @@
             "created": "2020-09-08T07:54:26.023274Z",
             "modified": "2020-09-08T07:54:26.023274Z",
             "relationship_type": "located-at",
-            "description": "Country Western Sahara is a located in Northern Africa",
+            "description": "Country Western Sahara is located in Northern Africa",
             "source_ref": "location--7e174111-9de5-43c9-8491-7946a827a74f",
             "target_ref": "location--57cd0e92-9620-48f8-957d-97fcf28f690c",
             "confidence": 100
@@ -323,7 +323,7 @@
             "created": "2020-09-08T07:54:26.023942Z",
             "modified": "2020-09-08T07:54:26.023942Z",
             "relationship_type": "located-at",
-            "description": "Country British Indian Ocean Territory is a located in Sub-Saharan Africa",
+            "description": "Country British Indian Ocean Territory is located in Sub-Saharan Africa",
             "source_ref": "location--d3868bb6-835a-4e5d-9b84-cd8db115c587",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -354,7 +354,7 @@
             "created": "2020-09-08T07:54:26.024267Z",
             "modified": "2020-09-08T07:54:26.024267Z",
             "relationship_type": "located-at",
-            "description": "Country Burundi is a located in Sub-Saharan Africa",
+            "description": "Country Burundi is located in Sub-Saharan Africa",
             "source_ref": "location--f2ad90fc-a4d0-44fd-9326-ef423a23f9fd",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -386,7 +386,7 @@
             "created": "2020-09-08T07:54:26.024611Z",
             "modified": "2020-09-08T07:54:26.024611Z",
             "relationship_type": "located-at",
-            "description": "Country Comoros is a located in Sub-Saharan Africa",
+            "description": "Country Comoros is located in Sub-Saharan Africa",
             "source_ref": "location--ebfad738-9e94-4606-b57e-ae0c9c110ab5",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -417,7 +417,7 @@
             "created": "2020-09-08T07:54:26.024972Z",
             "modified": "2020-09-08T07:54:26.024972Z",
             "relationship_type": "located-at",
-            "description": "Country Djibouti is a located in Sub-Saharan Africa",
+            "description": "Country Djibouti is located in Sub-Saharan Africa",
             "source_ref": "location--e129bb1e-b4b3-47d7-8f30-b24de2269585",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -448,7 +448,7 @@
             "created": "2020-09-08T07:54:26.025337Z",
             "modified": "2020-09-08T07:54:26.025337Z",
             "relationship_type": "located-at",
-            "description": "Country Eritrea is a located in Sub-Saharan Africa",
+            "description": "Country Eritrea is located in Sub-Saharan Africa",
             "source_ref": "location--1b5b393c-4bca-46ee-826a-b38eab7f0d4d",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -479,7 +479,7 @@
             "created": "2020-09-08T07:54:26.025691Z",
             "modified": "2020-09-08T07:54:26.025691Z",
             "relationship_type": "located-at",
-            "description": "Country Ethiopia is a located in Sub-Saharan Africa",
+            "description": "Country Ethiopia is located in Sub-Saharan Africa",
             "source_ref": "location--ffb3858d-c184-480e-a886-d61939f45bc9",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -510,7 +510,7 @@
             "created": "2020-09-08T07:54:26.02605Z",
             "modified": "2020-09-08T07:54:26.02605Z",
             "relationship_type": "located-at",
-            "description": "Country French Southern Territories is a located in Sub-Saharan Africa",
+            "description": "Country French Southern Territories is located in Sub-Saharan Africa",
             "source_ref": "location--90659c03-b9cb-4bf8-ad31-5f8cdf1cf00f",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -541,7 +541,7 @@
             "created": "2020-09-08T07:54:26.026409Z",
             "modified": "2020-09-08T07:54:26.026409Z",
             "relationship_type": "located-at",
-            "description": "Country Kenya is a located in Sub-Saharan Africa",
+            "description": "Country Kenya is located in Sub-Saharan Africa",
             "source_ref": "location--8c52eab8-8dc5-4799-8cbe-61c496308b79",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -572,7 +572,7 @@
             "created": "2020-09-08T07:54:26.026769Z",
             "modified": "2020-09-08T07:54:26.026769Z",
             "relationship_type": "located-at",
-            "description": "Country Madagascar is a located in Sub-Saharan Africa",
+            "description": "Country Madagascar is located in Sub-Saharan Africa",
             "source_ref": "location--4ee2e45e-781c-48ae-86e0-f5a73637a569",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -603,7 +603,7 @@
             "created": "2020-09-08T07:54:26.027127Z",
             "modified": "2020-09-08T07:54:26.027127Z",
             "relationship_type": "located-at",
-            "description": "Country Malawi is a located in Sub-Saharan Africa",
+            "description": "Country Malawi is located in Sub-Saharan Africa",
             "source_ref": "location--dc8f77c9-6245-4ccf-88b5-031c210d481b",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -634,7 +634,7 @@
             "created": "2020-09-08T07:54:26.027484Z",
             "modified": "2020-09-08T07:54:26.027484Z",
             "relationship_type": "located-at",
-            "description": "Country Mauritius is a located in Sub-Saharan Africa",
+            "description": "Country Mauritius is located in Sub-Saharan Africa",
             "source_ref": "location--57ec3198-34c9-4950-9527-8e841c57584d",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -664,7 +664,7 @@
             "created": "2020-09-08T07:54:26.027847Z",
             "modified": "2020-09-08T07:54:26.027847Z",
             "relationship_type": "located-at",
-            "description": "Country Mayotte is a located in Sub-Saharan Africa",
+            "description": "Country Mayotte is located in Sub-Saharan Africa",
             "source_ref": "location--5a4b9fee-28f9-4d97-9d40-f35fafc3bca9",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -695,7 +695,7 @@
             "created": "2020-09-08T07:54:26.02818Z",
             "modified": "2020-09-08T07:54:26.02818Z",
             "relationship_type": "located-at",
-            "description": "Country Mozambique is a located in Sub-Saharan Africa",
+            "description": "Country Mozambique is located in Sub-Saharan Africa",
             "source_ref": "location--95c41c02-c8f3-4988-83ac-b4d997484c4b",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -725,7 +725,7 @@
             "created": "2020-09-08T07:54:26.028521Z",
             "modified": "2020-09-08T07:54:26.028521Z",
             "relationship_type": "located-at",
-            "description": "Country R\u00e9union is a located in Sub-Saharan Africa",
+            "description": "Country R\u00e9union is located in Sub-Saharan Africa",
             "source_ref": "location--0b0d81f5-4df8-478b-9837-7e4ca8ce880e",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -756,7 +756,7 @@
             "created": "2020-09-08T07:54:26.02888Z",
             "modified": "2020-09-08T07:54:26.02888Z",
             "relationship_type": "located-at",
-            "description": "Country Rwanda is a located in Sub-Saharan Africa",
+            "description": "Country Rwanda is located in Sub-Saharan Africa",
             "source_ref": "location--decb1841-e36a-470a-a158-a73cb53f3462",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -787,7 +787,7 @@
             "created": "2020-09-08T07:54:26.029266Z",
             "modified": "2020-09-08T07:54:26.029266Z",
             "relationship_type": "located-at",
-            "description": "Country Seychelles is a located in Sub-Saharan Africa",
+            "description": "Country Seychelles is located in Sub-Saharan Africa",
             "source_ref": "location--c3daff55-eacc-402a-8521-592ac6979b15",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -818,7 +818,7 @@
             "created": "2020-09-08T07:54:26.029621Z",
             "modified": "2020-09-08T07:54:26.029621Z",
             "relationship_type": "located-at",
-            "description": "Country Somalia is a located in Sub-Saharan Africa",
+            "description": "Country Somalia is located in Sub-Saharan Africa",
             "source_ref": "location--ac810b3b-5e9c-4e7a-9eea-2861ac2268dd",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -849,7 +849,7 @@
             "created": "2020-09-08T07:54:26.029996Z",
             "modified": "2020-09-08T07:54:26.029996Z",
             "relationship_type": "located-at",
-            "description": "Country South Sudan is a located in Sub-Saharan Africa",
+            "description": "Country South Sudan is located in Sub-Saharan Africa",
             "source_ref": "location--f137e1a1-375c-4222-a0c2-e63bb2467114",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -880,7 +880,7 @@
             "created": "2020-09-08T07:54:26.030346Z",
             "modified": "2020-09-08T07:54:26.030346Z",
             "relationship_type": "located-at",
-            "description": "Country Uganda is a located in Sub-Saharan Africa",
+            "description": "Country Uganda is located in Sub-Saharan Africa",
             "source_ref": "location--f059e8ec-ed4b-4bf3-87b7-e4a278f65cf2",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -913,7 +913,7 @@
             "created": "2020-09-08T07:54:26.030693Z",
             "modified": "2020-09-08T07:54:26.030693Z",
             "relationship_type": "located-at",
-            "description": "Country United Republic of Tanzania is a located in Sub-Saharan Africa",
+            "description": "Country United Republic of Tanzania is located in Sub-Saharan Africa",
             "source_ref": "location--960d0e60-a866-411b-a522-541f5cb2f02e",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -944,7 +944,7 @@
             "created": "2020-09-08T07:54:26.031041Z",
             "modified": "2020-09-08T07:54:26.031041Z",
             "relationship_type": "located-at",
-            "description": "Country Zambia is a located in Sub-Saharan Africa",
+            "description": "Country Zambia is located in Sub-Saharan Africa",
             "source_ref": "location--155e0b2d-89cf-4439-acca-07c7c37b4e4c",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -975,7 +975,7 @@
             "created": "2020-09-08T07:54:26.031396Z",
             "modified": "2020-09-08T07:54:26.031396Z",
             "relationship_type": "located-at",
-            "description": "Country Zimbabwe is a located in Sub-Saharan Africa",
+            "description": "Country Zimbabwe is located in Sub-Saharan Africa",
             "source_ref": "location--e94f8f0b-0b61-49c9-8f85-8146df3d2460",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1006,7 +1006,7 @@
             "created": "2020-09-08T07:54:26.031748Z",
             "modified": "2020-09-08T07:54:26.031748Z",
             "relationship_type": "located-at",
-            "description": "Country Angola is a located in Sub-Saharan Africa",
+            "description": "Country Angola is located in Sub-Saharan Africa",
             "source_ref": "location--4671679e-19d3-4969-bb9a-50ce2e4cedf9",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1037,7 +1037,7 @@
             "created": "2020-09-08T07:54:26.032103Z",
             "modified": "2020-09-08T07:54:26.032103Z",
             "relationship_type": "located-at",
-            "description": "Country Cameroon is a located in Sub-Saharan Africa",
+            "description": "Country Cameroon is located in Sub-Saharan Africa",
             "source_ref": "location--c5d52a27-9e31-4025-b9ea-849a75964adf",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1068,7 +1068,7 @@
             "created": "2020-09-08T07:54:26.032464Z",
             "modified": "2020-09-08T07:54:26.032464Z",
             "relationship_type": "located-at",
-            "description": "Country Central African Republic is a located in Sub-Saharan Africa",
+            "description": "Country Central African Republic is located in Sub-Saharan Africa",
             "source_ref": "location--f16ea7cc-8484-45ad-817a-4b90946e9d7b",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1099,7 +1099,7 @@
             "created": "2020-09-08T07:54:26.032809Z",
             "modified": "2020-09-08T07:54:26.032809Z",
             "relationship_type": "located-at",
-            "description": "Country Chad is a located in Sub-Saharan Africa",
+            "description": "Country Chad is located in Sub-Saharan Africa",
             "source_ref": "location--490baa5f-9254-490b-bd80-66f8da5732ed",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1131,7 +1131,7 @@
             "created": "2020-09-08T07:54:26.033156Z",
             "modified": "2020-09-08T07:54:26.033156Z",
             "relationship_type": "located-at",
-            "description": "Country Congo is a located in Sub-Saharan Africa",
+            "description": "Country Congo is located in Sub-Saharan Africa",
             "source_ref": "location--dfd0a23b-5283-4612-b7b3-c6152a879e40",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1163,7 +1163,7 @@
             "created": "2020-09-08T07:54:26.033514Z",
             "modified": "2020-09-08T07:54:26.033514Z",
             "relationship_type": "located-at",
-            "description": "Country Democratic Republic of the Congo is a located in Sub-Saharan Africa",
+            "description": "Country Democratic Republic of the Congo is located in Sub-Saharan Africa",
             "source_ref": "location--323f6a93-96aa-4467-9dda-66341ed5265b",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1194,7 +1194,7 @@
             "created": "2020-09-08T07:54:26.03387Z",
             "modified": "2020-09-08T07:54:26.03387Z",
             "relationship_type": "located-at",
-            "description": "Country Equatorial Guinea is a located in Sub-Saharan Africa",
+            "description": "Country Equatorial Guinea is located in Sub-Saharan Africa",
             "source_ref": "location--4bb69769-3769-475e-ba37-e0af822d2570",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1225,7 +1225,7 @@
             "created": "2020-09-08T07:54:26.03422Z",
             "modified": "2020-09-08T07:54:26.03422Z",
             "relationship_type": "located-at",
-            "description": "Country Gabon is a located in Sub-Saharan Africa",
+            "description": "Country Gabon is located in Sub-Saharan Africa",
             "source_ref": "location--5e240049-2d76-4bda-9c72-a51510650a62",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1256,7 +1256,7 @@
             "created": "2020-09-08T07:54:26.034582Z",
             "modified": "2020-09-08T07:54:26.034582Z",
             "relationship_type": "located-at",
-            "description": "Country Sao Tome and Principe is a located in Sub-Saharan Africa",
+            "description": "Country Sao Tome and Principe is located in Sub-Saharan Africa",
             "source_ref": "location--71b4c1e3-09d9-4006-9cd4-21723055aa68",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1287,7 +1287,7 @@
             "created": "2020-09-08T07:54:26.03492Z",
             "modified": "2020-09-08T07:54:26.03492Z",
             "relationship_type": "located-at",
-            "description": "Country Botswana is a located in Sub-Saharan Africa",
+            "description": "Country Botswana is located in Sub-Saharan Africa",
             "source_ref": "location--10da7477-a2f6-4d4a-b44b-ec70a57fb3f1",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1318,7 +1318,7 @@
             "created": "2020-09-08T07:54:26.035262Z",
             "modified": "2020-09-08T07:54:26.035262Z",
             "relationship_type": "located-at",
-            "description": "Country Eswatini is a located in Sub-Saharan Africa",
+            "description": "Country Eswatini is located in Sub-Saharan Africa",
             "source_ref": "location--a755337d-ddf8-484f-8de9-6df3479ead59",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1349,7 +1349,7 @@
             "created": "2020-09-08T07:54:26.035613Z",
             "modified": "2020-09-08T07:54:26.035613Z",
             "relationship_type": "located-at",
-            "description": "Country Lesotho is a located in Sub-Saharan Africa",
+            "description": "Country Lesotho is located in Sub-Saharan Africa",
             "source_ref": "location--e25f2f17-8c9e-40d0-8e58-43a4b7569682",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1380,7 +1380,7 @@
             "created": "2020-09-08T07:54:26.036035Z",
             "modified": "2020-09-08T07:54:26.036035Z",
             "relationship_type": "located-at",
-            "description": "Country Namibia is a located in Sub-Saharan Africa",
+            "description": "Country Namibia is located in Sub-Saharan Africa",
             "source_ref": "location--71981afa-c171-4391-bf20-1b8f5cec2812",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1411,7 +1411,7 @@
             "created": "2020-09-08T07:54:26.036392Z",
             "modified": "2020-09-08T07:54:26.036392Z",
             "relationship_type": "located-at",
-            "description": "Country South Africa is a located in Sub-Saharan Africa",
+            "description": "Country South Africa is located in Sub-Saharan Africa",
             "source_ref": "location--2db1e652-0ac8-4cdf-ac40-ef716ddf687e",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1442,7 +1442,7 @@
             "created": "2020-09-08T07:54:26.036752Z",
             "modified": "2020-09-08T07:54:26.036752Z",
             "relationship_type": "located-at",
-            "description": "Country Benin is a located in Sub-Saharan Africa",
+            "description": "Country Benin is located in Sub-Saharan Africa",
             "source_ref": "location--fc1fcfe7-4a95-432b-9198-86cf570e3e4c",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1472,7 +1472,7 @@
             "created": "2020-09-08T07:54:26.037092Z",
             "modified": "2020-09-08T07:54:26.037092Z",
             "relationship_type": "located-at",
-            "description": "Country Burkina Faso is a located in Sub-Saharan Africa",
+            "description": "Country Burkina Faso is located in Sub-Saharan Africa",
             "source_ref": "location--0f8d6e63-a25b-4afd-b155-a5d87f6b68b8",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1503,7 +1503,7 @@
             "created": "2020-09-08T07:54:26.037445Z",
             "modified": "2020-09-08T07:54:26.037445Z",
             "relationship_type": "located-at",
-            "description": "Country Cabo Verde is a located in Sub-Saharan Africa",
+            "description": "Country Cabo Verde is located in Sub-Saharan Africa",
             "source_ref": "location--6e3c5b88-48fb-433b-9561-028b013989be",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1536,7 +1536,7 @@
             "created": "2020-09-08T07:54:26.037805Z",
             "modified": "2020-09-08T07:54:26.037805Z",
             "relationship_type": "located-at",
-            "description": "Country C\u00f4te d\u2019Ivoire is a located in Sub-Saharan Africa",
+            "description": "Country C\u00f4te d\u2019Ivoire is located in Sub-Saharan Africa",
             "source_ref": "location--773b2588-6df8-4ee2-a1e9-1f2cbb5ebd80",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1568,7 +1568,7 @@
             "created": "2020-09-08T07:54:26.038151Z",
             "modified": "2020-09-08T07:54:26.038151Z",
             "relationship_type": "located-at",
-            "description": "Country Gambia is a located in Sub-Saharan Africa",
+            "description": "Country Gambia is located in Sub-Saharan Africa",
             "source_ref": "location--e1e98d85-7f55-4177-a1d6-69911d875381",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1599,7 +1599,7 @@
             "created": "2020-09-08T07:54:26.038494Z",
             "modified": "2020-09-08T07:54:26.038494Z",
             "relationship_type": "located-at",
-            "description": "Country Ghana is a located in Sub-Saharan Africa",
+            "description": "Country Ghana is located in Sub-Saharan Africa",
             "source_ref": "location--fcd7d0dc-5825-482a-a1a6-dc07600a6762",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1630,7 +1630,7 @@
             "created": "2020-09-08T07:54:26.038871Z",
             "modified": "2020-09-08T07:54:26.038871Z",
             "relationship_type": "located-at",
-            "description": "Country Guinea is a located in Sub-Saharan Africa",
+            "description": "Country Guinea is located in Sub-Saharan Africa",
             "source_ref": "location--f121da37-6ae0-4163-8f7c-e163a1fe8425",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1661,7 +1661,7 @@
             "created": "2020-09-08T07:54:26.039234Z",
             "modified": "2020-09-08T07:54:26.039234Z",
             "relationship_type": "located-at",
-            "description": "Country Guinea-Bissau is a located in Sub-Saharan Africa",
+            "description": "Country Guinea-Bissau is located in Sub-Saharan Africa",
             "source_ref": "location--b41ce233-08d9-43b3-9ee5-fd58979129dc",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1692,7 +1692,7 @@
             "created": "2020-09-08T07:54:26.039641Z",
             "modified": "2020-09-08T07:54:26.039641Z",
             "relationship_type": "located-at",
-            "description": "Country Liberia is a located in Sub-Saharan Africa",
+            "description": "Country Liberia is located in Sub-Saharan Africa",
             "source_ref": "location--ef3b130e-3dd6-45a2-8d20-c1479f15d9d1",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1723,7 +1723,7 @@
             "created": "2020-09-08T07:54:26.040047Z",
             "modified": "2020-09-08T07:54:26.040047Z",
             "relationship_type": "located-at",
-            "description": "Country Mali is a located in Sub-Saharan Africa",
+            "description": "Country Mali is located in Sub-Saharan Africa",
             "source_ref": "location--4268be82-c3fa-438f-9383-e4bd9c66d740",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1754,7 +1754,7 @@
             "created": "2020-09-08T07:54:26.0404Z",
             "modified": "2020-09-08T07:54:26.0404Z",
             "relationship_type": "located-at",
-            "description": "Country Mauritania is a located in Sub-Saharan Africa",
+            "description": "Country Mauritania is located in Sub-Saharan Africa",
             "source_ref": "location--68cd4640-cd61-43f8-b94e-113e3d9873c8",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1786,7 +1786,7 @@
             "created": "2020-09-08T07:54:26.040763Z",
             "modified": "2020-09-08T07:54:26.040763Z",
             "relationship_type": "located-at",
-            "description": "Country Niger is a located in Sub-Saharan Africa",
+            "description": "Country Niger is located in Sub-Saharan Africa",
             "source_ref": "location--346ca128-1e8f-46d7-b6c5-db76df03848d",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1817,7 +1817,7 @@
             "created": "2020-09-08T07:54:26.041112Z",
             "modified": "2020-09-08T07:54:26.041112Z",
             "relationship_type": "located-at",
-            "description": "Country Nigeria is a located in Sub-Saharan Africa",
+            "description": "Country Nigeria is located in Sub-Saharan Africa",
             "source_ref": "location--57982ae8-e9f6-4a77-bd4b-a839ee65e457",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1848,7 +1848,7 @@
             "created": "2020-09-08T07:54:26.041449Z",
             "modified": "2020-09-08T07:54:26.041449Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Helena is a located in Sub-Saharan Africa",
+            "description": "Country Saint Helena is located in Sub-Saharan Africa",
             "source_ref": "location--e8bcd901-2388-4ce6-96ab-594bd6ed0ce1",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1879,7 +1879,7 @@
             "created": "2020-09-08T07:54:26.041805Z",
             "modified": "2020-09-08T07:54:26.041805Z",
             "relationship_type": "located-at",
-            "description": "Country Senegal is a located in Sub-Saharan Africa",
+            "description": "Country Senegal is located in Sub-Saharan Africa",
             "source_ref": "location--e4316599-e2d5-49e2-b97b-1103b6deb63a",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1910,7 +1910,7 @@
             "created": "2020-09-08T07:54:26.042148Z",
             "modified": "2020-09-08T07:54:26.042148Z",
             "relationship_type": "located-at",
-            "description": "Country Sierra Leone is a located in Sub-Saharan Africa",
+            "description": "Country Sierra Leone is located in Sub-Saharan Africa",
             "source_ref": "location--6f6a40f5-aba3-4531-8e3f-e81ad25d87e0",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -1941,7 +1941,7 @@
             "created": "2020-09-08T07:54:26.042509Z",
             "modified": "2020-09-08T07:54:26.042509Z",
             "relationship_type": "located-at",
-            "description": "Country Togo is a located in Sub-Saharan Africa",
+            "description": "Country Togo is located in Sub-Saharan Africa",
             "source_ref": "location--60e12321-2786-4033-a10d-1561808dfcdc",
             "target_ref": "location--93787b89-8e1c-45a4-8d91-95af1ac76bb4",
             "confidence": 100
@@ -2010,7 +2010,7 @@
             "created": "2020-09-08T07:54:26.043378Z",
             "modified": "2020-09-08T07:54:26.043378Z",
             "relationship_type": "located-at",
-            "description": "Country Anguilla is a located in Latin America and the Caribbean",
+            "description": "Country Anguilla is located in Latin America and the Caribbean",
             "source_ref": "location--3bb593aa-9298-48a8-a2ee-d3d635a5fce3",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2040,7 +2040,7 @@
             "created": "2020-09-08T07:54:26.043761Z",
             "modified": "2020-09-08T07:54:26.043761Z",
             "relationship_type": "located-at",
-            "description": "Country Antigua and Barbuda is a located in Latin America and the Caribbean",
+            "description": "Country Antigua and Barbuda is located in Latin America and the Caribbean",
             "source_ref": "location--a09a61a8-a536-4eba-8534-cadeafaa0dd3",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2070,7 +2070,7 @@
             "created": "2020-09-08T07:54:26.044113Z",
             "modified": "2020-09-08T07:54:26.044113Z",
             "relationship_type": "located-at",
-            "description": "Country Aruba is a located in Latin America and the Caribbean",
+            "description": "Country Aruba is located in Latin America and the Caribbean",
             "source_ref": "location--e5184d1f-6348-47e6-9fe0-c5d1cd7fa427",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2102,7 +2102,7 @@
             "created": "2020-09-08T07:54:26.044469Z",
             "modified": "2020-09-08T07:54:26.044469Z",
             "relationship_type": "located-at",
-            "description": "Country Bahamas is a located in Latin America and the Caribbean",
+            "description": "Country Bahamas is located in Latin America and the Caribbean",
             "source_ref": "location--f752c8c9-34f2-4f3f-8693-80fce2f56a58",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2132,7 +2132,7 @@
             "created": "2020-09-08T07:54:26.044827Z",
             "modified": "2020-09-08T07:54:26.044827Z",
             "relationship_type": "located-at",
-            "description": "Country Barbados is a located in Latin America and the Caribbean",
+            "description": "Country Barbados is located in Latin America and the Caribbean",
             "source_ref": "location--9ab3e31f-3009-4cef-a90c-b6fdd384da18",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2163,7 +2163,7 @@
             "created": "2020-09-08T07:54:26.045168Z",
             "modified": "2020-09-08T07:54:26.045168Z",
             "relationship_type": "located-at",
-            "description": "Country Bonaire is a located in Latin America and the Caribbean",
+            "description": "Country Bonaire is located in Latin America and the Caribbean",
             "source_ref": "location--02572610-9a04-4fe7-bacb-593659b4d8b1",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2195,7 +2195,7 @@
             "created": "2020-09-08T07:54:26.045518Z",
             "modified": "2020-09-08T07:54:26.045518Z",
             "relationship_type": "located-at",
-            "description": "Country British Virgin Islands is a located in Latin America and the Caribbean",
+            "description": "Country British Virgin Islands is located in Latin America and the Caribbean",
             "source_ref": "location--38c7aa3e-d6b2-4d7e-9649-2b2180cebf03",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2226,7 +2226,7 @@
             "created": "2020-09-08T07:54:26.045882Z",
             "modified": "2020-09-08T07:54:26.045882Z",
             "relationship_type": "located-at",
-            "description": "Country Cayman Islands is a located in Latin America and the Caribbean",
+            "description": "Country Cayman Islands is located in Latin America and the Caribbean",
             "source_ref": "location--eebc582b-1717-455a-a983-1926ed330488",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2257,7 +2257,7 @@
             "created": "2020-09-08T07:54:26.046232Z",
             "modified": "2020-09-08T07:54:26.046232Z",
             "relationship_type": "located-at",
-            "description": "Country Cuba is a located in Latin America and the Caribbean",
+            "description": "Country Cuba is located in Latin America and the Caribbean",
             "source_ref": "location--4da2915c-5e95-4e1d-bc0c-ea972aeffa2f",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2285,7 +2285,7 @@
             "created": "2020-09-08T07:54:26.046586Z",
             "modified": "2020-09-08T07:54:26.046586Z",
             "relationship_type": "located-at",
-            "description": "Country Cura\u00e7ao is a located in Latin America and the Caribbean",
+            "description": "Country Cura\u00e7ao is located in Latin America and the Caribbean",
             "source_ref": "location--9c5933aa-880e-4118-86db-885802a27dc6",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2316,7 +2316,7 @@
             "created": "2020-09-08T07:54:26.046933Z",
             "modified": "2020-09-08T07:54:26.046933Z",
             "relationship_type": "located-at",
-            "description": "Country Dominica is a located in Latin America and the Caribbean",
+            "description": "Country Dominica is located in Latin America and the Caribbean",
             "source_ref": "location--a69ae3b2-78e1-40dc-9624-494334136dca",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2347,7 +2347,7 @@
             "created": "2020-09-08T07:54:26.047287Z",
             "modified": "2020-09-08T07:54:26.047287Z",
             "relationship_type": "located-at",
-            "description": "Country Dominican Republic is a located in Latin America and the Caribbean",
+            "description": "Country Dominican Republic is located in Latin America and the Caribbean",
             "source_ref": "location--21892fb5-cb1d-48bb-a014-f0a8ad3a4c56",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2377,7 +2377,7 @@
             "created": "2020-09-08T07:54:26.04764Z",
             "modified": "2020-09-08T07:54:26.04764Z",
             "relationship_type": "located-at",
-            "description": "Country Grenada is a located in Latin America and the Caribbean",
+            "description": "Country Grenada is located in Latin America and the Caribbean",
             "source_ref": "location--999ee1c5-e283-426d-a9d8-77b2efed6caa",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2407,7 +2407,7 @@
             "created": "2020-09-08T07:54:26.047996Z",
             "modified": "2020-09-08T07:54:26.047996Z",
             "relationship_type": "located-at",
-            "description": "Country Guadeloupe is a located in Latin America and the Caribbean",
+            "description": "Country Guadeloupe is located in Latin America and the Caribbean",
             "source_ref": "location--4605b448-66ca-4f0f-a694-f5e9f8bdbf6a",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2438,7 +2438,7 @@
             "created": "2020-09-08T07:54:26.048345Z",
             "modified": "2020-09-08T07:54:26.048345Z",
             "relationship_type": "located-at",
-            "description": "Country Haiti is a located in Latin America and the Caribbean",
+            "description": "Country Haiti is located in Latin America and the Caribbean",
             "source_ref": "location--7ec66f24-3b30-4598-88f8-afc8518c8f19",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2468,7 +2468,7 @@
             "created": "2020-09-08T07:54:26.048689Z",
             "modified": "2020-09-08T07:54:26.048689Z",
             "relationship_type": "located-at",
-            "description": "Country Jamaica is a located in Latin America and the Caribbean",
+            "description": "Country Jamaica is located in Latin America and the Caribbean",
             "source_ref": "location--0047928c-0e55-40fc-be58-61b659e6f7aa",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2498,7 +2498,7 @@
             "created": "2020-09-08T07:54:26.049034Z",
             "modified": "2020-09-08T07:54:26.049034Z",
             "relationship_type": "located-at",
-            "description": "Country Martinique is a located in Latin America and the Caribbean",
+            "description": "Country Martinique is located in Latin America and the Caribbean",
             "source_ref": "location--67b9eb97-07cf-407d-a086-c0983a30382e",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2528,7 +2528,7 @@
             "created": "2020-09-08T07:54:26.049377Z",
             "modified": "2020-09-08T07:54:26.049377Z",
             "relationship_type": "located-at",
-            "description": "Country Montserrat is a located in Latin America and the Caribbean",
+            "description": "Country Montserrat is located in Latin America and the Caribbean",
             "source_ref": "location--d23f6d46-eb5a-45e0-a4e5-9030d598a275",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2558,7 +2558,7 @@
             "created": "2020-09-08T07:54:26.049717Z",
             "modified": "2020-09-08T07:54:26.049717Z",
             "relationship_type": "located-at",
-            "description": "Country Puerto Rico is a located in Latin America and the Caribbean",
+            "description": "Country Puerto Rico is located in Latin America and the Caribbean",
             "source_ref": "location--beaf2a9a-d2ec-4bfa-ac20-46f626bfef9e",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2586,7 +2586,7 @@
             "created": "2020-09-08T07:54:26.050083Z",
             "modified": "2020-09-08T07:54:26.050083Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Barth\u00e9lemy is a located in Latin America and the Caribbean",
+            "description": "Country Saint Barth\u00e9lemy is located in Latin America and the Caribbean",
             "source_ref": "location--bd4957f9-9817-4559-963c-e7e1d8fedc9c",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2616,7 +2616,7 @@
             "created": "2020-09-08T07:54:26.050448Z",
             "modified": "2020-09-08T07:54:26.050448Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Kitts and Nevis is a located in Latin America and the Caribbean",
+            "description": "Country Saint Kitts and Nevis is located in Latin America and the Caribbean",
             "source_ref": "location--f0cafbc2-78f4-46dd-a201-b18d5d9ffdc4",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2646,7 +2646,7 @@
             "created": "2020-09-08T07:54:26.050798Z",
             "modified": "2020-09-08T07:54:26.050798Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Lucia is a located in Latin America and the Caribbean",
+            "description": "Country Saint Lucia is located in Latin America and the Caribbean",
             "source_ref": "location--39ec44d9-d153-495c-a331-306e90e33950",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2676,7 +2676,7 @@
             "created": "2020-09-08T07:54:26.051158Z",
             "modified": "2020-09-08T07:54:26.051158Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Martin (French Part) is a located in Latin America and the Caribbean",
+            "description": "Country Saint Martin (French Part) is located in Latin America and the Caribbean",
             "source_ref": "location--b2f46243-6c04-4d4c-89ae-323ea8e59efb",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2706,7 +2706,7 @@
             "created": "2020-09-08T07:54:26.051515Z",
             "modified": "2020-09-08T07:54:26.051515Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Vincent and the Grenadines is a located in Latin America and the Caribbean",
+            "description": "Country Saint Vincent and the Grenadines is located in Latin America and the Caribbean",
             "source_ref": "location--bf7993fc-d766-4e37-ad29-699f56e8338a",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2735,7 +2735,7 @@
             "created": "2020-09-08T07:54:26.051869Z",
             "modified": "2020-09-08T07:54:26.051869Z",
             "relationship_type": "located-at",
-            "description": "Country Sint Maarten (Dutch part) is a located in Latin America and the Caribbean",
+            "description": "Country Sint Maarten (Dutch part) is located in Latin America and the Caribbean",
             "source_ref": "location--ad4b36ef-a722-4db5-8c89-cdccf7b209d1",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2766,7 +2766,7 @@
             "created": "2020-09-08T07:54:26.052235Z",
             "modified": "2020-09-08T07:54:26.052235Z",
             "relationship_type": "located-at",
-            "description": "Country Trinidad and Tobago is a located in Latin America and the Caribbean",
+            "description": "Country Trinidad and Tobago is located in Latin America and the Caribbean",
             "source_ref": "location--792e86ef-56ea-425b-9e90-a5d6751c1137",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2797,7 +2797,7 @@
             "created": "2020-09-08T07:54:26.052578Z",
             "modified": "2020-09-08T07:54:26.052578Z",
             "relationship_type": "located-at",
-            "description": "Country Turks and Caicos Islands is a located in Latin America and the Caribbean",
+            "description": "Country Turks and Caicos Islands is located in Latin America and the Caribbean",
             "source_ref": "location--d8b0d62b-1a25-48c5-9b11-fa6b98e77033",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2830,7 +2830,7 @@
             "created": "2020-09-08T07:54:26.052921Z",
             "modified": "2020-09-08T07:54:26.052921Z",
             "relationship_type": "located-at",
-            "description": "Country United States Virgin Islands is a located in Latin America and the Caribbean",
+            "description": "Country United States Virgin Islands is located in Latin America and the Caribbean",
             "source_ref": "location--6711fc2f-f9ee-44af-852f-c571478ff324",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2860,7 +2860,7 @@
             "created": "2020-09-08T07:54:26.053263Z",
             "modified": "2020-09-08T07:54:26.053263Z",
             "relationship_type": "located-at",
-            "description": "Country Belize is a located in Latin America and the Caribbean",
+            "description": "Country Belize is located in Latin America and the Caribbean",
             "source_ref": "location--4539837b-8fca-4dc2-8d76-34ed6a0dbfb0",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2891,7 +2891,7 @@
             "created": "2020-09-08T07:54:26.053614Z",
             "modified": "2020-09-08T07:54:26.053614Z",
             "relationship_type": "located-at",
-            "description": "Country Costa Rica is a located in Latin America and the Caribbean",
+            "description": "Country Costa Rica is located in Latin America and the Caribbean",
             "source_ref": "location--b9dd977d-6954-45d7-b50b-f8bd907950bb",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2922,7 +2922,7 @@
             "created": "2020-09-08T07:54:26.05397Z",
             "modified": "2020-09-08T07:54:26.05397Z",
             "relationship_type": "located-at",
-            "description": "Country El Salvador is a located in Latin America and the Caribbean",
+            "description": "Country El Salvador is located in Latin America and the Caribbean",
             "source_ref": "location--b844bfbd-b6b7-4f4a-b9b7-db19b8c8dea9",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2953,7 +2953,7 @@
             "created": "2020-09-08T07:54:26.054189Z",
             "modified": "2020-09-08T07:54:26.054189Z",
             "relationship_type": "located-at",
-            "description": "Country Guatemala is a located in Latin America and the Caribbean",
+            "description": "Country Guatemala is located in Latin America and the Caribbean",
             "source_ref": "location--0e2e003f-b241-4d07-83db-aa9f782bb01e",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -2984,7 +2984,7 @@
             "created": "2020-09-08T07:54:26.054387Z",
             "modified": "2020-09-08T07:54:26.054387Z",
             "relationship_type": "located-at",
-            "description": "Country Honduras is a located in Latin America and the Caribbean",
+            "description": "Country Honduras is located in Latin America and the Caribbean",
             "source_ref": "location--e3022285-06be-4c6e-af93-3a8e8558f718",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3015,7 +3015,7 @@
             "created": "2020-09-08T07:54:26.054581Z",
             "modified": "2020-09-08T07:54:26.054581Z",
             "relationship_type": "located-at",
-            "description": "Country Mexico is a located in Latin America and the Caribbean",
+            "description": "Country Mexico is located in Latin America and the Caribbean",
             "source_ref": "location--4f8b5528-7275-42f4-8db8-e2192661eff9",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3046,7 +3046,7 @@
             "created": "2020-09-08T07:54:26.054783Z",
             "modified": "2020-09-08T07:54:26.054783Z",
             "relationship_type": "located-at",
-            "description": "Country Nicaragua is a located in Latin America and the Caribbean",
+            "description": "Country Nicaragua is located in Latin America and the Caribbean",
             "source_ref": "location--883da9b7-7e3b-4127-a760-e64deaa3fcc4",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3077,7 +3077,7 @@
             "created": "2020-09-08T07:54:26.054974Z",
             "modified": "2020-09-08T07:54:26.054974Z",
             "relationship_type": "located-at",
-            "description": "Country Panama is a located in Latin America and the Caribbean",
+            "description": "Country Panama is located in Latin America and the Caribbean",
             "source_ref": "location--bbfc30a7-e244-4195-976c-54fd629bde1c",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3108,7 +3108,7 @@
             "created": "2020-09-08T07:54:26.055163Z",
             "modified": "2020-09-08T07:54:26.055163Z",
             "relationship_type": "located-at",
-            "description": "Country Argentina is a located in Latin America and the Caribbean",
+            "description": "Country Argentina is located in Latin America and the Caribbean",
             "source_ref": "location--992b40a7-950a-41ef-88fc-bf158b6bdacb",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3140,7 +3140,7 @@
             "created": "2020-09-08T07:54:26.055354Z",
             "modified": "2020-09-08T07:54:26.055354Z",
             "relationship_type": "located-at",
-            "description": "Country Bolivia (Plurinational State of) is a located in Latin America and the Caribbean",
+            "description": "Country Bolivia (Plurinational State of) is located in Latin America and the Caribbean",
             "source_ref": "location--5627253a-884c-4dbe-a591-9a11a3838708",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3170,7 +3170,7 @@
             "created": "2020-09-08T07:54:26.055611Z",
             "modified": "2020-09-08T07:54:26.055611Z",
             "relationship_type": "located-at",
-            "description": "Country Bouvet Island is a located in Latin America and the Caribbean",
+            "description": "Country Bouvet Island is located in Latin America and the Caribbean",
             "source_ref": "location--61744517-44b0-4c1e-86be-6914a1aa30a3",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3201,7 +3201,7 @@
             "created": "2020-09-08T07:54:26.055918Z",
             "modified": "2020-09-08T07:54:26.055918Z",
             "relationship_type": "located-at",
-            "description": "Country Brazil is a located in Latin America and the Caribbean",
+            "description": "Country Brazil is located in Latin America and the Caribbean",
             "source_ref": "location--c7135237-6dca-4f59-9a15-43fd8f20772a",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3232,7 +3232,7 @@
             "created": "2020-09-08T07:54:26.056172Z",
             "modified": "2020-09-08T07:54:26.056172Z",
             "relationship_type": "located-at",
-            "description": "Country Chile is a located in Latin America and the Caribbean",
+            "description": "Country Chile is located in Latin America and the Caribbean",
             "source_ref": "location--21ef416a-1ca3-45f6-b3d7-b7251b271b39",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3263,7 +3263,7 @@
             "created": "2020-09-08T07:54:26.056378Z",
             "modified": "2020-09-08T07:54:26.056378Z",
             "relationship_type": "located-at",
-            "description": "Country Colombia is a located in Latin America and the Caribbean",
+            "description": "Country Colombia is located in Latin America and the Caribbean",
             "source_ref": "location--9fae6d88-590c-4b14-9958-f8564da106d4",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3294,7 +3294,7 @@
             "created": "2020-09-08T07:54:26.056613Z",
             "modified": "2020-09-08T07:54:26.056613Z",
             "relationship_type": "located-at",
-            "description": "Country Ecuador is a located in Latin America and the Caribbean",
+            "description": "Country Ecuador is located in Latin America and the Caribbean",
             "source_ref": "location--37aa4b9b-0ea9-4732-b8a4-e3b1d08b9d8c",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3326,7 +3326,7 @@
             "created": "2020-09-08T07:54:26.056816Z",
             "modified": "2020-09-08T07:54:26.056816Z",
             "relationship_type": "located-at",
-            "description": "Country Falkland Islands (Malvinas) is a located in Latin America and the Caribbean",
+            "description": "Country Falkland Islands (Malvinas) is located in Latin America and the Caribbean",
             "source_ref": "location--4a87a454-8fcd-46bd-b421-df3ef4a26f05",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3356,7 +3356,7 @@
             "created": "2020-09-08T07:54:26.057014Z",
             "modified": "2020-09-08T07:54:26.057014Z",
             "relationship_type": "located-at",
-            "description": "Country French Guiana is a located in Latin America and the Caribbean",
+            "description": "Country French Guiana is located in Latin America and the Caribbean",
             "source_ref": "location--9eb43d13-cbf5-4676-95b5-0edb7d39011c",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3387,7 +3387,7 @@
             "created": "2020-09-08T07:54:26.057233Z",
             "modified": "2020-09-08T07:54:26.057233Z",
             "relationship_type": "located-at",
-            "description": "Country Guyana is a located in Latin America and the Caribbean",
+            "description": "Country Guyana is located in Latin America and the Caribbean",
             "source_ref": "location--cd1c6ea0-d789-4ec7-9d5b-502f85a0e6fa",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3418,7 +3418,7 @@
             "created": "2020-09-08T07:54:26.057501Z",
             "modified": "2020-09-08T07:54:26.057501Z",
             "relationship_type": "located-at",
-            "description": "Country Paraguay is a located in Latin America and the Caribbean",
+            "description": "Country Paraguay is located in Latin America and the Caribbean",
             "source_ref": "location--cf2485ff-f251-444c-9e51-6cb84b61fbb8",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3449,7 +3449,7 @@
             "created": "2020-09-08T07:54:26.057851Z",
             "modified": "2020-09-08T07:54:26.057851Z",
             "relationship_type": "located-at",
-            "description": "Country Peru is a located in Latin America and the Caribbean",
+            "description": "Country Peru is located in Latin America and the Caribbean",
             "source_ref": "location--8d70e6cf-5296-4059-b63a-6f0cb742e583",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3479,7 +3479,7 @@
             "created": "2020-09-08T07:54:26.058172Z",
             "modified": "2020-09-08T07:54:26.058172Z",
             "relationship_type": "located-at",
-            "description": "Country South Georgia and the South Sandwich Islands is a located in Latin America and the Caribbean",
+            "description": "Country South Georgia and the South Sandwich Islands is located in Latin America and the Caribbean",
             "source_ref": "location--01daac57-2783-4c4b-96a7-8ba1b7e5c1f0",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3510,7 +3510,7 @@
             "created": "2020-09-08T07:54:26.058499Z",
             "modified": "2020-09-08T07:54:26.058499Z",
             "relationship_type": "located-at",
-            "description": "Country Suriname is a located in Latin America and the Caribbean",
+            "description": "Country Suriname is located in Latin America and the Caribbean",
             "source_ref": "location--14bb76ec-46a5-438b-800d-4326c439d510",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3541,7 +3541,7 @@
             "created": "2020-09-08T07:54:26.058814Z",
             "modified": "2020-09-08T07:54:26.058814Z",
             "relationship_type": "located-at",
-            "description": "Country Uruguay is a located in Latin America and the Caribbean",
+            "description": "Country Uruguay is located in Latin America and the Caribbean",
             "source_ref": "location--9b749617-9d6a-4dd3-bec4-ab91eaf8533b",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3573,7 +3573,7 @@
             "created": "2020-09-08T07:54:26.059032Z",
             "modified": "2020-09-08T07:54:26.059032Z",
             "relationship_type": "located-at",
-            "description": "Country Venezuela (Bolivarian Republic of) is a located in Latin America and the Caribbean",
+            "description": "Country Venezuela (Bolivarian Republic of) is located in Latin America and the Caribbean",
             "source_ref": "location--13c5f8f3-98e9-42a1-ad0f-a3bf7fc6365e",
             "target_ref": "location--f667d6a3-9475-48fd-8a8d-65a36fdb2e2e",
             "confidence": 100
@@ -3629,7 +3629,7 @@
             "created": "2020-09-08T07:54:26.059544Z",
             "modified": "2020-09-08T07:54:26.059544Z",
             "relationship_type": "located-at",
-            "description": "Country Bermuda is a located in Northern America",
+            "description": "Country Bermuda is located in Northern America",
             "source_ref": "location--5afe97de-1464-4315-b80a-01463367f1bf",
             "target_ref": "location--75a5b491-3fb8-4176-a572-0e84c7e352bc",
             "confidence": 100
@@ -3659,7 +3659,7 @@
             "created": "2020-09-08T07:54:26.059782Z",
             "modified": "2020-09-08T07:54:26.059782Z",
             "relationship_type": "located-at",
-            "description": "Country Canada is a located in Northern America",
+            "description": "Country Canada is located in Northern America",
             "source_ref": "location--f1ff7040-cde1-464a-a6fd-7f762f72b735",
             "target_ref": "location--75a5b491-3fb8-4176-a572-0e84c7e352bc",
             "confidence": 100
@@ -3689,7 +3689,7 @@
             "created": "2020-09-08T07:54:26.059991Z",
             "modified": "2020-09-08T07:54:26.059991Z",
             "relationship_type": "located-at",
-            "description": "Country Greenland is a located in Northern America",
+            "description": "Country Greenland is located in Northern America",
             "source_ref": "location--131cdc80-5cc0-4e41-91a0-0ac7b771d378",
             "target_ref": "location--75a5b491-3fb8-4176-a572-0e84c7e352bc",
             "confidence": 100
@@ -3719,7 +3719,7 @@
             "created": "2020-09-08T07:54:26.060193Z",
             "modified": "2020-09-08T07:54:26.060193Z",
             "relationship_type": "located-at",
-            "description": "Country Saint Pierre and Miquelon is a located in Northern America",
+            "description": "Country Saint Pierre and Miquelon is located in Northern America",
             "source_ref": "location--6c3907c8-2b37-4e17-8304-135b9232f368",
             "target_ref": "location--75a5b491-3fb8-4176-a572-0e84c7e352bc",
             "confidence": 100
@@ -3751,7 +3751,7 @@
             "created": "2020-09-08T07:54:26.060384Z",
             "modified": "2020-09-08T07:54:26.060384Z",
             "relationship_type": "located-at",
-            "description": "Country United States of America is a located in Northern America",
+            "description": "Country United States of America is located in Northern America",
             "source_ref": "location--dbac05fd-3616-4d7c-9bcd-e6b867c1f5be",
             "target_ref": "location--75a5b491-3fb8-4176-a572-0e84c7e352bc",
             "confidence": 100
@@ -3821,7 +3821,7 @@
             "created": "2020-09-08T07:54:26.060967Z",
             "modified": "2020-09-08T07:54:26.060967Z",
             "relationship_type": "located-at",
-            "description": "Country Kazakhstan is a located in Central Asia",
+            "description": "Country Kazakhstan is located in Central Asia",
             "source_ref": "location--b52c3cd6-55f6-4f66-8a55-7b5e4646a57d",
             "target_ref": "location--29c0ad64-9879-4c4d-a15a-d7b147b49619",
             "confidence": 100
@@ -3852,7 +3852,7 @@
             "created": "2020-09-08T07:54:26.061181Z",
             "modified": "2020-09-08T07:54:26.061181Z",
             "relationship_type": "located-at",
-            "description": "Country Kyrgyzstan is a located in Central Asia",
+            "description": "Country Kyrgyzstan is located in Central Asia",
             "source_ref": "location--814a0aed-8d55-4793-b350-3eab41ef32d2",
             "target_ref": "location--29c0ad64-9879-4c4d-a15a-d7b147b49619",
             "confidence": 100
@@ -3883,7 +3883,7 @@
             "created": "2020-09-08T07:54:26.061384Z",
             "modified": "2020-09-08T07:54:26.061384Z",
             "relationship_type": "located-at",
-            "description": "Country Tajikistan is a located in Central Asia",
+            "description": "Country Tajikistan is located in Central Asia",
             "source_ref": "location--0a21c122-4967-4294-a254-bc431548552e",
             "target_ref": "location--29c0ad64-9879-4c4d-a15a-d7b147b49619",
             "confidence": 100
@@ -3913,7 +3913,7 @@
             "created": "2020-09-08T07:54:26.061585Z",
             "modified": "2020-09-08T07:54:26.061585Z",
             "relationship_type": "located-at",
-            "description": "Country Turkmenistan is a located in Central Asia",
+            "description": "Country Turkmenistan is located in Central Asia",
             "source_ref": "location--9101eb9e-2f21-4b17-a7d6-14f3dc22bbbe",
             "target_ref": "location--29c0ad64-9879-4c4d-a15a-d7b147b49619",
             "confidence": 100
@@ -3944,7 +3944,7 @@
             "created": "2020-09-08T07:54:26.061791Z",
             "modified": "2020-09-08T07:54:26.061791Z",
             "relationship_type": "located-at",
-            "description": "Country Uzbekistan is a located in Central Asia",
+            "description": "Country Uzbekistan is located in Central Asia",
             "source_ref": "location--b21c0b51-dd6d-46a1-9296-86ed0a61d5f9",
             "target_ref": "location--29c0ad64-9879-4c4d-a15a-d7b147b49619",
             "confidence": 100
@@ -3999,7 +3999,7 @@
             "created": "2020-09-08T07:54:26.062209Z",
             "modified": "2020-09-08T07:54:26.062209Z",
             "relationship_type": "located-at",
-            "description": "Country China is a located in Eastern Asia",
+            "description": "Country China is located in Eastern Asia",
             "source_ref": "location--bce7047c-c986-4601-9395-d46f577ce237",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4031,7 +4031,7 @@
             "created": "2020-09-08T07:54:26.062427Z",
             "modified": "2020-09-08T07:54:26.062427Z",
             "relationship_type": "located-at",
-            "description": "Country Hong Kong Special Administrative Region is a located in Eastern Asia",
+            "description": "Country Hong Kong Special Administrative Region is located in Eastern Asia",
             "source_ref": "location--31e5b322-0804-4cb0-812a-f44cf17110f6",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4063,7 +4063,7 @@
             "created": "2020-09-08T07:54:26.062729Z",
             "modified": "2020-09-08T07:54:26.062729Z",
             "relationship_type": "located-at",
-            "description": "Country Macao Special Administrative Region is a located in Eastern Asia",
+            "description": "Country Macao Special Administrative Region is located in Eastern Asia",
             "source_ref": "location--7ed83b05-7171-4bfb-8380-0d0728367f3f",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4096,7 +4096,7 @@
             "created": "2020-09-08T07:54:26.063019Z",
             "modified": "2020-09-08T07:54:26.063019Z",
             "relationship_type": "located-at",
-            "description": "Country Democratic People's Republic of Korea is a located in Eastern Asia",
+            "description": "Country Democratic People's Republic of Korea is located in Eastern Asia",
             "source_ref": "location--a6cadfda-9224-49e3-bc67-f715c19c3fdb",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4126,7 +4126,7 @@
             "created": "2020-09-08T07:54:26.063318Z",
             "modified": "2020-09-08T07:54:26.063318Z",
             "relationship_type": "located-at",
-            "description": "Country Japan is a located in Eastern Asia",
+            "description": "Country Japan is located in Eastern Asia",
             "source_ref": "location--fe64f4cd-2d3a-4fe6-aaee-01aab011b0d4",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4156,7 +4156,7 @@
             "created": "2020-09-08T07:54:26.063615Z",
             "modified": "2020-09-08T07:54:26.063615Z",
             "relationship_type": "located-at",
-            "description": "Country Mongolia is a located in Eastern Asia",
+            "description": "Country Mongolia is located in Eastern Asia",
             "source_ref": "location--489a5be3-5051-42e6-a146-45e20704a410",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4189,7 +4189,7 @@
             "created": "2020-09-08T07:54:26.063888Z",
             "modified": "2020-09-08T07:54:26.063888Z",
             "relationship_type": "located-at",
-            "description": "Country Republic of Korea is a located in Eastern Asia",
+            "description": "Country Republic of Korea is located in Eastern Asia",
             "source_ref": "location--69b73a4d-de23-46cc-b870-326ba940bba0",
             "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
             "confidence": 100
@@ -4243,7 +4243,7 @@
             "created": "2020-09-08T07:54:26.06432Z",
             "modified": "2020-09-08T07:54:26.06432Z",
             "relationship_type": "located-at",
-            "description": "Country Brunei Darussalam is a located in South-eastern Asia",
+            "description": "Country Brunei Darussalam is located in South-eastern Asia",
             "source_ref": "location--c9f7059a-0ed2-4307-a30b-e20368faff59",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4274,7 +4274,7 @@
             "created": "2020-09-08T07:54:26.064514Z",
             "modified": "2020-09-08T07:54:26.064514Z",
             "relationship_type": "located-at",
-            "description": "Country Cambodia is a located in South-eastern Asia",
+            "description": "Country Cambodia is located in South-eastern Asia",
             "source_ref": "location--e3598ce5-efab-429e-b41b-88b90aa389c0",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4305,7 +4305,7 @@
             "created": "2020-09-08T07:54:26.064713Z",
             "modified": "2020-09-08T07:54:26.064713Z",
             "relationship_type": "located-at",
-            "description": "Country Indonesia is a located in South-eastern Asia",
+            "description": "Country Indonesia is located in South-eastern Asia",
             "source_ref": "location--69000f30-9b2c-4d74-b6fc-4c1875d15db0",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4337,7 +4337,7 @@
             "created": "2020-09-08T07:54:26.064914Z",
             "modified": "2020-09-08T07:54:26.064914Z",
             "relationship_type": "located-at",
-            "description": "Country Lao People's Democratic Republic is a located in South-eastern Asia",
+            "description": "Country Lao People's Democratic Republic is located in South-eastern Asia",
             "source_ref": "location--de45a6fb-e1f1-4053-a480-d498882e11da",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4367,7 +4367,7 @@
             "created": "2020-09-08T07:54:26.065106Z",
             "modified": "2020-09-08T07:54:26.065106Z",
             "relationship_type": "located-at",
-            "description": "Country Malaysia is a located in South-eastern Asia",
+            "description": "Country Malaysia is located in South-eastern Asia",
             "source_ref": "location--c81cae92-fa49-4dd9-9329-80ecd503e134",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4398,7 +4398,7 @@
             "created": "2020-09-08T07:54:26.065303Z",
             "modified": "2020-09-08T07:54:26.065303Z",
             "relationship_type": "located-at",
-            "description": "Country Myanmar is a located in South-eastern Asia",
+            "description": "Country Myanmar is located in South-eastern Asia",
             "source_ref": "location--4145b9ec-ee0a-4d35-afb9-9b5196e846d5",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4430,7 +4430,7 @@
             "created": "2020-09-08T07:54:26.065496Z",
             "modified": "2020-09-08T07:54:26.065496Z",
             "relationship_type": "located-at",
-            "description": "Country Philippines is a located in South-eastern Asia",
+            "description": "Country Philippines is located in South-eastern Asia",
             "source_ref": "location--9c1e3039-90a6-481c-b88f-0a587dcb4ae3",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4461,7 +4461,7 @@
             "created": "2020-09-08T07:54:26.065701Z",
             "modified": "2020-09-08T07:54:26.065701Z",
             "relationship_type": "located-at",
-            "description": "Country Singapore is a located in South-eastern Asia",
+            "description": "Country Singapore is located in South-eastern Asia",
             "source_ref": "location--dc36e8c6-435b-4f06-9915-7dbb584fff47",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4492,7 +4492,7 @@
             "created": "2020-09-08T07:54:26.065906Z",
             "modified": "2020-09-08T07:54:26.065906Z",
             "relationship_type": "located-at",
-            "description": "Country Thailand is a located in South-eastern Asia",
+            "description": "Country Thailand is located in South-eastern Asia",
             "source_ref": "location--60e63c7c-8084-4e93-9c11-e9dab05d6ebb",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4523,7 +4523,7 @@
             "created": "2020-09-08T07:54:26.066098Z",
             "modified": "2020-09-08T07:54:26.066098Z",
             "relationship_type": "located-at",
-            "description": "Country Timor-Leste is a located in South-eastern Asia",
+            "description": "Country Timor-Leste is located in South-eastern Asia",
             "source_ref": "location--4201dceb-1bfd-4a37-b52e-067a2b227cff",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4554,7 +4554,7 @@
             "created": "2020-09-08T07:54:26.066324Z",
             "modified": "2020-09-08T07:54:26.066324Z",
             "relationship_type": "located-at",
-            "description": "Country Viet Nam is a located in South-eastern Asia",
+            "description": "Country Viet Nam is located in South-eastern Asia",
             "source_ref": "location--d32bae97-5a06-4eb8-8841-0804f4901459",
             "target_ref": "location--585445d4-0276-4209-b2fa-21e9c8c533d7",
             "confidence": 100
@@ -4609,7 +4609,7 @@
             "created": "2020-09-08T07:54:26.066714Z",
             "modified": "2020-09-08T07:54:26.066714Z",
             "relationship_type": "located-at",
-            "description": "Country Afghanistan is a located in Southern Asia",
+            "description": "Country Afghanistan is located in Southern Asia",
             "source_ref": "location--2af22167-c50e-41fb-91dc-ca0225a61a5b",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4640,7 +4640,7 @@
             "created": "2020-09-08T07:54:26.066914Z",
             "modified": "2020-09-08T07:54:26.066914Z",
             "relationship_type": "located-at",
-            "description": "Country Bangladesh is a located in Southern Asia",
+            "description": "Country Bangladesh is located in Southern Asia",
             "source_ref": "location--ceff68c9-46ab-4e5a-a1ec-c13b8aad6cd1",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4671,7 +4671,7 @@
             "created": "2020-09-08T07:54:26.06711Z",
             "modified": "2020-09-08T07:54:26.06711Z",
             "relationship_type": "located-at",
-            "description": "Country Bhutan is a located in Southern Asia",
+            "description": "Country Bhutan is located in Southern Asia",
             "source_ref": "location--cdf6dbd7-97f1-45a9-9a6f-f228898c4384",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4702,7 +4702,7 @@
             "created": "2020-09-08T07:54:26.067302Z",
             "modified": "2020-09-08T07:54:26.067302Z",
             "relationship_type": "located-at",
-            "description": "Country India is a located in Southern Asia",
+            "description": "Country India is located in Southern Asia",
             "source_ref": "location--7c193f95-f96b-42eb-8569-0834349b1bba",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4735,7 +4735,7 @@
             "created": "2020-09-08T07:54:26.067489Z",
             "modified": "2020-09-08T07:54:26.067489Z",
             "relationship_type": "located-at",
-            "description": "Country Iran (Islamic Republic of) is a located in Southern Asia",
+            "description": "Country Iran (Islamic Republic of) is located in Southern Asia",
             "source_ref": "location--79c4420c-f8ed-4757-a2d8-02f4f0e1d0fe",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4766,7 +4766,7 @@
             "created": "2020-09-08T07:54:26.067688Z",
             "modified": "2020-09-08T07:54:26.067688Z",
             "relationship_type": "located-at",
-            "description": "Country Maldives is a located in Southern Asia",
+            "description": "Country Maldives is located in Southern Asia",
             "source_ref": "location--c843171a-2575-45fb-af3b-df89a8f21718",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4797,7 +4797,7 @@
             "created": "2020-09-08T07:54:26.067873Z",
             "modified": "2020-09-08T07:54:26.067873Z",
             "relationship_type": "located-at",
-            "description": "Country Nepal is a located in Southern Asia",
+            "description": "Country Nepal is located in Southern Asia",
             "source_ref": "location--5bc738ec-59fa-4d6c-9fd0-0f694e66474c",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4828,7 +4828,7 @@
             "created": "2020-09-08T07:54:26.068109Z",
             "modified": "2020-09-08T07:54:26.068109Z",
             "relationship_type": "located-at",
-            "description": "Country Pakistan is a located in Southern Asia",
+            "description": "Country Pakistan is located in Southern Asia",
             "source_ref": "location--1d159ef7-392a-49b3-8ca6-b51621e6bec8",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4859,7 +4859,7 @@
             "created": "2020-09-08T07:54:26.068324Z",
             "modified": "2020-09-08T07:54:26.068324Z",
             "relationship_type": "located-at",
-            "description": "Country Sri Lanka is a located in Southern Asia",
+            "description": "Country Sri Lanka is located in Southern Asia",
             "source_ref": "location--8c00bd48-4dc0-4b3f-b9b3-918cf69319af",
             "target_ref": "location--2d7147c8-98a6-4cb6-b2a3-2f7c4f9b1479",
             "confidence": 100
@@ -4914,7 +4914,7 @@
             "created": "2020-09-08T07:54:26.068708Z",
             "modified": "2020-09-08T07:54:26.068708Z",
             "relationship_type": "located-at",
-            "description": "Country Armenia is a located in Middle East",
+            "description": "Country Armenia is located in Middle East",
             "source_ref": "location--452cf041-37ff-4902-9b4c-f268e73b9861",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -4945,7 +4945,7 @@
             "created": "2020-09-08T07:54:26.068938Z",
             "modified": "2020-09-08T07:54:26.068938Z",
             "relationship_type": "located-at",
-            "description": "Country Azerbaijan is a located in Middle East",
+            "description": "Country Azerbaijan is located in Middle East",
             "source_ref": "location--8538e405-3e1f-4909-a660-10e105956336",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -4976,7 +4976,7 @@
             "created": "2020-09-08T07:54:26.069132Z",
             "modified": "2020-09-08T07:54:26.069132Z",
             "relationship_type": "located-at",
-            "description": "Country Bahrain is a located in Middle East",
+            "description": "Country Bahrain is located in Middle East",
             "source_ref": "location--30851763-bcd0-493a-bc8c-68899a234d34",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5006,7 +5006,7 @@
             "created": "2020-09-08T07:54:26.06932Z",
             "modified": "2020-09-08T07:54:26.06932Z",
             "relationship_type": "located-at",
-            "description": "Country Georgia is a located in Middle East",
+            "description": "Country Georgia is located in Middle East",
             "source_ref": "location--6564c702-400c-456d-9260-7f080c1add22",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5037,7 +5037,7 @@
             "created": "2020-09-08T07:54:26.069505Z",
             "modified": "2020-09-08T07:54:26.069505Z",
             "relationship_type": "located-at",
-            "description": "Country Iraq is a located in Middle East",
+            "description": "Country Iraq is located in Middle East",
             "source_ref": "location--9dcdad6a-08fa-4956-806e-61ef6472b918",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5068,7 +5068,7 @@
             "created": "2020-09-08T07:54:26.069699Z",
             "modified": "2020-09-08T07:54:26.069699Z",
             "relationship_type": "located-at",
-            "description": "Country Israel is a located in Middle East",
+            "description": "Country Israel is located in Middle East",
             "source_ref": "location--e9cbb2ff-9bba-4ab8-91c0-2a02bb2ac1ad",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5099,7 +5099,7 @@
             "created": "2020-09-08T07:54:26.0699Z",
             "modified": "2020-09-08T07:54:26.0699Z",
             "relationship_type": "located-at",
-            "description": "Country Jordan is a located in Middle East",
+            "description": "Country Jordan is located in Middle East",
             "source_ref": "location--19c4553f-fc87-477c-aed4-c6a5be3199b0",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5130,7 +5130,7 @@
             "created": "2020-09-08T07:54:26.070087Z",
             "modified": "2020-09-08T07:54:26.070087Z",
             "relationship_type": "located-at",
-            "description": "Country Kuwait is a located in Middle East",
+            "description": "Country Kuwait is located in Middle East",
             "source_ref": "location--06d56e94-1f6e-4806-b35e-be7e5d5ac04f",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5161,7 +5161,7 @@
             "created": "2020-09-08T07:54:26.070275Z",
             "modified": "2020-09-08T07:54:26.070275Z",
             "relationship_type": "located-at",
-            "description": "Country Lebanon is a located in Middle East",
+            "description": "Country Lebanon is located in Middle East",
             "source_ref": "location--efa50d4d-4964-482d-9ba0-9335afff830f",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5192,7 +5192,7 @@
             "created": "2020-09-08T07:54:26.07046Z",
             "modified": "2020-09-08T07:54:26.07046Z",
             "relationship_type": "located-at",
-            "description": "Country Oman is a located in Middle East",
+            "description": "Country Oman is located in Middle East",
             "source_ref": "location--56d85d02-e6b0-4d9f-a7a4-78256576d5c0",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5223,7 +5223,7 @@
             "created": "2020-09-08T07:54:26.070652Z",
             "modified": "2020-09-08T07:54:26.070652Z",
             "relationship_type": "located-at",
-            "description": "Country Qatar is a located in Middle East",
+            "description": "Country Qatar is located in Middle East",
             "source_ref": "location--e48bc40f-705c-4aa2-a1ca-2467af4637cb",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5254,7 +5254,7 @@
             "created": "2020-09-08T07:54:26.070858Z",
             "modified": "2020-09-08T07:54:26.070858Z",
             "relationship_type": "located-at",
-            "description": "Country Saudi Arabia is a located in Middle East",
+            "description": "Country Saudi Arabia is located in Middle East",
             "source_ref": "location--ecfffc7d-cf77-496d-9678-5bc55ac9637c",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5287,7 +5287,7 @@
             "created": "2020-09-08T07:54:26.071059Z",
             "modified": "2020-09-08T07:54:26.071059Z",
             "relationship_type": "located-at",
-            "description": "Country State of Palestine is a located in Middle East",
+            "description": "Country State of Palestine is located in Middle East",
             "source_ref": "location--f1c01537-f443-4d98-8a1a-94dce65d8a51",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5319,7 +5319,7 @@
             "created": "2020-09-08T07:54:26.071249Z",
             "modified": "2020-09-08T07:54:26.071249Z",
             "relationship_type": "located-at",
-            "description": "Country Syrian Arab Republic is a located in Middle East",
+            "description": "Country Syrian Arab Republic is located in Middle East",
             "source_ref": "location--66e2d6bc-026a-4e09-97b8-a9a6c2c1b208",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5350,7 +5350,7 @@
             "created": "2020-09-08T07:54:26.071437Z",
             "modified": "2020-09-08T07:54:26.071437Z",
             "relationship_type": "located-at",
-            "description": "Country Turkey is a located in Middle East",
+            "description": "Country Turkey is located in Middle East",
             "source_ref": "location--147c2fcb-6746-4af6-8534-802578414d54",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5381,7 +5381,7 @@
             "created": "2020-09-08T07:54:26.071629Z",
             "modified": "2020-09-08T07:54:26.071629Z",
             "relationship_type": "located-at",
-            "description": "Country United Arab Emirates is a located in Middle East",
+            "description": "Country United Arab Emirates is located in Middle East",
             "source_ref": "location--d6ff0834-cc14-46d0-b4e2-534d940fcade",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5412,7 +5412,7 @@
             "created": "2020-09-08T07:54:26.071814Z",
             "modified": "2020-09-08T07:54:26.071814Z",
             "relationship_type": "located-at",
-            "description": "Country Yemen is a located in Middle East",
+            "description": "Country Yemen is located in Middle East",
             "source_ref": "location--412a7f65-1b53-4e74-b90a-01d322df4065",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5443,7 +5443,7 @@
             "created": "2020-09-08T07:54:26.071998Z",
             "modified": "2020-09-08T07:54:26.071998Z",
             "relationship_type": "located-at",
-            "description": "Country Cyprus is a located in Middle East",
+            "description": "Country Cyprus is located in Middle East",
             "source_ref": "location--c158c6f7-8c48-4018-974d-6ff3091bb5c8",
             "target_ref": "location--9371a3ed-2c3d-4ed0-9cf9-191e8b71b9a3",
             "confidence": 100
@@ -5509,7 +5509,7 @@
             "created": "2020-09-08T07:54:26.072531Z",
             "modified": "2020-09-08T07:54:26.072531Z",
             "relationship_type": "located-at",
-            "description": "Country Belarus is a located in Eastern Europe",
+            "description": "Country Belarus is located in Eastern Europe",
             "source_ref": "location--adf6ce51-5662-4b23-9354-b03a0954f4bf",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5540,7 +5540,7 @@
             "created": "2020-09-08T07:54:26.072793Z",
             "modified": "2020-09-08T07:54:26.072793Z",
             "relationship_type": "located-at",
-            "description": "Country Bulgaria is a located in Eastern Europe",
+            "description": "Country Bulgaria is located in Eastern Europe",
             "source_ref": "location--a28d8a76-087a-4758-a4cf-f05779293588",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5571,7 +5571,7 @@
             "created": "2020-09-08T07:54:26.072987Z",
             "modified": "2020-09-08T07:54:26.072987Z",
             "relationship_type": "located-at",
-            "description": "Country Czechia is a located in Eastern Europe",
+            "description": "Country Czechia is located in Eastern Europe",
             "source_ref": "location--250f8a47-8cb5-4262-a8e8-4b46cd9704eb",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5601,7 +5601,7 @@
             "created": "2020-09-08T07:54:26.073183Z",
             "modified": "2020-09-08T07:54:26.073183Z",
             "relationship_type": "located-at",
-            "description": "Country Hungary is a located in Eastern Europe",
+            "description": "Country Hungary is located in Eastern Europe",
             "source_ref": "location--56c0f5ae-6fdf-43eb-9742-c1f85eba40be",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5632,7 +5632,7 @@
             "created": "2020-09-08T07:54:26.07338Z",
             "modified": "2020-09-08T07:54:26.07338Z",
             "relationship_type": "located-at",
-            "description": "Country Poland is a located in Eastern Europe",
+            "description": "Country Poland is located in Eastern Europe",
             "source_ref": "location--3ac13daa-60e5-41c1-923c-92e2ec70e823",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5665,7 +5665,7 @@
             "created": "2020-09-08T07:54:26.073572Z",
             "modified": "2020-09-08T07:54:26.073572Z",
             "relationship_type": "located-at",
-            "description": "Country Republic of Moldova is a located in Eastern Europe",
+            "description": "Country Republic of Moldova is located in Eastern Europe",
             "source_ref": "location--04f27d08-1c09-40b1-aff0-55203803383c",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5695,7 +5695,7 @@
             "created": "2020-09-08T07:54:26.073782Z",
             "modified": "2020-09-08T07:54:26.073782Z",
             "relationship_type": "located-at",
-            "description": "Country Romania is a located in Eastern Europe",
+            "description": "Country Romania is located in Eastern Europe",
             "source_ref": "location--e6a239c8-9e41-4dec-95ab-45c13981a57b",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5727,7 +5727,7 @@
             "created": "2020-09-08T07:54:26.073979Z",
             "modified": "2020-09-08T07:54:26.073979Z",
             "relationship_type": "located-at",
-            "description": "Country Russian Federation is a located in Eastern Europe",
+            "description": "Country Russian Federation is located in Eastern Europe",
             "source_ref": "location--3e45f29a-3269-491f-ac9d-5e680db683b2",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5758,7 +5758,7 @@
             "created": "2020-09-08T07:54:26.07417Z",
             "modified": "2020-09-08T07:54:26.07417Z",
             "relationship_type": "located-at",
-            "description": "Country Slovakia is a located in Eastern Europe",
+            "description": "Country Slovakia is located in Eastern Europe",
             "source_ref": "location--e892e333-ba6b-4786-941b-380700939f90",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5788,7 +5788,7 @@
             "created": "2020-09-08T07:54:26.07436Z",
             "modified": "2020-09-08T07:54:26.07436Z",
             "relationship_type": "located-at",
-            "description": "Country Ukraine is a located in Eastern Europe",
+            "description": "Country Ukraine is located in Eastern Europe",
             "source_ref": "location--e5f054fc-fc63-46f3-8d63-1f93e0cb7801",
             "target_ref": "location--9dbd67a0-5ed6-4f3f-81c7-886c8918f3ee",
             "confidence": 100
@@ -5842,7 +5842,7 @@
             "created": "2020-09-08T07:54:26.07476Z",
             "modified": "2020-09-08T07:54:26.07476Z",
             "relationship_type": "located-at",
-            "description": "Country \u00c5land Islands is a located in Northern Europe",
+            "description": "Country \u00c5land Islands is located in Northern Europe",
             "source_ref": "location--dcb05beb-a641-46cd-9401-ea169da12034",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -5872,7 +5872,7 @@
             "created": "2020-09-08T07:54:26.074949Z",
             "modified": "2020-09-08T07:54:26.074949Z",
             "relationship_type": "located-at",
-            "description": "Country Guernsey is a located in Northern Europe",
+            "description": "Country Guernsey is located in Northern Europe",
             "source_ref": "location--53d199ef-6b3d-46be-873e-f3fb659d0795",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -5902,7 +5902,7 @@
             "created": "2020-09-08T07:54:26.075142Z",
             "modified": "2020-09-08T07:54:26.075142Z",
             "relationship_type": "located-at",
-            "description": "Country Jersey is a located in Northern Europe",
+            "description": "Country Jersey is located in Northern Europe",
             "source_ref": "location--b56f8137-dc70-48a3-b3d3-847f49687c9d",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -5933,7 +5933,7 @@
             "created": "2020-09-08T07:54:26.075524Z",
             "modified": "2020-09-08T07:54:26.075524Z",
             "relationship_type": "located-at",
-            "description": "Country Denmark is a located in Northern Europe",
+            "description": "Country Denmark is located in Northern Europe",
             "source_ref": "location--757b3812-ae65-47b1-a0bb-0bec356e14ce",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -5964,7 +5964,7 @@
             "created": "2020-09-08T07:54:26.075712Z",
             "modified": "2020-09-08T07:54:26.075712Z",
             "relationship_type": "located-at",
-            "description": "Country Estonia is a located in Northern Europe",
+            "description": "Country Estonia is located in Northern Europe",
             "source_ref": "location--de50daff-5875-4ca7-b686-0dbf86739857",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -5995,7 +5995,7 @@
             "created": "2020-09-08T07:54:26.075912Z",
             "modified": "2020-09-08T07:54:26.075912Z",
             "relationship_type": "located-at",
-            "description": "Country Faroe Islands is a located in Northern Europe",
+            "description": "Country Faroe Islands is located in Northern Europe",
             "source_ref": "location--41fca427-3cff-4cb8-b79b-cdac69fc369a",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6026,7 +6026,7 @@
             "created": "2020-09-08T07:54:26.076103Z",
             "modified": "2020-09-08T07:54:26.076103Z",
             "relationship_type": "located-at",
-            "description": "Country Finland is a located in Northern Europe",
+            "description": "Country Finland is located in Northern Europe",
             "source_ref": "location--d7108c88-7d9c-4638-b249-39d4699c4af9",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6057,7 +6057,7 @@
             "created": "2020-09-08T07:54:26.076294Z",
             "modified": "2020-09-08T07:54:26.076294Z",
             "relationship_type": "located-at",
-            "description": "Country Iceland is a located in Northern Europe",
+            "description": "Country Iceland is located in Northern Europe",
             "source_ref": "location--87533d23-f279-442d-a26e-7d75be90b51f",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6087,7 +6087,7 @@
             "created": "2020-09-08T07:54:26.076483Z",
             "modified": "2020-09-08T07:54:26.076483Z",
             "relationship_type": "located-at",
-            "description": "Country Ireland is a located in Northern Europe",
+            "description": "Country Ireland is located in Northern Europe",
             "source_ref": "location--626f112c-73ea-454f-aac6-f9b0916f7d03",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6117,7 +6117,7 @@
             "created": "2020-09-08T07:54:26.076672Z",
             "modified": "2020-09-08T07:54:26.076672Z",
             "relationship_type": "located-at",
-            "description": "Country Isle of Man is a located in Northern Europe",
+            "description": "Country Isle of Man is located in Northern Europe",
             "source_ref": "location--322c8f91-06cb-43ff-badd-36a601187c7d",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6148,7 +6148,7 @@
             "created": "2020-09-08T07:54:26.076863Z",
             "modified": "2020-09-08T07:54:26.076863Z",
             "relationship_type": "located-at",
-            "description": "Country Latvia is a located in Northern Europe",
+            "description": "Country Latvia is located in Northern Europe",
             "source_ref": "location--e4f41ea3-c30a-42e7-8099-635430fde277",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6179,7 +6179,7 @@
             "created": "2020-09-08T07:54:26.077055Z",
             "modified": "2020-09-08T07:54:26.077055Z",
             "relationship_type": "located-at",
-            "description": "Country Lithuania is a located in Northern Europe",
+            "description": "Country Lithuania is located in Northern Europe",
             "source_ref": "location--c1c9e402-70c0-4543-bfac-b85571f40ff9",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6210,7 +6210,7 @@
             "created": "2020-09-08T07:54:26.077246Z",
             "modified": "2020-09-08T07:54:26.077246Z",
             "relationship_type": "located-at",
-            "description": "Country Norway is a located in Northern Europe",
+            "description": "Country Norway is located in Northern Europe",
             "source_ref": "location--bf722dfa-e13f-4926-9427-a0e20ead1379",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6241,7 +6241,7 @@
             "created": "2020-09-08T07:54:26.077434Z",
             "modified": "2020-09-08T07:54:26.077434Z",
             "relationship_type": "located-at",
-            "description": "Country Svalbard and Jan Mayen Islands is a located in Northern Europe",
+            "description": "Country Svalbard and Jan Mayen Islands is located in Northern Europe",
             "source_ref": "location--dabf3288-d4f6-43a7-8733-96698b1c7820",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6272,7 +6272,7 @@
             "created": "2020-09-08T07:54:26.077623Z",
             "modified": "2020-09-08T07:54:26.077623Z",
             "relationship_type": "located-at",
-            "description": "Country Sweden is a located in Northern Europe",
+            "description": "Country Sweden is located in Northern Europe",
             "source_ref": "location--9653dbb3-0cf5-402d-8aeb-e665366327da",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6304,7 +6304,7 @@
             "created": "2020-09-08T07:54:26.077843Z",
             "modified": "2020-09-08T07:54:26.077843Z",
             "relationship_type": "located-at",
-            "description": "Country United Kingdom of Great Britain and Northern Ireland is a located in Northern Europe",
+            "description": "Country United Kingdom of Great Britain and Northern Ireland is located in Northern Europe",
             "source_ref": "location--a038053a-849a-49f2-b6ad-e872dcff4c33",
             "target_ref": "location--747340b9-e1b3-4d8c-a102-a595d5a44327",
             "confidence": 100
@@ -6359,7 +6359,7 @@
             "created": "2020-09-08T07:54:26.078218Z",
             "modified": "2020-09-08T07:54:26.078218Z",
             "relationship_type": "located-at",
-            "description": "Country Albania is a located in Southern Europe",
+            "description": "Country Albania is located in Southern Europe",
             "source_ref": "location--1a313886-1cf1-4719-91e6-0f870ee45dad",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6390,7 +6390,7 @@
             "created": "2020-09-08T07:54:26.078411Z",
             "modified": "2020-09-08T07:54:26.078411Z",
             "relationship_type": "located-at",
-            "description": "Country Andorra is a located in Southern Europe",
+            "description": "Country Andorra is located in Southern Europe",
             "source_ref": "location--a9c901ca-019a-4dea-89e1-08661d93256a",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6421,7 +6421,7 @@
             "created": "2020-09-08T07:54:26.078601Z",
             "modified": "2020-09-08T07:54:26.078601Z",
             "relationship_type": "located-at",
-            "description": "Country Bosnia and Herzegovina is a located in Southern Europe",
+            "description": "Country Bosnia and Herzegovina is located in Southern Europe",
             "source_ref": "location--9d5a4510-47b1-4d49-b898-923dec158ca2",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6452,7 +6452,7 @@
             "created": "2020-09-08T07:54:26.07879Z",
             "modified": "2020-09-08T07:54:26.07879Z",
             "relationship_type": "located-at",
-            "description": "Country Croatia is a located in Southern Europe",
+            "description": "Country Croatia is located in Southern Europe",
             "source_ref": "location--0c7d295e-7aa2-44ea-aea0-bd55e99fa4f5",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6482,7 +6482,7 @@
             "created": "2020-09-08T07:54:26.078981Z",
             "modified": "2020-09-08T07:54:26.078981Z",
             "relationship_type": "located-at",
-            "description": "Country Gibraltar is a located in Southern Europe",
+            "description": "Country Gibraltar is located in Southern Europe",
             "source_ref": "location--b0c0fa72-6ad9-42e6-973b-7b38606b728c",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6513,7 +6513,7 @@
             "created": "2020-09-08T07:54:26.079174Z",
             "modified": "2020-09-08T07:54:26.079174Z",
             "relationship_type": "located-at",
-            "description": "Country Greece is a located in Southern Europe",
+            "description": "Country Greece is located in Southern Europe",
             "source_ref": "location--53f500b8-4ac7-4cee-b127-56b5b6f4e546",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6545,7 +6545,7 @@
             "created": "2020-09-08T07:54:26.079414Z",
             "modified": "2020-09-08T07:54:26.079414Z",
             "relationship_type": "located-at",
-            "description": "Country Holy See is a located in Southern Europe",
+            "description": "Country Holy See is located in Southern Europe",
             "source_ref": "location--ce3cbceb-574f-4e53-9a0a-5abca27a968b",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6576,7 +6576,7 @@
             "created": "2020-09-08T07:54:26.079636Z",
             "modified": "2020-09-08T07:54:26.079636Z",
             "relationship_type": "located-at",
-            "description": "Country Italy is a located in Southern Europe",
+            "description": "Country Italy is located in Southern Europe",
             "source_ref": "location--b4705466-c505-4d72-85f9-5593ec05eead",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6607,7 +6607,7 @@
             "created": "2020-09-08T07:54:26.079846Z",
             "modified": "2020-09-08T07:54:26.079846Z",
             "relationship_type": "located-at",
-            "description": "Country Malta is a located in Southern Europe",
+            "description": "Country Malta is located in Southern Europe",
             "source_ref": "location--8b6fe979-91eb-4f50-8b25-f0ef024c78cc",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6637,7 +6637,7 @@
             "created": "2020-09-08T07:54:26.080035Z",
             "modified": "2020-09-08T07:54:26.080035Z",
             "relationship_type": "located-at",
-            "description": "Country Montenegro is a located in Southern Europe",
+            "description": "Country Montenegro is located in Southern Europe",
             "source_ref": "location--75e2de39-ee28-4486-8cd0-8c40919115d5",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6668,7 +6668,7 @@
             "created": "2020-09-08T07:54:26.08024Z",
             "modified": "2020-09-08T07:54:26.08024Z",
             "relationship_type": "located-at",
-            "description": "Country North Macedonia is a located in Southern Europe",
+            "description": "Country North Macedonia is located in Southern Europe",
             "source_ref": "location--37e3715a-7e19-431f-8351-b8c744c0b643",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6699,7 +6699,7 @@
             "created": "2020-09-08T07:54:26.080429Z",
             "modified": "2020-09-08T07:54:26.080429Z",
             "relationship_type": "located-at",
-            "description": "Country Portugal is a located in Southern Europe",
+            "description": "Country Portugal is located in Southern Europe",
             "source_ref": "location--a1ebefe6-e91d-4281-a860-eb96a41e08ec",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6730,7 +6730,7 @@
             "created": "2020-09-08T07:54:26.080618Z",
             "modified": "2020-09-08T07:54:26.080618Z",
             "relationship_type": "located-at",
-            "description": "Country San Marino is a located in Southern Europe",
+            "description": "Country San Marino is located in Southern Europe",
             "source_ref": "location--43cc8393-aa9f-4702-bee8-8cbda34c7454",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6761,7 +6761,7 @@
             "created": "2020-09-08T07:54:26.080803Z",
             "modified": "2020-09-08T07:54:26.080803Z",
             "relationship_type": "located-at",
-            "description": "Country Serbia is a located in Southern Europe",
+            "description": "Country Serbia is located in Southern Europe",
             "source_ref": "location--2ad09063-81f3-443e-ab24-dbcb950fca2c",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6792,7 +6792,7 @@
             "created": "2020-09-08T07:54:26.081006Z",
             "modified": "2020-09-08T07:54:26.081006Z",
             "relationship_type": "located-at",
-            "description": "Country Slovenia is a located in Southern Europe",
+            "description": "Country Slovenia is located in Southern Europe",
             "source_ref": "location--8bcc4551-0893-4e18-af26-aa50d908fecf",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6823,7 +6823,7 @@
             "created": "2020-09-08T07:54:26.081197Z",
             "modified": "2020-09-08T07:54:26.081197Z",
             "relationship_type": "located-at",
-            "description": "Country Spain is a located in Southern Europe",
+            "description": "Country Spain is located in Southern Europe",
             "source_ref": "location--b6133f68-940f-4840-80de-8275cf0f1573",
             "target_ref": "location--7eb867ee-6b73-4041-9499-8805552a0cb8",
             "confidence": 100
@@ -6880,7 +6880,7 @@
             "created": "2020-09-08T07:54:26.081582Z",
             "modified": "2020-09-08T07:54:26.081582Z",
             "relationship_type": "located-at",
-            "description": "Country Austria is a located in Western Europe",
+            "description": "Country Austria is located in Western Europe",
             "source_ref": "location--ed0732fb-6613-46af-850c-002ffea6b685",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -6911,7 +6911,7 @@
             "created": "2020-09-08T07:54:26.081789Z",
             "modified": "2020-09-08T07:54:26.081789Z",
             "relationship_type": "located-at",
-            "description": "Country Belgium is a located in Western Europe",
+            "description": "Country Belgium is located in Western Europe",
             "source_ref": "location--faf46e56-6e61-43af-b89e-89f7a0eccb2e",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -6942,7 +6942,7 @@
             "created": "2020-09-08T07:54:26.081979Z",
             "modified": "2020-09-08T07:54:26.081979Z",
             "relationship_type": "located-at",
-            "description": "Country France is a located in Western Europe",
+            "description": "Country France is located in Western Europe",
             "source_ref": "location--5acd8b26-51c2-4608-86ed-e9edd43ad971",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -6973,7 +6973,7 @@
             "created": "2020-09-08T07:54:26.082167Z",
             "modified": "2020-09-08T07:54:26.082167Z",
             "relationship_type": "located-at",
-            "description": "Country Germany is a located in Western Europe",
+            "description": "Country Germany is located in Western Europe",
             "source_ref": "location--4a05ddf0-1339-4e61-a241-e1fdf5f5a538",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -7004,7 +7004,7 @@
             "created": "2020-09-08T07:54:26.082378Z",
             "modified": "2020-09-08T07:54:26.082378Z",
             "relationship_type": "located-at",
-            "description": "Country Liechtenstein is a located in Western Europe",
+            "description": "Country Liechtenstein is located in Western Europe",
             "source_ref": "location--d173d9fa-de5b-4c45-851b-32dd2cffcbdf",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -7035,7 +7035,7 @@
             "created": "2020-09-08T07:54:26.082609Z",
             "modified": "2020-09-08T07:54:26.082609Z",
             "relationship_type": "located-at",
-            "description": "Country Luxembourg is a located in Western Europe",
+            "description": "Country Luxembourg is located in Western Europe",
             "source_ref": "location--c18521ac-d768-44a4-a377-db5ed2b0ccc8",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -7066,7 +7066,7 @@
             "created": "2020-09-08T07:54:26.082804Z",
             "modified": "2020-09-08T07:54:26.082804Z",
             "relationship_type": "located-at",
-            "description": "Country Monaco is a located in Western Europe",
+            "description": "Country Monaco is located in Western Europe",
             "source_ref": "location--8565c676-ac11-482e-ac85-276add7ffe51",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -7098,7 +7098,7 @@
             "created": "2020-09-08T07:54:26.082994Z",
             "modified": "2020-09-08T07:54:26.082994Z",
             "relationship_type": "located-at",
-            "description": "Country Netherlands is a located in Western Europe",
+            "description": "Country Netherlands is located in Western Europe",
             "source_ref": "location--24b26d8c-7f8c-489f-a9d6-a6b4c44ad172",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -7129,7 +7129,7 @@
             "created": "2020-09-08T07:54:26.083184Z",
             "modified": "2020-09-08T07:54:26.083184Z",
             "relationship_type": "located-at",
-            "description": "Country Switzerland is a located in Western Europe",
+            "description": "Country Switzerland is located in Western Europe",
             "source_ref": "location--736b4cc6-2aa4-4e69-8aa6-3b82f8744a7b",
             "target_ref": "location--e2decc5a-6574-4987-abed-09179ebebabf",
             "confidence": 100
@@ -7194,7 +7194,7 @@
             "created": "2020-09-08T07:54:26.083645Z",
             "modified": "2020-09-08T07:54:26.083645Z",
             "relationship_type": "located-at",
-            "description": "Country Australia is a located in Australia and New Zealand",
+            "description": "Country Australia is located in Australia and New Zealand",
             "source_ref": "location--4955239f-b9c9-457a-bed3-776ac5a09e3d",
             "target_ref": "location--e90a1dd3-886b-4cd4-8967-9fb0c76eb788",
             "confidence": 100
@@ -7224,7 +7224,7 @@
             "created": "2020-09-08T07:54:26.083836Z",
             "modified": "2020-09-08T07:54:26.083836Z",
             "relationship_type": "located-at",
-            "description": "Country Christmas Island is a located in Australia and New Zealand",
+            "description": "Country Christmas Island is located in Australia and New Zealand",
             "source_ref": "location--6e8af61d-9969-47b7-b01a-6754d31e949a",
             "target_ref": "location--e90a1dd3-886b-4cd4-8967-9fb0c76eb788",
             "confidence": 100
@@ -7255,7 +7255,7 @@
             "created": "2020-09-08T07:54:26.084029Z",
             "modified": "2020-09-08T07:54:26.084029Z",
             "relationship_type": "located-at",
-            "description": "Country Cocos (Keeling) Islands is a located in Australia and New Zealand",
+            "description": "Country Cocos (Keeling) Islands is located in Australia and New Zealand",
             "source_ref": "location--4fe3027f-55cc-4022-8a7c-60ac6b76138a",
             "target_ref": "location--e90a1dd3-886b-4cd4-8967-9fb0c76eb788",
             "confidence": 100
@@ -7285,7 +7285,7 @@
             "created": "2020-09-08T07:54:26.08423Z",
             "modified": "2020-09-08T07:54:26.08423Z",
             "relationship_type": "located-at",
-            "description": "Country Heard Island and McDonald Islands is a located in Australia and New Zealand",
+            "description": "Country Heard Island and McDonald Islands is located in Australia and New Zealand",
             "source_ref": "location--f36c0fa8-d723-46d6-aa64-3492b55ff540",
             "target_ref": "location--e90a1dd3-886b-4cd4-8967-9fb0c76eb788",
             "confidence": 100
@@ -7315,7 +7315,7 @@
             "created": "2020-09-08T07:54:26.084424Z",
             "modified": "2020-09-08T07:54:26.084424Z",
             "relationship_type": "located-at",
-            "description": "Country New Zealand is a located in Australia and New Zealand",
+            "description": "Country New Zealand is located in Australia and New Zealand",
             "source_ref": "location--16590ce0-3020-4d6d-a6d2-b9d9736c96b6",
             "target_ref": "location--e90a1dd3-886b-4cd4-8967-9fb0c76eb788",
             "confidence": 100
@@ -7345,7 +7345,7 @@
             "created": "2020-09-08T07:54:26.084617Z",
             "modified": "2020-09-08T07:54:26.084617Z",
             "relationship_type": "located-at",
-            "description": "Country Norfolk Island is a located in Australia and New Zealand",
+            "description": "Country Norfolk Island is located in Australia and New Zealand",
             "source_ref": "location--abef88fc-63e7-4686-8b2d-c3acd6e7bb05",
             "target_ref": "location--e90a1dd3-886b-4cd4-8967-9fb0c76eb788",
             "confidence": 100
@@ -7400,7 +7400,7 @@
             "created": "2020-09-08T07:54:26.084993Z",
             "modified": "2020-09-08T07:54:26.084993Z",
             "relationship_type": "located-at",
-            "description": "Country Fiji is a located in Melanesia",
+            "description": "Country Fiji is located in Melanesia",
             "source_ref": "location--cf1689ed-50af-42b5-b02b-b1099264137d",
             "target_ref": "location--2e79050b-f9d8-4eaa-ac4e-e3611fa44b08",
             "confidence": 100
@@ -7430,7 +7430,7 @@
             "created": "2020-09-08T07:54:26.08518Z",
             "modified": "2020-09-08T07:54:26.08518Z",
             "relationship_type": "located-at",
-            "description": "Country New Caledonia is a located in Melanesia",
+            "description": "Country New Caledonia is located in Melanesia",
             "source_ref": "location--6eb74e58-4b45-4b65-b575-eabcac97cb47",
             "target_ref": "location--2e79050b-f9d8-4eaa-ac4e-e3611fa44b08",
             "confidence": 100
@@ -7461,7 +7461,7 @@
             "created": "2020-09-08T07:54:26.085367Z",
             "modified": "2020-09-08T07:54:26.085367Z",
             "relationship_type": "located-at",
-            "description": "Country Papua New Guinea is a located in Melanesia",
+            "description": "Country Papua New Guinea is located in Melanesia",
             "source_ref": "location--7e1516e0-91f7-48a9-8ebc-e88ac6bc2492",
             "target_ref": "location--2e79050b-f9d8-4eaa-ac4e-e3611fa44b08",
             "confidence": 100
@@ -7491,7 +7491,7 @@
             "created": "2020-09-08T07:54:26.085561Z",
             "modified": "2020-09-08T07:54:26.085561Z",
             "relationship_type": "located-at",
-            "description": "Country Solomon Islands is a located in Melanesia",
+            "description": "Country Solomon Islands is located in Melanesia",
             "source_ref": "location--85695f48-5991-4559-bede-4a9f09dc9951",
             "target_ref": "location--2e79050b-f9d8-4eaa-ac4e-e3611fa44b08",
             "confidence": 100
@@ -7522,7 +7522,7 @@
             "created": "2020-09-08T07:54:26.085768Z",
             "modified": "2020-09-08T07:54:26.085768Z",
             "relationship_type": "located-at",
-            "description": "Country Vanuatu is a located in Melanesia",
+            "description": "Country Vanuatu is located in Melanesia",
             "source_ref": "location--a821557a-dd7f-4f0e-9898-fcfd38863165",
             "target_ref": "location--2e79050b-f9d8-4eaa-ac4e-e3611fa44b08",
             "confidence": 100
@@ -7576,7 +7576,7 @@
             "created": "2020-09-08T07:54:26.086155Z",
             "modified": "2020-09-08T07:54:26.086155Z",
             "relationship_type": "located-at",
-            "description": "Country Guam is a located in Micronesia",
+            "description": "Country Guam is located in Micronesia",
             "source_ref": "location--6f1a0c65-5471-498d-88bc-f1f832110855",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7607,7 +7607,7 @@
             "created": "2020-09-08T07:54:26.086347Z",
             "modified": "2020-09-08T07:54:26.086347Z",
             "relationship_type": "located-at",
-            "description": "Country Kiribati is a located in Micronesia",
+            "description": "Country Kiribati is located in Micronesia",
             "source_ref": "location--ea5b86fa-0c3f-41a9-9b97-e0adc7eda8f6",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7639,7 +7639,7 @@
             "created": "2020-09-08T07:54:26.08654Z",
             "modified": "2020-09-08T07:54:26.08654Z",
             "relationship_type": "located-at",
-            "description": "Country Marshall Islands is a located in Micronesia",
+            "description": "Country Marshall Islands is located in Micronesia",
             "source_ref": "location--0dfa1ea2-6bc2-4786-9e4d-53222bd81169",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7672,7 +7672,7 @@
             "created": "2020-09-08T07:54:26.086733Z",
             "modified": "2020-09-08T07:54:26.086733Z",
             "relationship_type": "located-at",
-            "description": "Country Micronesia (Federated States of) is a located in Micronesia",
+            "description": "Country Micronesia (Federated States of) is located in Micronesia",
             "source_ref": "location--bc4927d3-e94b-4d93-a11c-25507102847d",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7703,7 +7703,7 @@
             "created": "2020-09-08T07:54:26.086925Z",
             "modified": "2020-09-08T07:54:26.086925Z",
             "relationship_type": "located-at",
-            "description": "Country Nauru is a located in Micronesia",
+            "description": "Country Nauru is located in Micronesia",
             "source_ref": "location--415adc78-4c86-4ce1-80b4-0eab670f3a9d",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7735,7 +7735,7 @@
             "created": "2020-09-08T07:54:26.08712Z",
             "modified": "2020-09-08T07:54:26.08712Z",
             "relationship_type": "located-at",
-            "description": "Country Northern Mariana Islands is a located in Micronesia",
+            "description": "Country Northern Mariana Islands is located in Micronesia",
             "source_ref": "location--6a516fa5-4b33-4e0d-9325-3f5c579838f8",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7766,7 +7766,7 @@
             "created": "2020-09-08T07:54:26.087312Z",
             "modified": "2020-09-08T07:54:26.087312Z",
             "relationship_type": "located-at",
-            "description": "Country Palau is a located in Micronesia",
+            "description": "Country Palau is located in Micronesia",
             "source_ref": "location--e62aa3ac-26a4-4f85-b96d-cde7884f0fb8",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7795,7 +7795,7 @@
             "created": "2020-09-08T07:54:26.087505Z",
             "modified": "2020-09-08T07:54:26.087505Z",
             "relationship_type": "located-at",
-            "description": "Country United States Minor Outlying Islands is a located in Micronesia",
+            "description": "Country United States Minor Outlying Islands is located in Micronesia",
             "source_ref": "location--aaf6b192-b29b-4748-b761-fd5ae8f62efd",
             "target_ref": "location--b2039652-51f8-46cb-8a03-b2263bc20447",
             "confidence": 100
@@ -7849,7 +7849,7 @@
             "created": "2020-09-08T07:54:26.087885Z",
             "modified": "2020-09-08T07:54:26.087885Z",
             "relationship_type": "located-at",
-            "description": "Country American Samoa is a located in Polynesia",
+            "description": "Country American Samoa is located in Polynesia",
             "source_ref": "location--0307fa35-a126-40ea-bee3-2404341602b3",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -7880,7 +7880,7 @@
             "created": "2020-09-08T07:54:26.088072Z",
             "modified": "2020-09-08T07:54:26.088072Z",
             "relationship_type": "located-at",
-            "description": "Country Cook Islands is a located in Polynesia",
+            "description": "Country Cook Islands is located in Polynesia",
             "source_ref": "location--31ed199a-ccde-412c-b8a7-31f6b566aa8f",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -7910,7 +7910,7 @@
             "created": "2020-09-08T07:54:26.08826Z",
             "modified": "2020-09-08T07:54:26.08826Z",
             "relationship_type": "located-at",
-            "description": "Country French Polynesia is a located in Polynesia",
+            "description": "Country French Polynesia is located in Polynesia",
             "source_ref": "location--2f49dd0c-5167-41d0-a30d-69956d8b0306",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -7940,7 +7940,7 @@
             "created": "2020-09-08T07:54:26.088452Z",
             "modified": "2020-09-08T07:54:26.088452Z",
             "relationship_type": "located-at",
-            "description": "Country Niue is a located in Polynesia",
+            "description": "Country Niue is located in Polynesia",
             "source_ref": "location--ae8950db-c992-421c-92cf-84a5f46199af",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -7970,7 +7970,7 @@
             "created": "2020-09-08T07:54:26.088661Z",
             "modified": "2020-09-08T07:54:26.088661Z",
             "relationship_type": "located-at",
-            "description": "Country Pitcairn is a located in Polynesia",
+            "description": "Country Pitcairn is located in Polynesia",
             "source_ref": "location--f6dde2ee-eaa2-4275-820e-076945d23dbf",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -8001,7 +8001,7 @@
             "created": "2020-09-08T07:54:26.08886Z",
             "modified": "2020-09-08T07:54:26.08886Z",
             "relationship_type": "located-at",
-            "description": "Country Samoa is a located in Polynesia",
+            "description": "Country Samoa is located in Polynesia",
             "source_ref": "location--fcc1bda4-61fa-43db-96d3-88a72a5e4c6e",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -8031,7 +8031,7 @@
             "created": "2020-09-08T07:54:26.089082Z",
             "modified": "2020-09-08T07:54:26.089082Z",
             "relationship_type": "located-at",
-            "description": "Country Tokelau is a located in Polynesia",
+            "description": "Country Tokelau is located in Polynesia",
             "source_ref": "location--b3e9e338-1b79-4d2a-8957-48fc4fc170c0",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -8062,7 +8062,7 @@
             "created": "2020-09-08T07:54:26.089351Z",
             "modified": "2020-09-08T07:54:26.089351Z",
             "relationship_type": "located-at",
-            "description": "Country Tonga is a located in Polynesia",
+            "description": "Country Tonga is located in Polynesia",
             "source_ref": "location--12c5b487-3fba-418c-8215-76fa3437c5e8",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -8092,7 +8092,7 @@
             "created": "2020-09-08T07:54:26.089556Z",
             "modified": "2020-09-08T07:54:26.089556Z",
             "relationship_type": "located-at",
-            "description": "Country Tuvalu is a located in Polynesia",
+            "description": "Country Tuvalu is located in Polynesia",
             "source_ref": "location--813c3048-9f79-49c3-93c5-a23be2a64650",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
@@ -8123,7 +8123,7 @@
             "created": "2020-09-08T07:54:26.08976Z",
             "modified": "2020-09-08T07:54:26.08976Z",
             "relationship_type": "located-at",
-            "description": "Country Wallis and Futuna Islands is a located in Polynesia",
+            "description": "Country Wallis and Futuna Islands is located in Polynesia",
             "source_ref": "location--6b3b06c2-96e4-4e10-838d-c51bc452b283",
             "target_ref": "location--aaa9fcf7-343b-46d2-b324-f0c6179a5d0e",
             "confidence": 100
