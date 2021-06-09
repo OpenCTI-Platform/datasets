@@ -8170,6 +8170,38 @@
                 "AQ"
             ],
             "x_opencti_location_type": "Country"
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--0311fe2c-ad57-57f5-aab3-98df95ed822d",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-06-08T14:30:24.128Z",
+            "modified": "2021-06-08T14:30:24.128Z",
+            "name": "Taiwan",
+            "latitude": 23.69781,
+            "longitude": 120.960515,
+            "country": "TWN",
+            "x_opencti_aliases": [
+                "TWN",
+                "TW",
+                "Taiwan, Province of China",
+                "Taiwan (Province of China)"
+            ],
+            "x_opencti_location_type": "Country"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2aa7090a-2add-4cb8-b3bf-e706c1390e7b",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-06-08T14:30:24.128Z",
+            "modified": "2021-06-08T14:30:24.128Z",
+            "relationship_type": "located-at",
+            "description": "Country Taiwan is located in Eastern Asia",
+            "target_ref": "location--2ac93082-4d7e-401c-847a-f74e6031d38e",
+            "source_ref": "location--0311fe2c-ad57-57f5-aab3-98df95ed822d",
+            "confidence": 100
         }
     ]
 }
