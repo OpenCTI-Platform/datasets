@@ -5917,7 +5917,11 @@
             "name": "Sark",
             "latitude": 49.463533,
             "longitude": -2.561737,
-            "country": "Sark",
+            "country": "CRQ",
+            "x_opencti_aliases": [
+                "CRQ",
+                "CQ"
+            ],
             "x_opencti_location_type": "Country"
         },
         {
