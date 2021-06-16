@@ -1,0 +1,464 @@
+[
+    {
+        "stix_id": "identity--0c90429a-647f-4e1b-ae2e-a007fec01ae8",
+        "name": "Agriculture and agribusiness",
+        "description": "Private entities specialized in the growth, culture, transport and transformation of plants or livestock for food.",
+        "aliases": ["Agriculture", "Agribusiness", "Food Production", "Nutritional Supplements"],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--0ff292ef-8468-478c-8f29-d31246bf0a35",
+        "name": "Logistics",
+        "description": "Entities managing the flow of goods, equipment, materials, supplies etc.",
+        "aliases": [],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
+        "name": "Culture and entertainment",
+        "description": "Public and private entities dealing with cultural, sport activities and entertainment.",
+        "aliases": ["Entertainment"],
+        "subsectors": [
+            {   "stix_id": "identity--7095afff-2cf3-47a7-b782-7613f58b50f4",
+                "name": "Culture",
+                "description": "Private and public entities involved in creating, producting, and distributing goods and services that are cultural in nature, or protecting it.",
+                "aliases": ["Travel"]
+            },
+            {
+                "stix_id": "identity--e7966f9f-4d44-4adf-93b0-77cbee5c5106",
+                "name": "Sports",
+                "description": "Private and public entities involved in producing, organizing, promoting  goods and services associated with sports.",
+                "aliases": ["Sport"]
+            },
+            {
+                "stix_id": "identity--c145a6eb-c948-43ef-8f27-1305dba1b586",
+                "name": "Entertainment industry",
+                "description": "All entities involved in the conception and production of entertainment products, such as music, movies or video games.",
+                "aliases": ["Gaming", "Online Gaming Community"]
+            },
+            {
+                "stix_id": "identity--92a6e1b9-d54d-4f28-9c23-e03e542fce87",
+                "name": "Gambling",
+                "description": "All companies or public organizations involved in gambling activities, such as casino, money games, etc.",
+                "aliases": []
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--410d2368-a448-47aa-80ca-4b09ea2b339a",
+        "name": "Education",
+        "description": "Public or private entities operating to facilitate learning and acquiring knowledge and skills, composed of infrastructures and services to host teachers, students, and administrative services related to this activity. This does not include research activities.",
+        "aliases": [],
+        "subsectors": [
+            {
+                "stix_id": "identity--1d7205a8-5a46-4bf2-9007-d56be02dcad6",
+                "name": "Universities",
+                "description": "Public and private institutions for higher education.",
+                "aliases": ["Higher education", "Academic", "Academics"]
+            },
+            {
+                "stix_id": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
+                "name": "Schools",
+                "description": "PPublic and private institutions for all primary and secondary school levels.",
+                "aliases": []
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
+        "name": "Energy",
+        "description": "Public and private entities operating to extract, store, transport and process fuel, entities managing energy plants and energy storage and distribution and entities managing fuel waste.",
+        "aliases": ["Natural Resources", "Eneergy"],
+        "subsectors": [
+            {
+                "stix_id": "identity--e8b655e0-d895-4362-aacc-679647141c42",
+                "name": "Electricity",
+                "description": "Public or private entities involved in the storage, transport and distribution of electricity to end customers.",
+                "aliases": ["Electrical", "Power", "Utilities &amp; Electric"]
+            },
+            {
+                "stix_id": "identity--c3b13a21-3b89-4c2f-871c-14c4fd04e290",
+                "name": "Nuclear power (civilian use)",
+                "description": "Public and private entities involved in the extraction and transport of nuclear fuel, operating nuclear plants for civilian purposes and entities processing nuclear waste.",
+                "aliases": ["Nuclear"]
+            },
+            {
+                "stix_id": "identity--4a3c2734-f6fb-40ae-91c9-0ef2e1a43114",
+                "name": "Gas",
+                "description": "Public or private entities involved in exploration, extraction, refining, transporting and marketing of natural gas products.",
+                "aliases": ["Oil and Gas", "Natural Gas Utilities", "Gas and Oil", "Oil &amp; Gas Manufacturing"]
+            },
+            {
+                "stix_id": "identity--22d9e69f-d211-41cc-a5e5-d012366eaa73",
+                "name": "Oil",
+                "description": "Public and private entities involved in the global processes of exploration, extraction, refining, transporting and marketing of petroleum products.",
+                "aliases": ["Fuel"]
+            },
+            {
+                "stix_id": "identity--89f89245-0dfd-4d20-a157-57ce7c829847",
+                "name": "Renewable energies",
+                "description": "Public and private entities involved in the production of electricity based on renewable ressources.",
+                "aliases": []
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
+        "name": "Transport",
+        "description": "All entities involved in the movement of people or goods from one place to another.",
+        "aliases": ["Transportation", "Shipping"],
+        "subsectors": [
+            {
+                "stix_id": "identity--f1aeb7a2-0f3e-4fb0-ade5-a50297afe65d",
+                "name": "Air transport",
+                "description": "All entities transporting people or goods by plane, managing or exploiting airports and structures, traffic authorities and plane manufacturers. Includes all civilian space activities.",
+                "aliases": ["Aerospace", "Aviation", "Satellite", "Satellite and communications"]
+            },
+            {
+                "stix_id": "identity--0f5a665e-fb32-411a-ac6f-f63eeb71f71e",
+                "name": "Rail transport",
+                "description": "Public and private entities managing rail infrastructures, rail transportation, exploiting intelligent rail transport systems and the rail industry.",
+                "aliases": []
+            },
+            {
+                "stix_id": "identity--1ce54804-3089-4fd1-9a1d-6ed3aa65d887",
+                "name": "Maritime transport",
+                "description": "All entities transporting people or good by naval means, managing or exploiting naval structures (ports), naval constructors and traffic authorities.",
+                "aliases": ["Marine", "Naval", "maritime"]
+            },
+            {
+                "stix_id": "identity--de61c7c3-ae8d-4064-90be-7c290d7e2a73",
+                "name": "Road transport",
+                "description": "Public and private entities managing road infrastructures, road transportation, exploiting intelligent transport systems and the automotive industry.",
+                "aliases": ["Automotive"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--96853bde-72b2-4564-a133-c2d58206c117",
+        "name": "Defense",
+        "description": "Public and private entities involved in the conception and production of weapons and the planning and conducting of military operations.",
+        "aliases": ["Defence", "National Security"],
+        "subsectors": [
+            {
+                "stix_id": "identity--b6e14529-565d-4540-8fc3-6a28661aaf6e",
+                "name": "Defense ministries (including the military)",
+                "description": "Includes the military and all defense related-space activities.",
+                "aliases": ["Military", "intelligence", "Intelligence services"]
+            },
+            {
+                "stix_id": "identity--2bc42030-ab93-4fe2-8272-6a2975745ff8",
+                "name": "Defense industry",
+                "description": "All private contractors involved in the manufacturing and sale of weapons and military or defense technologies.",
+                "aliases": ["Defence industry"]
+            },
+            {
+                "stix_id": "identity--d0db92e3-af8a-4990-a067-2f76998e726c",
+                "name": "Defense research and development",
+                "description": "R&D for defense or military purposes.",
+                "aliases": ["Defence research and development"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
+        "name": "Finance",
+        "description": "Public and private entities involved in the allocation of assets and liabilities over space and time.",
+        "aliases": ["Financial Industry (FI)", "Financial-Services", "Financial", "Financial Services"],
+        "subsectors": [
+            {
+                "stix_id": "identity--cda34d5b-c9d8-4a61-85ce-5f00760bebb9",
+                "name": "Banking institutions",
+                "description": "Credit institutions whose business consists in receiving repayable funds from the public and granting credit. As the bank of banks, central banks are included in this scope.",
+                "aliases": ["Banking", "Bank", "Banks", "Banking Services", "Banking & Investment Services"]
+            },
+            {
+                "stix_id": "identity--9255487f-19a2-4490-b587-d5d6e2c466de",
+                "name": "Financial organizations",
+                "description": "Comprises for instance asset managers and investment firms, that are neither banks nor insurance companies.",
+                "aliases": ["investment"]
+            },
+            {
+                "stix_id": "identity--3eda5dc7-6dc0-46ae-8093-5aa89963dc4e",
+                "name": "Insurance services",
+                "description": "Companies, either insurance companies or mutual insurance companies, that provides insurance services to customers.",
+                "aliases": ["Insurance"]
+            },
+            {
+                "stix_id": "identity--89bb5038-94a0-4491-b4cb-4a0fe4ac82e0",
+                "name": "Market infrastructures",
+                "description": "Encompasses all the systems necessary for the smooth process of market financing operations. Are included payment systems, clearing houses, central securities depositories, securities settlement systems and trade repositories.",
+                "aliases": ["Trade", "Trading"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
+        "name": "Diplomacy",
+        "description": "Public or private entities which are actors of or involved in international relations activities.",
+        "aliases": ["Diplomatic"],
+        "subsectors": [
+            {
+                "stix_id": "identity--332b79eb-2090-4b7f-9b0b-9b95fbdca682",
+                "name": "Ministries of foreign affairs",
+                "description": "Governmental entities in charge of the diplomatic action of the State.",
+                "aliases": ["Foreign Affairs"]
+            },
+            {
+                "stix_id": "identity--2b24bbc0-4e5f-4af9-85d6-86ff470bd7de",
+                "name": "Think tanks",
+                "description": "Research institutes and structures specialized in policy making and advocating on international relations subjects.",
+                "aliases": ["Think tank", "Thinktank", "Thinktanks"]
+            },
+            {
+                "stix_id": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
+                "name": "International organizations",
+                "description": "International organizations made up primarily of sovereign states and involved in setting international agendas and policies.",
+                "aliases": []
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
+        "name": "Government and administrations",
+        "description": "Civilian government institutions and administrations of the executive and legislative branches. The diplomatic and judicial branches are not included.",
+        "aliases": ["Government", "govenrment", "Election", "Governemnt", "Voting"],
+        "subsectors": [
+            {
+                "stix_id": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+                "name": "Central administration and government",
+                "description": "All central administrations and government bodies in charge of the executive power, except for the Ministries of Foreign Affairs, of Defense and of Justice.",
+                "aliases": ["Government-National", "Emergency-Services", "Government-Public-Services", "Law Enforcement", "Police", "Security"]
+            },
+            {
+                "stix_id": "identity--c5d9f749-f61c-43dd-a11e-785a8aeab032",
+                "name": "Local administrations",
+                "description": "Public administrations and government bodies managing a local territory under the global authority of a central government.",
+                "aliases": ["Government-Local", "Government-Regional"]
+            },
+            {
+                "stix_id": "identity--8a9f413e-c990-4478-bdc4-db4440744fce",
+                "name": "Legislative branch (parliamentary chambers)",
+                "description": "Legislative chambers of the state, in charge of voting the laws.",
+                "aliases": []
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--59644f64-2a06-406c-978b-6a4b8f7dac3a",
+        "name": "Health",
+        "description": "Public and private entities involved in research, services and manufacturing activities related to public health.",
+        "aliases": ["Healthcare"],
+        "subsectors": [
+            {
+                "stix_id": "identity--33986379-9641-417e-b821-669588580ecb",
+                "name": "Healthcare services",
+                "description": "Hospitals and other direct medical practice activities.",
+                "aliases": ["Medical"]
+            },
+            {
+                "stix_id": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
+                "name": "Pharmacy and drugs manufacturing",
+                "description": "Public and private entities involved in producing and selling medicinal products and drugs.",
+                "aliases": ["Pharmaceuticals", "Pharmaceutical"]
+            },
+            {
+                "stix_id": "identity--769af810-c705-4743-aea3-936fc7c426cd",
+                "name": "Healthcare research",
+                "description": "Entities involved in the scientific investigation of understanding how different factors affect people’s health and their access to healthcare.",
+                "aliases": []
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--8248830f-4c88-4174-820f-c2ea8ddcc1d7",
+        "name": "Hospitality",
+        "description": "Private entities offering to customers’ leisure activities and experiences.",
+        "aliases": ["Hospitality-Leisure"],
+        "subsectors": [
+            {
+                "stix_id": "identity--806e87ee-ed41-4629-ab47-28dc0424caef",
+                "name": "Lodging industry",
+                "description": "Entities offering short-term dwellings in exchange for money for people travelling or staying away from their home.",
+                "aliases": []
+            },
+            {
+                "stix_id": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
+                "name": "Food and drinks businesses",
+                "description": "Businesses preparing and serving food and drinks to customers in exchange for money.",
+                "aliases": ["Food", "Restaurant"]
+            },
+            {
+                "stix_id": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
+                "name": "Travel and tourism industry",
+                "description": "Businesses operating in the field of travel for pleasure or business and in the field of attracting and entertaining tourists.",
+                "aliases": ["Commodities", "Tourism"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+        "name": "Technologies",
+        "description": "Private entities related to the research, development, manufacturing and distribution of electronics, softwares, computers and products related to information technologies.",
+        "aliases": ["Technology", "Crypto", "Cryptocurrency", "Information Security", "Vulnerability Research", "software", "Software Development", "IT", "Currency Exchange", "Virtual Currency", "Bitcoin"],
+        "subsectors": [
+            {
+                "stix_id": "identity--f82271f9-fcf8-4f29-8dfb-18c58b05c546",
+                "name": "High-tech",
+                "description": "Businesses involved in the conception and production of high technological equipment and goods in different fields such as biotechnologies, information technologies, nanotechnologies and robotics.",
+                "aliases": ["Semiconductor", "Biotechnology", "Electronics", "High Tech", "High Technology"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--a8e78952-7a75-4a4d-b6c3-44c3007de616",
+        "name": "Unknown",
+        "description": "",
+        "aliases": ["Undefined"],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--bd6bd33d-dec5-4121-9c09-663dc449dd7b",
+        "name": "Judicial power (justice)",
+        "description": "All judicial activities of the state and related private entities.",
+        "aliases": ["law"],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
+        "name": "Manufacturing",
+        "description": "Private entities transforming and selling goods, products and equipment which are not included in other activity sectors.",
+        "aliases": ["Utilities", "industrial", "ICS"],
+        "subsectors": [
+            {
+                "stix_id": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
+                "name": "Heavy industries",
+                "description": "Private entities working to transform raw materials into manufactured products (Chemicals, metal etc.).",
+                "aliases": ["Chemical", "Petrochemicals", "Industry", "Metal", "Infrastructure", "Critical Infrastructure", "Metallurgical", "metals", "heavy industry"]
+            },
+            {
+                "stix_id": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
+                "name": "Construction",
+                "description": "Private entities engaged in preparation of land and construction, alteration and repair of building, structures and other real estate properties.",
+                "aliases": ["Building", "Offshore Engineering", "Offshore"]
+            },
+            {
+                "stix_id": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
+                "name": "Retail (distribution)",
+                "description": "Distribution and sale of goods directly to the consumer.",
+                "aliases": ["Retail", "Commercial", "Distrobution", "e-commerce", "Ecommerce", "commerce", "Wholesale"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
+        "name": "Telecommunications",
+        "description": "Private and public entities involved in the production, transport and dissemination of information and communication signals.",
+        "aliases": ["Communications", "Telecommunication", "Telecom", "telecommunicton", "Telecommunucations", "Telecoms"],
+        "subsectors": [
+            {
+                "stix_id": "identity--d360e3ce-0eca-4f6d-829f-71a97d06d0b4",
+                "name": "Digital infrastructures",
+                "description": "All operators and entities in charge of operating and managing the digital infrastructures, including Internet Exchange Points, DNS providers and Top Level Domains Registrars.",
+                "aliases": ["Cellular", "domain"]
+            },
+            {
+                "stix_id": "identity--d0744246-6c86-429a-ad93-2648bd2d3299",
+                "name": "Hosting service providers",
+                "description": "",
+                "aliases": []
+            },
+            {
+                "stix_id": "identity--ef8181b8-3ee5-421a-b6bc-d2e5ec9e5241",
+                "name": "Internet Service providers",
+                "description": "",
+                "aliases": []
+            },
+            {
+                "stix_id": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
+                "name": "Medias and audiovisual",
+                "description": "Communication outlets used to deliver information by print, broadcast or Internet and people working in these outlets.",
+                "aliases": ["Media", "Journalism", "Journalists", "News", "News Media", "News &amp; Media"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
+        "name": "Consulting",
+        "description": "Private entities providing expert advice in a specific field to external entities.",
+        "aliases": ["Professional services", "HR Services", "Marketing / Public Relations", "Marketing", "Public Relations"],
+        "subsectors": [
+            {
+                "stix_id": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
+                "name": "Legal consulting",
+                "description": "",
+                "aliases": ["Legal"]
+            },
+            {
+                "stix_id": "identity--360f3368-b911-4bb1-a7f9-0a8e4ef4e023",
+                "name": "Information Technologies Consulting",
+                "description": "Includes Managed Services Providers (MSPs).",
+                "aliases": ["Information Technology", "IT Service Providers"]
+            },
+            {
+                "stix_id": "identity--6612ac1e-8495-47b5-8819-f2033edba2e8",
+                "name": "Engineering consulting",
+                "description": "",
+                "aliases": ["Engineering"]
+            }
+        ]
+    },
+    {
+        "stix_id": "identity--be6cc9cf-10a2-46b3-b5cd-4c3be99441f6",
+        "name": "Mining",
+        "description": "Entities in charge of extracting minerals and other geological materials from the Earth.",
+        "aliases": [],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--f3f6b9af-6048-46bc-8fe2-048cb27ca31c",
+        "name": "Research",
+        "description": "Private and public entities such as university research centers, labs, experimental centers etc. (except for defense, diplomacy and healthcare).",
+        "aliases": [],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--ec0d4d51-e8cb-4444-9377-3482b6ac8f5b",
+        "name": "Water distribution and supply",
+        "description": "All public and private entities involved in the collection, transport and distribution of water for consumption purposes.",
+        "aliases": ["Dams", "Water"],
+        "subsectors": []
+    },
+    {
+        "stix_id": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
+        "name": "Civil society",
+        "description": "The general public and all non-governmental entities, or individuals independent of governments, which may be linked by interests or activities aiming at promoting the interests and the will of citizens.",
+        "aliases": [],
+        "subsectors": [
+            {
+                "stix_id": "identity--381bd576-3b81-4932-9589-18a67b355379",
+                "name": "Non-Governmental Organizations (NGOs)",
+                "description": "A legally constituted non-commercial organization created by natural or legal persons with no participation or representation of any government.",
+                "aliases": ["NGO", "Human Rights", "Non-Profit", "Environmental", "Humanitarian"]
+            },
+            {
+                "stix_id": "identity--9afcd3be-12e7-4f54-8dbe-8c22cecb592c",
+                "name": "Citizens",
+                "description": "The general population of a country.",
+                "aliases": ["Religion"]
+            },
+            {
+                "stix_id": "identity--84ba267e-9fdd-4086-b4d7-df02ab02f085",
+                "name": "Political parties",
+                "description": "A recognized or non recognized political group or party taking part into the political life of a country, weither by being part of the majority or opposed to the ruling power",
+                "aliases": ["Political opposition", "Politics"]
+            },
+            {
+                "stix_id": "identity--3292e7aa-d173-4adc-97d5-d303bdb9603c",
+                "name": "Dissidents",
+                "description": "Individuals publicly disagreeing with and criticizing their government.",
+                "aliases": ["activism"]
+            }
+        ]
+    }
+]
