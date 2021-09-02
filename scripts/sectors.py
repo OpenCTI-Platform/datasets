@@ -1,9 +1,7 @@
 # coding: utf-8
 
 import json
-import uuid
-import datetime
-from stix2 import Bundle, Identity, Relationship
+from stix2 import Bundle, Identity, Relationship, TLP_WHITE
 
 with open('../raw/sectors.json') as json_file:
     sectors = json.load(json_file)
@@ -13,6 +11,7 @@ anssi = Identity(
     name="Agence Nationale de la Sécurité des Systèmes d'Information",
     description="The Agence nationale de la sécurité des systèmes d'information (ANSSI; English: National Cybersecurity Agency of France) is a French service created on 7 July 2009 with responsibility for computer security.",
     identity_class='organization',
+    object_marking_refs=[TLP_WHITE],
     custom_properties={
         'x_opencti_aliases': ['ANSSI'],
         'x_opencti_organization_type': 'csirt',
@@ -27,6 +26,7 @@ for sector in sectors:
         description=sector['description'],
         identity_class='class',
         created_by_ref=anssi,
+        object_marking_refs=[TLP_WHITE],
         custom_properties={
             'x_opencti_aliases': sector['aliases'],
         }
@@ -40,6 +40,7 @@ for sector in sectors:
                 description=subsector['description'],
                 identity_class='class',
                 created_by_ref=anssi,
+                object_marking_refs=[TLP_WHITE],
                 custom_properties={
                     'x_opencti_aliases': subsector['aliases'],
                 }
@@ -51,6 +52,7 @@ for sector in sectors:
                 target_ref=stix_sector.id,
                 description='Sector ' + stix_subsector.name + ' is a subsector of ' + stix_sector.name,
                 created_by_ref=anssi,
+                object_marking_refs=[TLP_WHITE],
                 confidence=100,
             )
             bundle_objects.append(stix_subsector_relationship)

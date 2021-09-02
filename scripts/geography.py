@@ -1,5 +1,5 @@
 import csv
-from stix2 import Bundle, Identity, Location, Relationship
+from stix2 import Bundle, Identity, Location, Relationship, TLP_WHITE
 
 csv_file = open('../raw/geo.csv')
 
@@ -9,6 +9,7 @@ anssi = Identity(
     name="Agence Nationale de la Sécurité des Systèmes d'Information",
     description="The Agence nationale de la sécurité des systèmes d'information (ANSSI; English: National Cybersecurity Agency of France) is a French service created on 7 July 2009 with responsibility for computer security.",
     identity_class='organization',
+    object_marking_refs=[TLP_WHITE],
     custom_properties={
         'x_opencti_aliases': ['ANSSI'],
         'x_opencti_organization_type': 'csirt',
@@ -47,6 +48,7 @@ for row in geography:
                 latitude=float(regionlat) if len(regionlat) > 0 else None,
                 longitude=float(regionlng) if len(regionlng) > 0 else None,
                 created_by_ref=anssi,
+                object_marking_refs=[TLP_WHITE],
                 custom_properties={
                     'x_opencti_location_type': 'Region'
                 }
@@ -62,6 +64,7 @@ for row in geography:
                 latitude=float(subregionlat) if len(subregionlat) > 0 else None,
                 longitude=float(subregionlng) if len(subregionlng) > 0 else None,
                 created_by_ref=anssi,
+                object_marking_refs=[TLP_WHITE],
                 custom_properties={
                     'x_opencti_location_type': 'Region'
                 }
@@ -76,6 +79,7 @@ for row in geography:
                     description='Region ' + stix_subregion.name + ' is located in ' + regions[region].name,
                     confidence=100,
                     created_by_ref=anssi,
+                    object_marking_refs=[TLP_WHITE],
                 )
                 bundle_objects.append(stix_subregion_relationship)
     stix_country = Location(
@@ -85,6 +89,7 @@ for row in geography:
         latitude=float(country_lat) if len(country_lat) > 0 else None,
         longitude=float(country_lng) if len(country_lng) > 0 else None,
         created_by_ref=anssi,
+        object_marking_refs=[TLP_WHITE],
         custom_properties={
             'x_opencti_location_type': 'Country',
             'x_opencti_aliases': [country_code, country_code2]
@@ -98,6 +103,7 @@ for row in geography:
             target_ref=subregions[subregion].id,
             description='Country ' + stix_country.name + ' is located in ' + subregions[subregion].name,
             confidence=100,
+            object_marking_refs=[TLP_WHITE],
             created_by_ref=anssi,
         )
         bundle_objects.append(stix_country_relationship)
@@ -108,6 +114,7 @@ for row in geography:
             target_ref=regions[region].id,
             description='Country ' + stix_country.name + ' is located in ' + regions[region].name,
             confidence=100,
+            object_marking_refs=[TLP_WHITE],
             created_by_ref=anssi,
         )
         bundle_objects.append(stix_country_relationship)
