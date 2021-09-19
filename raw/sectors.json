@@ -286,7 +286,7 @@
                 "stix_id": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
                 "name": "Food and drinks businesses",
                 "description": "Businesses preparing and serving food and drinks to customers in exchange for money.",
-                "aliases": ["Food", "Restaurant"]
+                "aliases": ["Food", "Restaurant", "Restaurant Chains"]
             },
             {
                 "stix_id": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
