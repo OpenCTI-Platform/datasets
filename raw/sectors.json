@@ -68,7 +68,7 @@
         "stix_id": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
         "name": "Energy",
         "description": "Public and private entities operating to extract, store, transport and process fuel, entities managing energy plants and energy storage and distribution and entities managing fuel waste.",
-        "aliases": ["Natural Resources", "Eneergy"],
+        "aliases": ["Natural Resources", "Energy"],
         "subsectors": [
             {
                 "stix_id": "identity--e8b655e0-d895-4362-aacc-679647141c42",
