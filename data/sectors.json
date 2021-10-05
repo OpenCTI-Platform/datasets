@@ -1,16 +1,19 @@
 {
     "type": "bundle",
-    "id": "bundle--354cd444-1f90-4433-8624-5548f8e9cacd",
+    "id": "bundle--86088eb7-3f34-4873-a0f6-04986236d39b",
     "objects": [
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150056Z",
-            "modified": "2021-04-21T13:25:29.150056Z",
+            "created": "2021-09-19T22:14:43.395419Z",
+            "modified": "2021-09-19T22:14:43.395419Z",
             "name": "Agence Nationale de la S\u00e9curit\u00e9 des Syst\u00e8mes d'Information",
             "description": "The Agence nationale de la s\u00e9curit\u00e9 des syst\u00e8mes d'information (ANSSI; English: National Cybersecurity Agency of France) is a French service created on 7 July 2009 with responsibility for computer security.",
             "identity_class": "organization",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "ANSSI"
             ],
@@ -21,11 +24,14 @@
             "spec_version": "2.1",
             "id": "identity--0c90429a-647f-4e1b-ae2e-a007fec01ae8",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150179Z",
-            "modified": "2021-04-21T13:25:29.150179Z",
+            "created": "2021-09-19T22:14:43.395575Z",
+            "modified": "2021-09-19T22:14:43.395575Z",
             "name": "Agriculture and agribusiness",
             "description": "Private entities specialized in the growth, culture, transport and transformation of plants or livestock for food.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Agriculture",
                 "Agribusiness",
@@ -38,22 +44,28 @@
             "spec_version": "2.1",
             "id": "identity--0ff292ef-8468-478c-8f29-d31246bf0a35",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150268Z",
-            "modified": "2021-04-21T13:25:29.150268Z",
+            "created": "2021-09-19T22:14:43.395672Z",
+            "modified": "2021-09-19T22:14:43.395672Z",
             "name": "Logistics",
             "description": "Entities managing the flow of goods, equipment, materials, supplies etc.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150345Z",
-            "modified": "2021-04-21T13:25:29.150345Z",
+            "created": "2021-09-19T22:14:43.395796Z",
+            "modified": "2021-09-19T22:14:43.395796Z",
             "name": "Culture and entertainment",
             "description": "Public and private entities dealing with cultural, sport activities and entertainment.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Entertainment"
             ]
@@ -63,11 +75,14 @@
             "spec_version": "2.1",
             "id": "identity--7095afff-2cf3-47a7-b782-7613f58b50f4",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150419Z",
-            "modified": "2021-04-21T13:25:29.150419Z",
+            "created": "2021-09-19T22:14:43.395892Z",
+            "modified": "2021-09-19T22:14:43.395892Z",
             "name": "Culture",
             "description": "Private and public entities involved in creating, producting, and distributing goods and services that are cultural in nature, or protecting it.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Travel"
             ]
@@ -75,26 +90,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--28ae9e9c-8fdc-45cf-8244-5c1e295f10a1",
+            "id": "relationship--924acf3d-6419-4a4c-956e-74eab877205f",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150505Z",
-            "modified": "2021-04-21T13:25:29.150505Z",
+            "created": "2021-09-19T22:14:43.395979Z",
+            "modified": "2021-09-19T22:14:43.395979Z",
             "relationship_type": "part-of",
             "description": "Sector Culture is a subsector of Culture and entertainment",
             "source_ref": "identity--7095afff-2cf3-47a7-b782-7613f58b50f4",
             "target_ref": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--e7966f9f-4d44-4adf-93b0-77cbee5c5106",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150785Z",
-            "modified": "2021-04-21T13:25:29.150785Z",
+            "created": "2021-09-19T22:14:43.396306Z",
+            "modified": "2021-09-19T22:14:43.396306Z",
             "name": "Sports",
             "description": "Private and public entities involved in producing, organizing, promoting  goods and services associated with sports.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Sport"
             ]
@@ -102,26 +123,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--2dfbb9d4-a5c5-48ea-982e-b940853e031b",
+            "id": "relationship--5d9d00ad-bf7c-42ca-bcd9-025be886a930",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150873Z",
-            "modified": "2021-04-21T13:25:29.150873Z",
+            "created": "2021-09-19T22:14:43.396402Z",
+            "modified": "2021-09-19T22:14:43.396402Z",
             "relationship_type": "part-of",
             "description": "Sector Sports is a subsector of Culture and entertainment",
             "source_ref": "identity--e7966f9f-4d44-4adf-93b0-77cbee5c5106",
             "target_ref": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--c145a6eb-c948-43ef-8f27-1305dba1b586",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.150958Z",
-            "modified": "2021-04-21T13:25:29.150958Z",
+            "created": "2021-09-19T22:14:43.396499Z",
+            "modified": "2021-09-19T22:14:43.396499Z",
             "name": "Entertainment industry",
             "description": "All entities involved in the conception and production of entertainment products, such as music, movies or video games.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Gaming",
                 "Online Gaming Community"
@@ -130,61 +157,76 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c6db575a-7c4a-497f-9374-dd9a10b58ef0",
+            "id": "relationship--35ff90a0-5f63-47f6-9034-791e1bb2352c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151033Z",
-            "modified": "2021-04-21T13:25:29.151033Z",
+            "created": "2021-09-19T22:14:43.396582Z",
+            "modified": "2021-09-19T22:14:43.396582Z",
             "relationship_type": "part-of",
             "description": "Sector Entertainment industry is a subsector of Culture and entertainment",
             "source_ref": "identity--c145a6eb-c948-43ef-8f27-1305dba1b586",
             "target_ref": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--92a6e1b9-d54d-4f28-9c23-e03e542fce87",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151115Z",
-            "modified": "2021-04-21T13:25:29.151115Z",
+            "created": "2021-09-19T22:14:43.396673Z",
+            "modified": "2021-09-19T22:14:43.396673Z",
             "name": "Gambling",
             "description": "All companies or public organizations involved in gambling activities, such as casino, money games, etc.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--03525dc8-4793-436f-b5a7-2c97c0320355",
+            "id": "relationship--c408d1ef-757b-46ea-a24d-f6ba581925a4",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151186Z",
-            "modified": "2021-04-21T13:25:29.151186Z",
+            "created": "2021-09-19T22:14:43.396755Z",
+            "modified": "2021-09-19T22:14:43.396755Z",
             "relationship_type": "part-of",
             "description": "Sector Gambling is a subsector of Culture and entertainment",
             "source_ref": "identity--92a6e1b9-d54d-4f28-9c23-e03e542fce87",
             "target_ref": "identity--7083bf6a-87f7-40a7-b888-a919312f82e5",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--410d2368-a448-47aa-80ca-4b09ea2b339a",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151266Z",
-            "modified": "2021-04-21T13:25:29.151266Z",
+            "created": "2021-09-19T22:14:43.396847Z",
+            "modified": "2021-09-19T22:14:43.396847Z",
             "name": "Education",
             "description": "Public or private entities operating to facilitate learning and acquiring knowledge and skills, composed of infrastructures and services to host teachers, students, and administrative services related to this activity. This does not include research activities.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--1d7205a8-5a46-4bf2-9007-d56be02dcad6",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151331Z",
-            "modified": "2021-04-21T13:25:29.151331Z",
+            "created": "2021-09-19T22:14:43.396924Z",
+            "modified": "2021-09-19T22:14:43.396924Z",
             "name": "Universities",
             "description": "Public and private institutions for higher education.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Higher education",
                 "Academic",
@@ -194,53 +236,65 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--cc340c89-a44a-4466-9c7f-93723d9e9b27",
+            "id": "relationship--ba3504d6-f267-4f2e-9941-33559980c449",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151401Z",
-            "modified": "2021-04-21T13:25:29.151401Z",
+            "created": "2021-09-19T22:14:43.397009Z",
+            "modified": "2021-09-19T22:14:43.397009Z",
             "relationship_type": "part-of",
             "description": "Sector Universities is a subsector of Education",
             "source_ref": "identity--1d7205a8-5a46-4bf2-9007-d56be02dcad6",
             "target_ref": "identity--410d2368-a448-47aa-80ca-4b09ea2b339a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151477Z",
-            "modified": "2021-04-21T13:25:29.151477Z",
+            "created": "2021-09-19T22:14:43.397122Z",
+            "modified": "2021-09-19T22:14:43.397122Z",
             "name": "Schools",
             "description": "PPublic and private institutions for all primary and secondary school levels.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--4920cb03-2687-445b-9561-2d050b5511a1",
+            "id": "relationship--052794c3-10bd-46d9-b316-f039d0a65b4d",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151548Z",
-            "modified": "2021-04-21T13:25:29.151548Z",
+            "created": "2021-09-19T22:14:43.397203Z",
+            "modified": "2021-09-19T22:14:43.397203Z",
             "relationship_type": "part-of",
             "description": "Sector Schools is a subsector of Education",
             "source_ref": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
             "target_ref": "identity--410d2368-a448-47aa-80ca-4b09ea2b339a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151623Z",
-            "modified": "2021-04-21T13:25:29.151623Z",
+            "created": "2021-09-19T22:14:43.3973Z",
+            "modified": "2021-09-19T22:14:43.3973Z",
             "name": "Energy",
             "description": "Public and private entities operating to extract, store, transport and process fuel, entities managing energy plants and energy storage and distribution and entities managing fuel waste.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Natural Resources",
-                "Eneergy"
+                "Energy"
             ]
         },
         {
@@ -248,11 +302,14 @@
             "spec_version": "2.1",
             "id": "identity--e8b655e0-d895-4362-aacc-679647141c42",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151688Z",
-            "modified": "2021-04-21T13:25:29.151688Z",
+            "created": "2021-09-19T22:14:43.397373Z",
+            "modified": "2021-09-19T22:14:43.397373Z",
             "name": "Electricity",
             "description": "Public or private entities involved in the storage, transport and distribution of electricity to end customers.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Electrical",
                 "Power",
@@ -262,26 +319,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--96e74d06-fcfe-4219-8c1a-9d6f0ea96052",
+            "id": "relationship--7f702ab7-51d8-48f4-b2bf-693f800e6d0d",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151756Z",
-            "modified": "2021-04-21T13:25:29.151756Z",
+            "created": "2021-09-19T22:14:43.397449Z",
+            "modified": "2021-09-19T22:14:43.397449Z",
             "relationship_type": "part-of",
             "description": "Sector Electricity is a subsector of Energy",
             "source_ref": "identity--e8b655e0-d895-4362-aacc-679647141c42",
             "target_ref": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--c3b13a21-3b89-4c2f-871c-14c4fd04e290",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151832Z",
-            "modified": "2021-04-21T13:25:29.151832Z",
+            "created": "2021-09-19T22:14:43.397533Z",
+            "modified": "2021-09-19T22:14:43.397533Z",
             "name": "Nuclear power (civilian use)",
             "description": "Public and private entities involved in the extraction and transport of nuclear fuel, operating nuclear plants for civilian purposes and entities processing nuclear waste.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Nuclear"
             ]
@@ -289,26 +352,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--cf991ec6-4029-4532-825b-a7654abbe32b",
+            "id": "relationship--250f6d65-f106-4554-85a5-52a8fe3783e5",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.1519Z",
-            "modified": "2021-04-21T13:25:29.1519Z",
+            "created": "2021-09-19T22:14:43.397613Z",
+            "modified": "2021-09-19T22:14:43.397613Z",
             "relationship_type": "part-of",
             "description": "Sector Nuclear power (civilian use) is a subsector of Energy",
             "source_ref": "identity--c3b13a21-3b89-4c2f-871c-14c4fd04e290",
             "target_ref": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--4a3c2734-f6fb-40ae-91c9-0ef2e1a43114",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.151975Z",
-            "modified": "2021-04-21T13:25:29.151975Z",
+            "created": "2021-09-19T22:14:43.397701Z",
+            "modified": "2021-09-19T22:14:43.397701Z",
             "name": "Gas",
             "description": "Public or private entities involved in exploration, extraction, refining, transporting and marketing of natural gas products.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Oil and Gas",
                 "Natural Gas Utilities",
@@ -319,26 +388,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d34fdd58-573c-43f1-bd3f-930186ac6b66",
+            "id": "relationship--ebd01ab2-7ab6-46b4-9938-451b0f1aa4a3",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152043Z",
-            "modified": "2021-04-21T13:25:29.152043Z",
+            "created": "2021-09-19T22:14:43.397779Z",
+            "modified": "2021-09-19T22:14:43.397779Z",
             "relationship_type": "part-of",
             "description": "Sector Gas is a subsector of Energy",
             "source_ref": "identity--4a3c2734-f6fb-40ae-91c9-0ef2e1a43114",
             "target_ref": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--22d9e69f-d211-41cc-a5e5-d012366eaa73",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152117Z",
-            "modified": "2021-04-21T13:25:29.152117Z",
+            "created": "2021-09-19T22:14:43.397862Z",
+            "modified": "2021-09-19T22:14:43.397862Z",
             "name": "Oil",
             "description": "Public and private entities involved in the global processes of exploration, extraction, refining, transporting and marketing of petroleum products.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Fuel"
             ]
@@ -346,50 +421,62 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--48ab71bd-c2aa-4164-a629-cb6e2512c7c8",
+            "id": "relationship--6352ae80-eaf7-486e-895d-0ca9630813b3",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15219Z",
-            "modified": "2021-04-21T13:25:29.15219Z",
+            "created": "2021-09-19T22:14:43.397938Z",
+            "modified": "2021-09-19T22:14:43.397938Z",
             "relationship_type": "part-of",
             "description": "Sector Oil is a subsector of Energy",
             "source_ref": "identity--22d9e69f-d211-41cc-a5e5-d012366eaa73",
             "target_ref": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--89f89245-0dfd-4d20-a157-57ce7c829847",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152272Z",
-            "modified": "2021-04-21T13:25:29.152272Z",
+            "created": "2021-09-19T22:14:43.398021Z",
+            "modified": "2021-09-19T22:14:43.398021Z",
             "name": "Renewable energies",
             "description": "Public and private entities involved in the production of electricity based on renewable ressources.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--fde46c06-1719-4537-80f1-f79ef5c0e26a",
+            "id": "relationship--4db4c454-ae39-4ca7-b45c-4a36fb421cb7",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152342Z",
-            "modified": "2021-04-21T13:25:29.152342Z",
+            "created": "2021-09-19T22:14:43.398098Z",
+            "modified": "2021-09-19T22:14:43.398098Z",
             "relationship_type": "part-of",
             "description": "Sector Renewable energies is a subsector of Energy",
             "source_ref": "identity--89f89245-0dfd-4d20-a157-57ce7c829847",
             "target_ref": "identity--062f72b1-7caf-4112-ab92-6211f7e7abc8",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152416Z",
-            "modified": "2021-04-21T13:25:29.152416Z",
+            "created": "2021-09-19T22:14:43.398182Z",
+            "modified": "2021-09-19T22:14:43.398182Z",
             "name": "Transport",
             "description": "All entities involved in the movement of people or goods from one place to another.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Transportation",
                 "Shipping"
@@ -400,11 +487,14 @@
             "spec_version": "2.1",
             "id": "identity--f1aeb7a2-0f3e-4fb0-ade5-a50297afe65d",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152481Z",
-            "modified": "2021-04-21T13:25:29.152481Z",
+            "created": "2021-09-19T22:14:43.398254Z",
+            "modified": "2021-09-19T22:14:43.398254Z",
             "name": "Air transport",
             "description": "All entities transporting people or goods by plane, managing or exploiting airports and structures, traffic authorities and plane manufacturers. Includes all civilian space activities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Aerospace",
                 "Aviation",
@@ -415,50 +505,62 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9d5f878a-b89d-4275-81a2-124b99a64ad2",
+            "id": "relationship--18bc0b08-f212-4575-aeee-009e1f18b800",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152548Z",
-            "modified": "2021-04-21T13:25:29.152548Z",
+            "created": "2021-09-19T22:14:43.398335Z",
+            "modified": "2021-09-19T22:14:43.398335Z",
             "relationship_type": "part-of",
             "description": "Sector Air transport is a subsector of Transport",
             "source_ref": "identity--f1aeb7a2-0f3e-4fb0-ade5-a50297afe65d",
             "target_ref": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--0f5a665e-fb32-411a-ac6f-f63eeb71f71e",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152621Z",
-            "modified": "2021-04-21T13:25:29.152621Z",
+            "created": "2021-09-19T22:14:43.398425Z",
+            "modified": "2021-09-19T22:14:43.398425Z",
             "name": "Rail transport",
             "description": "Public and private entities managing rail infrastructures, rail transportation, exploiting intelligent rail transport systems and the rail industry.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--157f6b25-63e8-4117-baa7-cab6c93c903e",
+            "id": "relationship--8f62d2bb-3b14-4fde-a682-da5ca238f2be",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152689Z",
-            "modified": "2021-04-21T13:25:29.152689Z",
+            "created": "2021-09-19T22:14:43.398522Z",
+            "modified": "2021-09-19T22:14:43.398522Z",
             "relationship_type": "part-of",
             "description": "Sector Rail transport is a subsector of Transport",
             "source_ref": "identity--0f5a665e-fb32-411a-ac6f-f63eeb71f71e",
             "target_ref": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--1ce54804-3089-4fd1-9a1d-6ed3aa65d887",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152765Z",
-            "modified": "2021-04-21T13:25:29.152765Z",
+            "created": "2021-09-19T22:14:43.398607Z",
+            "modified": "2021-09-19T22:14:43.398607Z",
             "name": "Maritime transport",
             "description": "All entities transporting people or good by naval means, managing or exploiting naval structures (ports), naval constructors and traffic authorities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Marine",
                 "Naval",
@@ -468,26 +570,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7847bf52-b946-4416-9339-5607ad0be86f",
+            "id": "relationship--954e1bba-3083-47a0-bbfa-b6b3dee033ac",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.152843Z",
-            "modified": "2021-04-21T13:25:29.152843Z",
+            "created": "2021-09-19T22:14:43.398685Z",
+            "modified": "2021-09-19T22:14:43.398685Z",
             "relationship_type": "part-of",
             "description": "Sector Maritime transport is a subsector of Transport",
             "source_ref": "identity--1ce54804-3089-4fd1-9a1d-6ed3aa65d887",
             "target_ref": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--de61c7c3-ae8d-4064-90be-7c290d7e2a73",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15293Z",
-            "modified": "2021-04-21T13:25:29.15293Z",
+            "created": "2021-09-19T22:14:43.398767Z",
+            "modified": "2021-09-19T22:14:43.398767Z",
             "name": "Road transport",
             "description": "Public and private entities managing road infrastructures, road transportation, exploiting intelligent transport systems and the automotive industry.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Automotive"
             ]
@@ -495,26 +603,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--938c247e-f0c2-43bd-8152-889c416425a0",
+            "id": "relationship--c36f2262-604b-45aa-90c5-cc2487b65be6",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153001Z",
-            "modified": "2021-04-21T13:25:29.153001Z",
+            "created": "2021-09-19T22:14:43.398844Z",
+            "modified": "2021-09-19T22:14:43.398844Z",
             "relationship_type": "part-of",
             "description": "Sector Road transport is a subsector of Transport",
             "source_ref": "identity--de61c7c3-ae8d-4064-90be-7c290d7e2a73",
             "target_ref": "identity--97c8d7be-646d-4014-9cad-ff883d15d09a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--96853bde-72b2-4564-a133-c2d58206c117",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153076Z",
-            "modified": "2021-04-21T13:25:29.153076Z",
+            "created": "2021-09-19T22:14:43.398927Z",
+            "modified": "2021-09-19T22:14:43.398927Z",
             "name": "Defense",
             "description": "Public and private entities involved in the conception and production of weapons and the planning and conducting of military operations.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Defence",
                 "National Security"
@@ -525,11 +639,14 @@
             "spec_version": "2.1",
             "id": "identity--b6e14529-565d-4540-8fc3-6a28661aaf6e",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153152Z",
-            "modified": "2021-04-21T13:25:29.153152Z",
+            "created": "2021-09-19T22:14:43.398999Z",
+            "modified": "2021-09-19T22:14:43.398999Z",
             "name": "Defense ministries (including the military)",
             "description": "Includes the military and all defense related-space activities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Military",
                 "intelligence",
@@ -539,26 +656,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--f93073bf-6e94-46fb-b788-c92689f4658e",
+            "id": "relationship--6e0bea87-01d0-43dc-9553-aed2388c48d1",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153221Z",
-            "modified": "2021-04-21T13:25:29.153221Z",
+            "created": "2021-09-19T22:14:43.399077Z",
+            "modified": "2021-09-19T22:14:43.399077Z",
             "relationship_type": "part-of",
             "description": "Sector Defense ministries (including the military) is a subsector of Defense",
             "source_ref": "identity--b6e14529-565d-4540-8fc3-6a28661aaf6e",
             "target_ref": "identity--96853bde-72b2-4564-a133-c2d58206c117",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--2bc42030-ab93-4fe2-8272-6a2975745ff8",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153296Z",
-            "modified": "2021-04-21T13:25:29.153296Z",
+            "created": "2021-09-19T22:14:43.399165Z",
+            "modified": "2021-09-19T22:14:43.399165Z",
             "name": "Defense industry",
             "description": "All private contractors involved in the manufacturing and sale of weapons and military or defense technologies.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Defence industry"
             ]
@@ -566,26 +689,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--2cd9a273-9a04-4c68-bb71-b9749dbc6824",
+            "id": "relationship--24d3bfa5-cf13-4a79-99d7-762c203dc7d3",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153365Z",
-            "modified": "2021-04-21T13:25:29.153365Z",
+            "created": "2021-09-19T22:14:43.399242Z",
+            "modified": "2021-09-19T22:14:43.399242Z",
             "relationship_type": "part-of",
             "description": "Sector Defense industry is a subsector of Defense",
             "source_ref": "identity--2bc42030-ab93-4fe2-8272-6a2975745ff8",
             "target_ref": "identity--96853bde-72b2-4564-a133-c2d58206c117",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--d0db92e3-af8a-4990-a067-2f76998e726c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153444Z",
-            "modified": "2021-04-21T13:25:29.153444Z",
+            "created": "2021-09-19T22:14:43.399326Z",
+            "modified": "2021-09-19T22:14:43.399326Z",
             "name": "Defense research and development",
             "description": "R&D for defense or military purposes.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Defence research and development"
             ]
@@ -593,26 +722,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--92890e11-e512-496f-b44b-a0edb5de7f96",
+            "id": "relationship--72371855-5681-47f2-9bc9-c3ebefa926ec",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153518Z",
-            "modified": "2021-04-21T13:25:29.153518Z",
+            "created": "2021-09-19T22:14:43.399431Z",
+            "modified": "2021-09-19T22:14:43.399431Z",
             "relationship_type": "part-of",
             "description": "Sector Defense research and development is a subsector of Defense",
             "source_ref": "identity--d0db92e3-af8a-4990-a067-2f76998e726c",
             "target_ref": "identity--96853bde-72b2-4564-a133-c2d58206c117",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153595Z",
-            "modified": "2021-04-21T13:25:29.153595Z",
+            "created": "2021-09-19T22:14:43.399517Z",
+            "modified": "2021-09-19T22:14:43.399517Z",
             "name": "Finance",
             "description": "Public and private entities involved in the allocation of assets and liabilities over space and time.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Financial Industry (FI)",
                 "Financial-Services",
@@ -625,11 +760,14 @@
             "spec_version": "2.1",
             "id": "identity--cda34d5b-c9d8-4a61-85ce-5f00760bebb9",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153663Z",
-            "modified": "2021-04-21T13:25:29.153663Z",
+            "created": "2021-09-19T22:14:43.39959Z",
+            "modified": "2021-09-19T22:14:43.39959Z",
             "name": "Banking institutions",
             "description": "Credit institutions whose business consists in receiving repayable funds from the public and granting credit. As the bank of banks, central banks are included in this scope.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Banking",
                 "Bank",
@@ -641,26 +779,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--316d4076-dc26-4257-9cfa-bf07d9bc4843",
+            "id": "relationship--d2c728c8-7893-492d-a18d-744b33255864",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153732Z",
-            "modified": "2021-04-21T13:25:29.153732Z",
+            "created": "2021-09-19T22:14:43.399665Z",
+            "modified": "2021-09-19T22:14:43.399665Z",
             "relationship_type": "part-of",
             "description": "Sector Banking institutions is a subsector of Finance",
             "source_ref": "identity--cda34d5b-c9d8-4a61-85ce-5f00760bebb9",
             "target_ref": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--9255487f-19a2-4490-b587-d5d6e2c466de",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153807Z",
-            "modified": "2021-04-21T13:25:29.153807Z",
+            "created": "2021-09-19T22:14:43.399767Z",
+            "modified": "2021-09-19T22:14:43.399767Z",
             "name": "Financial organizations",
             "description": "Comprises for instance asset managers and investment firms, that are neither banks nor insurance companies.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "investment"
             ]
@@ -668,26 +812,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9005f657-4b58-44c6-be87-a90f10dbc62e",
+            "id": "relationship--c9e633b5-d90e-4f6a-9c32-bb25b026e652",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153876Z",
-            "modified": "2021-04-21T13:25:29.153876Z",
+            "created": "2021-09-19T22:14:43.399848Z",
+            "modified": "2021-09-19T22:14:43.399848Z",
             "relationship_type": "part-of",
             "description": "Sector Financial organizations is a subsector of Finance",
             "source_ref": "identity--9255487f-19a2-4490-b587-d5d6e2c466de",
             "target_ref": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--3eda5dc7-6dc0-46ae-8093-5aa89963dc4e",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.153949Z",
-            "modified": "2021-04-21T13:25:29.153949Z",
+            "created": "2021-09-19T22:14:43.399938Z",
+            "modified": "2021-09-19T22:14:43.399938Z",
             "name": "Insurance services",
             "description": "Companies, either insurance companies or mutual insurance companies, that provides insurance services to customers.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Insurance"
             ]
@@ -695,26 +845,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--01b330e8-dc65-4c26-ae87-5b9fdcbcd56a",
+            "id": "relationship--fac698ff-4cea-4519-a90a-e6e0f3a03530",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154019Z",
-            "modified": "2021-04-21T13:25:29.154019Z",
+            "created": "2021-09-19T22:14:43.400016Z",
+            "modified": "2021-09-19T22:14:43.400016Z",
             "relationship_type": "part-of",
             "description": "Sector Insurance services is a subsector of Finance",
             "source_ref": "identity--3eda5dc7-6dc0-46ae-8093-5aa89963dc4e",
             "target_ref": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--89bb5038-94a0-4491-b4cb-4a0fe4ac82e0",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154095Z",
-            "modified": "2021-04-21T13:25:29.154095Z",
+            "created": "2021-09-19T22:14:43.400103Z",
+            "modified": "2021-09-19T22:14:43.400103Z",
             "name": "Market infrastructures",
             "description": "Encompasses all the systems necessary for the smooth process of market financing operations. Are included payment systems, clearing houses, central securities depositories, securities settlement systems and trade repositories.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Trade",
                 "Trading"
@@ -723,26 +879,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--4915ac2c-a8be-4ed4-9c8b-3e9e1e32ab8c",
+            "id": "relationship--04c362b0-5a89-4c8b-9333-6dcf55376ff2",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154165Z",
-            "modified": "2021-04-21T13:25:29.154165Z",
+            "created": "2021-09-19T22:14:43.400181Z",
+            "modified": "2021-09-19T22:14:43.400181Z",
             "relationship_type": "part-of",
             "description": "Sector Market infrastructures is a subsector of Finance",
             "source_ref": "identity--89bb5038-94a0-4491-b4cb-4a0fe4ac82e0",
             "target_ref": "identity--640fbd6e-3878-4fce-87fe-66d2110657bb",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15424Z",
-            "modified": "2021-04-21T13:25:29.15424Z",
+            "created": "2021-09-19T22:14:43.400266Z",
+            "modified": "2021-09-19T22:14:43.400266Z",
             "name": "Diplomacy",
             "description": "Public or private entities which are actors of or involved in international relations activities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Diplomatic"
             ]
@@ -752,11 +914,14 @@
             "spec_version": "2.1",
             "id": "identity--332b79eb-2090-4b7f-9b0b-9b95fbdca682",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154305Z",
-            "modified": "2021-04-21T13:25:29.154305Z",
+            "created": "2021-09-19T22:14:43.400338Z",
+            "modified": "2021-09-19T22:14:43.400338Z",
             "name": "Ministries of foreign affairs",
             "description": "Governmental entities in charge of the diplomatic action of the State.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Foreign Affairs"
             ]
@@ -764,26 +929,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--90db90aa-b367-49d6-8d0c-b0588d9b6308",
+            "id": "relationship--9af4f1e3-f4cb-4b10-999c-eed48ab0a9e8",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154376Z",
-            "modified": "2021-04-21T13:25:29.154376Z",
+            "created": "2021-09-19T22:14:43.400412Z",
+            "modified": "2021-09-19T22:14:43.400412Z",
             "relationship_type": "part-of",
             "description": "Sector Ministries of foreign affairs is a subsector of Diplomacy",
             "source_ref": "identity--332b79eb-2090-4b7f-9b0b-9b95fbdca682",
             "target_ref": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--2b24bbc0-4e5f-4af9-85d6-86ff470bd7de",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154452Z",
-            "modified": "2021-04-21T13:25:29.154452Z",
+            "created": "2021-09-19T22:14:43.400494Z",
+            "modified": "2021-09-19T22:14:43.400494Z",
             "name": "Think tanks",
             "description": "Research institutes and structures specialized in policy making and advocating on international relations subjects.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Think tank",
                 "Thinktank",
@@ -793,50 +964,62 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c4dbec7e-43b9-4acb-9f10-05879b5dc46a",
+            "id": "relationship--20328d07-389d-4372-8760-9557017f0ad5",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154521Z",
-            "modified": "2021-04-21T13:25:29.154521Z",
+            "created": "2021-09-19T22:14:43.400579Z",
+            "modified": "2021-09-19T22:14:43.400579Z",
             "relationship_type": "part-of",
             "description": "Sector Think tanks is a subsector of Diplomacy",
             "source_ref": "identity--2b24bbc0-4e5f-4af9-85d6-86ff470bd7de",
             "target_ref": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154599Z",
-            "modified": "2021-04-21T13:25:29.154599Z",
+            "created": "2021-09-19T22:14:43.400671Z",
+            "modified": "2021-09-19T22:14:43.400671Z",
             "name": "International organizations",
             "description": "International organizations made up primarily of sovereign states and involved in setting international agendas and policies.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--e13791c4-774e-4618-aa01-7084f43eba93",
+            "id": "relationship--6368eab9-a52c-4723-8bf7-cebfd6b44598",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154671Z",
-            "modified": "2021-04-21T13:25:29.154671Z",
+            "created": "2021-09-19T22:14:43.400749Z",
+            "modified": "2021-09-19T22:14:43.400749Z",
             "relationship_type": "part-of",
             "description": "Sector International organizations is a subsector of Diplomacy",
             "source_ref": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
             "target_ref": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154784Z",
-            "modified": "2021-04-21T13:25:29.154784Z",
+            "created": "2021-09-19T22:14:43.400835Z",
+            "modified": "2021-09-19T22:14:43.400835Z",
             "name": "Government and administrations",
             "description": "Civilian government institutions and administrations of the executive and legislative branches. The diplomatic and judicial branches are not included.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Government",
                 "govenrment",
@@ -850,11 +1033,14 @@
             "spec_version": "2.1",
             "id": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154856Z",
-            "modified": "2021-04-21T13:25:29.154856Z",
+            "created": "2021-09-19T22:14:43.400909Z",
+            "modified": "2021-09-19T22:14:43.400909Z",
             "name": "Central administration and government",
             "description": "All central administrations and government bodies in charge of the executive power, except for the Ministries of Foreign Affairs, of Defense and of Justice.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Government-National",
                 "Emergency-Services",
@@ -867,26 +1053,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7141bb9d-fc46-47e5-ace3-89a3d8f29fed",
+            "id": "relationship--832af4bf-210b-4ab9-8dde-cf5ca50bc173",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.154927Z",
-            "modified": "2021-04-21T13:25:29.154927Z",
+            "created": "2021-09-19T22:14:43.400984Z",
+            "modified": "2021-09-19T22:14:43.400984Z",
             "relationship_type": "part-of",
             "description": "Sector Central administration and government is a subsector of Government and administrations",
             "source_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
             "target_ref": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--c5d9f749-f61c-43dd-a11e-785a8aeab032",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155006Z",
-            "modified": "2021-04-21T13:25:29.155006Z",
+            "created": "2021-09-19T22:14:43.401066Z",
+            "modified": "2021-09-19T22:14:43.401066Z",
             "name": "Local administrations",
             "description": "Public administrations and government bodies managing a local territory under the global authority of a central government.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Government-Local",
                 "Government-Regional"
@@ -895,50 +1087,62 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--fecb8fe2-1158-49e6-af22-43e2d35f1ffc",
+            "id": "relationship--ba4c605c-b75f-4c84-a49f-92aa1d33faa7",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155077Z",
-            "modified": "2021-04-21T13:25:29.155077Z",
+            "created": "2021-09-19T22:14:43.401144Z",
+            "modified": "2021-09-19T22:14:43.401144Z",
             "relationship_type": "part-of",
             "description": "Sector Local administrations is a subsector of Government and administrations",
             "source_ref": "identity--c5d9f749-f61c-43dd-a11e-785a8aeab032",
             "target_ref": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--8a9f413e-c990-4478-bdc4-db4440744fce",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155153Z",
-            "modified": "2021-04-21T13:25:29.155153Z",
+            "created": "2021-09-19T22:14:43.401229Z",
+            "modified": "2021-09-19T22:14:43.401229Z",
             "name": "Legislative branch (parliamentary chambers)",
             "description": "Legislative chambers of the state, in charge of voting the laws.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9398f03f-f0d8-4d83-855e-3333fa8309fa",
+            "id": "relationship--342265eb-b02d-4a6c-bb2a-9067abba173f",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155225Z",
-            "modified": "2021-04-21T13:25:29.155225Z",
+            "created": "2021-09-19T22:14:43.401309Z",
+            "modified": "2021-09-19T22:14:43.401309Z",
             "relationship_type": "part-of",
             "description": "Sector Legislative branch (parliamentary chambers) is a subsector of Government and administrations",
             "source_ref": "identity--8a9f413e-c990-4478-bdc4-db4440744fce",
             "target_ref": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--59644f64-2a06-406c-978b-6a4b8f7dac3a",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.1553Z",
-            "modified": "2021-04-21T13:25:29.1553Z",
+            "created": "2021-09-19T22:14:43.401413Z",
+            "modified": "2021-09-19T22:14:43.401413Z",
             "name": "Health",
             "description": "Public and private entities involved in research, services and manufacturing activities related to public health.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Healthcare"
             ]
@@ -948,11 +1152,14 @@
             "spec_version": "2.1",
             "id": "identity--33986379-9641-417e-b821-669588580ecb",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155365Z",
-            "modified": "2021-04-21T13:25:29.155365Z",
+            "created": "2021-09-19T22:14:43.401488Z",
+            "modified": "2021-09-19T22:14:43.401488Z",
             "name": "Healthcare services",
             "description": "Hospitals and other direct medical practice activities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Medical"
             ]
@@ -960,26 +1167,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--827878c0-91f1-4ec0-b01e-f1d1b8003875",
+            "id": "relationship--b8c2c515-5db6-4e07-8bfd-cecd70d16561",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155432Z",
-            "modified": "2021-04-21T13:25:29.155432Z",
+            "created": "2021-09-19T22:14:43.401575Z",
+            "modified": "2021-09-19T22:14:43.401575Z",
             "relationship_type": "part-of",
             "description": "Sector Healthcare services is a subsector of Health",
             "source_ref": "identity--33986379-9641-417e-b821-669588580ecb",
             "target_ref": "identity--59644f64-2a06-406c-978b-6a4b8f7dac3a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155506Z",
-            "modified": "2021-04-21T13:25:29.155506Z",
+            "created": "2021-09-19T22:14:43.401671Z",
+            "modified": "2021-09-19T22:14:43.401671Z",
             "name": "Pharmacy and drugs manufacturing",
             "description": "Public and private entities involved in producing and selling medicinal products and drugs.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Pharmaceuticals",
                 "Pharmaceutical"
@@ -988,50 +1201,62 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d1184248-c6c0-448a-a704-7db768a15395",
+            "id": "relationship--b204b9a8-0d4e-494f-92d3-21e0cc51d359",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155574Z",
-            "modified": "2021-04-21T13:25:29.155574Z",
+            "created": "2021-09-19T22:14:43.401748Z",
+            "modified": "2021-09-19T22:14:43.401748Z",
             "relationship_type": "part-of",
             "description": "Sector Pharmacy and drugs manufacturing is a subsector of Health",
             "source_ref": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
             "target_ref": "identity--59644f64-2a06-406c-978b-6a4b8f7dac3a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--769af810-c705-4743-aea3-936fc7c426cd",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155673Z",
-            "modified": "2021-04-21T13:25:29.155673Z",
+            "created": "2021-09-19T22:14:43.401854Z",
+            "modified": "2021-09-19T22:14:43.401854Z",
             "name": "Healthcare research",
             "description": "Entities involved in the scientific investigation of understanding how different factors affect people\u2019s health and their access to healthcare.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--0386ce25-631a-4dcd-b9ca-2aad3abdbcd7",
+            "id": "relationship--feb08eb5-5959-49d8-9bd1-cd47ed86aa11",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155746Z",
-            "modified": "2021-04-21T13:25:29.155746Z",
+            "created": "2021-09-19T22:14:43.401937Z",
+            "modified": "2021-09-19T22:14:43.401937Z",
             "relationship_type": "part-of",
             "description": "Sector Healthcare research is a subsector of Health",
             "source_ref": "identity--769af810-c705-4743-aea3-936fc7c426cd",
             "target_ref": "identity--59644f64-2a06-406c-978b-6a4b8f7dac3a",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--8248830f-4c88-4174-820f-c2ea8ddcc1d7",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155823Z",
-            "modified": "2021-04-21T13:25:29.155823Z",
+            "created": "2021-09-19T22:14:43.402021Z",
+            "modified": "2021-09-19T22:14:43.402021Z",
             "name": "Hospitality",
             "description": "Private entities offering to customers\u2019 leisure activities and experiences.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Hospitality-Leisure"
             ]
@@ -1041,63 +1266,79 @@
             "spec_version": "2.1",
             "id": "identity--806e87ee-ed41-4629-ab47-28dc0424caef",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155891Z",
-            "modified": "2021-04-21T13:25:29.155891Z",
+            "created": "2021-09-19T22:14:43.402096Z",
+            "modified": "2021-09-19T22:14:43.402096Z",
             "name": "Lodging industry",
             "description": "Entities offering short-term dwellings in exchange for money for people travelling or staying away from their home.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ee922132-d2b6-4b52-a1c9-1afac9d338a7",
+            "id": "relationship--00756202-f4e1-405b-98b8-9414a90aa3e4",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.155964Z",
-            "modified": "2021-04-21T13:25:29.155964Z",
+            "created": "2021-09-19T22:14:43.402173Z",
+            "modified": "2021-09-19T22:14:43.402173Z",
             "relationship_type": "part-of",
             "description": "Sector Lodging industry is a subsector of Hospitality",
             "source_ref": "identity--806e87ee-ed41-4629-ab47-28dc0424caef",
             "target_ref": "identity--8248830f-4c88-4174-820f-c2ea8ddcc1d7",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15604Z",
-            "modified": "2021-04-21T13:25:29.15604Z",
+            "created": "2021-09-19T22:14:43.402264Z",
+            "modified": "2021-09-19T22:14:43.402264Z",
             "name": "Food and drinks businesses",
             "description": "Businesses preparing and serving food and drinks to customers in exchange for money.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Food",
-                "Restaurant"
+                "Restaurant",
+                "Restaurant Chains"
             ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--16c9b71d-c4c4-4aba-8dfb-82f685b2115c",
+            "id": "relationship--c849b145-a1ab-484b-8cff-c469f3b23853",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15611Z",
-            "modified": "2021-04-21T13:25:29.15611Z",
+            "created": "2021-09-19T22:14:43.402345Z",
+            "modified": "2021-09-19T22:14:43.402345Z",
             "relationship_type": "part-of",
             "description": "Sector Food and drinks businesses is a subsector of Hospitality",
             "source_ref": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
             "target_ref": "identity--8248830f-4c88-4174-820f-c2ea8ddcc1d7",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156185Z",
-            "modified": "2021-04-21T13:25:29.156185Z",
+            "created": "2021-09-19T22:14:43.402428Z",
+            "modified": "2021-09-19T22:14:43.402428Z",
             "name": "Travel and tourism industry",
             "description": "Businesses operating in the field of travel for pleasure or business and in the field of attracting and entertaining tourists.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Commodities",
                 "Tourism"
@@ -1106,26 +1347,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--14f93a0d-ad4f-4e1d-9884-9682e8c5c370",
+            "id": "relationship--69198619-57b3-42df-a575-4af29bca9f0c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156254Z",
-            "modified": "2021-04-21T13:25:29.156254Z",
+            "created": "2021-09-19T22:14:43.402504Z",
+            "modified": "2021-09-19T22:14:43.402504Z",
             "relationship_type": "part-of",
             "description": "Sector Travel and tourism industry is a subsector of Hospitality",
             "source_ref": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
             "target_ref": "identity--8248830f-4c88-4174-820f-c2ea8ddcc1d7",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15633Z",
-            "modified": "2021-04-21T13:25:29.15633Z",
+            "created": "2021-09-19T22:14:43.402591Z",
+            "modified": "2021-09-19T22:14:43.402591Z",
             "name": "Technologies",
             "description": "Private entities related to the research, development, manufacturing and distribution of electronics, softwares, computers and products related to information technologies.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Technology",
                 "Crypto",
@@ -1145,11 +1392,14 @@
             "spec_version": "2.1",
             "id": "identity--f82271f9-fcf8-4f29-8dfb-18c58b05c546",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156397Z",
-            "modified": "2021-04-21T13:25:29.156397Z",
+            "created": "2021-09-19T22:14:43.402665Z",
+            "modified": "2021-09-19T22:14:43.402665Z",
             "name": "High-tech",
             "description": "Businesses involved in the conception and production of high technological equipment and goods in different fields such as biotechnologies, information technologies, nanotechnologies and robotics.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Semiconductor",
                 "Biotechnology",
@@ -1161,26 +1411,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d0fd5d5a-b4e7-4a80-a0f7-aba9e07dd770",
+            "id": "relationship--03a5daa8-9fef-49b7-92d5-1b8beeb156af",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156465Z",
-            "modified": "2021-04-21T13:25:29.156465Z",
+            "created": "2021-09-19T22:14:43.402743Z",
+            "modified": "2021-09-19T22:14:43.402743Z",
             "relationship_type": "part-of",
             "description": "Sector High-tech is a subsector of Technologies",
             "source_ref": "identity--f82271f9-fcf8-4f29-8dfb-18c58b05c546",
             "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--a8e78952-7a75-4a4d-b6c3-44c3007de616",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156543Z",
-            "modified": "2021-04-21T13:25:29.156543Z",
+            "created": "2021-09-19T22:14:43.402831Z",
+            "modified": "2021-09-19T22:14:43.402831Z",
             "name": "Unknown",
             "description": "",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Undefined"
             ]
@@ -1190,11 +1446,14 @@
             "spec_version": "2.1",
             "id": "identity--bd6bd33d-dec5-4121-9c09-663dc449dd7b",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156608Z",
-            "modified": "2021-04-21T13:25:29.156608Z",
+            "created": "2021-09-19T22:14:43.402903Z",
+            "modified": "2021-09-19T22:14:43.402903Z",
             "name": "Judicial power (justice)",
             "description": "All judicial activities of the state and related private entities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "law"
             ]
@@ -1204,11 +1463,14 @@
             "spec_version": "2.1",
             "id": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15667Z",
-            "modified": "2021-04-21T13:25:29.15667Z",
+            "created": "2021-09-19T22:14:43.402974Z",
+            "modified": "2021-09-19T22:14:43.402974Z",
             "name": "Manufacturing",
             "description": "Private entities transforming and selling goods, products and equipment which are not included in other activity sectors.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Utilities",
                 "industrial",
@@ -1220,11 +1482,14 @@
             "spec_version": "2.1",
             "id": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156732Z",
-            "modified": "2021-04-21T13:25:29.156732Z",
+            "created": "2021-09-19T22:14:43.403044Z",
+            "modified": "2021-09-19T22:14:43.403044Z",
             "name": "Heavy industries",
             "description": "Private entities working to transform raw materials into manufactured products (Chemicals, metal etc.).",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Chemical",
                 "Petrochemicals",
@@ -1240,26 +1505,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c1b99faa-86f3-4b24-9170-cbf6c6cbe441",
+            "id": "relationship--6eca22c9-4913-4de6-89c8-39f0fa2276ae",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156798Z",
-            "modified": "2021-04-21T13:25:29.156798Z",
+            "created": "2021-09-19T22:14:43.403125Z",
+            "modified": "2021-09-19T22:14:43.403125Z",
             "relationship_type": "part-of",
             "description": "Sector Heavy industries is a subsector of Manufacturing",
             "source_ref": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
             "target_ref": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156883Z",
-            "modified": "2021-04-21T13:25:29.156883Z",
+            "created": "2021-09-19T22:14:43.403209Z",
+            "modified": "2021-09-19T22:14:43.403209Z",
             "name": "Construction",
             "description": "Private entities engaged in preparation of land and construction, alteration and repair of building, structures and other real estate properties.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Building",
                 "Offshore Engineering",
@@ -1269,26 +1540,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--f7682431-8f76-46a6-9b9d-27fb21cdb055",
+            "id": "relationship--88c8df7b-2edb-4ec6-b660-e53c7cf97779",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.156952Z",
-            "modified": "2021-04-21T13:25:29.156952Z",
+            "created": "2021-09-19T22:14:43.403283Z",
+            "modified": "2021-09-19T22:14:43.403283Z",
             "relationship_type": "part-of",
             "description": "Sector Construction is a subsector of Manufacturing",
             "source_ref": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
             "target_ref": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157032Z",
-            "modified": "2021-04-21T13:25:29.157032Z",
+            "created": "2021-09-19T22:14:43.403366Z",
+            "modified": "2021-09-19T22:14:43.403366Z",
             "name": "Retail (distribution)",
             "description": "Distribution and sale of goods directly to the consumer.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Retail",
                 "Commercial",
@@ -1302,26 +1579,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--fd337c03-5653-470a-bea9-eecdb6b4d0f7",
+            "id": "relationship--7f0c5ce2-d2f0-407a-a90d-4b9d2825bf6d",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157103Z",
-            "modified": "2021-04-21T13:25:29.157103Z",
+            "created": "2021-09-19T22:14:43.403441Z",
+            "modified": "2021-09-19T22:14:43.403441Z",
             "relationship_type": "part-of",
             "description": "Sector Retail (distribution) is a subsector of Manufacturing",
             "source_ref": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
             "target_ref": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157204Z",
-            "modified": "2021-04-21T13:25:29.157204Z",
+            "created": "2021-09-19T22:14:43.403526Z",
+            "modified": "2021-09-19T22:14:43.403526Z",
             "name": "Telecommunications",
             "description": "Private and public entities involved in the production, transport and dissemination of information and communication signals.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Communications",
                 "Telecommunication",
@@ -1336,11 +1619,14 @@
             "spec_version": "2.1",
             "id": "identity--d360e3ce-0eca-4f6d-829f-71a97d06d0b4",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157288Z",
-            "modified": "2021-04-21T13:25:29.157288Z",
+            "created": "2021-09-19T22:14:43.403599Z",
+            "modified": "2021-09-19T22:14:43.403599Z",
             "name": "Digital infrastructures",
             "description": "All operators and entities in charge of operating and managing the digital infrastructures, including Internet Exchange Points, DNS providers and Top Level Domains Registrars.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Cellular",
                 "domain"
@@ -1349,74 +1635,92 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--2a7bab7d-0a90-4d2c-96a7-27598f8f4247",
+            "id": "relationship--2049c4c9-7541-4c52-9a51-c52b6097f81f",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157361Z",
-            "modified": "2021-04-21T13:25:29.157361Z",
+            "created": "2021-09-19T22:14:43.403676Z",
+            "modified": "2021-09-19T22:14:43.403676Z",
             "relationship_type": "part-of",
             "description": "Sector Digital infrastructures is a subsector of Telecommunications",
             "source_ref": "identity--d360e3ce-0eca-4f6d-829f-71a97d06d0b4",
             "target_ref": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--d0744246-6c86-429a-ad93-2648bd2d3299",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157438Z",
-            "modified": "2021-04-21T13:25:29.157438Z",
+            "created": "2021-09-19T22:14:43.403783Z",
+            "modified": "2021-09-19T22:14:43.403783Z",
             "name": "Hosting service providers",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c3aed61e-9e39-45bb-b8a3-1cf4293481ca",
+            "id": "relationship--dcb89f45-de45-4cb7-864a-d36f2209c37a",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157507Z",
-            "modified": "2021-04-21T13:25:29.157507Z",
+            "created": "2021-09-19T22:14:43.403861Z",
+            "modified": "2021-09-19T22:14:43.403861Z",
             "relationship_type": "part-of",
             "description": "Sector Hosting service providers is a subsector of Telecommunications",
             "source_ref": "identity--d0744246-6c86-429a-ad93-2648bd2d3299",
             "target_ref": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--ef8181b8-3ee5-421a-b6bc-d2e5ec9e5241",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157582Z",
-            "modified": "2021-04-21T13:25:29.157582Z",
+            "created": "2021-09-19T22:14:43.403957Z",
+            "modified": "2021-09-19T22:14:43.403957Z",
             "name": "Internet Service providers",
             "description": "",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ed91932a-5ede-429c-beda-51d46a2c9f07",
+            "id": "relationship--9b6d14d4-63c1-4d10-966c-6fe34c1f3b97",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157682Z",
-            "modified": "2021-04-21T13:25:29.157682Z",
+            "created": "2021-09-19T22:14:43.404033Z",
+            "modified": "2021-09-19T22:14:43.404033Z",
             "relationship_type": "part-of",
             "description": "Sector Internet Service providers is a subsector of Telecommunications",
             "source_ref": "identity--ef8181b8-3ee5-421a-b6bc-d2e5ec9e5241",
             "target_ref": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157763Z",
-            "modified": "2021-04-21T13:25:29.157763Z",
+            "created": "2021-09-19T22:14:43.404116Z",
+            "modified": "2021-09-19T22:14:43.404116Z",
             "name": "Medias and audiovisual",
             "description": "Communication outlets used to deliver information by print, broadcast or Internet and people working in these outlets.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Media",
                 "Journalism",
@@ -1429,26 +1733,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c12f280e-8d41-48c7-acf8-2ec4ccd12cf2",
+            "id": "relationship--0b987cfb-ed5d-4d93-b5a4-c6eed832c63f",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157837Z",
-            "modified": "2021-04-21T13:25:29.157837Z",
+            "created": "2021-09-19T22:14:43.404191Z",
+            "modified": "2021-09-19T22:14:43.404191Z",
             "relationship_type": "part-of",
             "description": "Sector Medias and audiovisual is a subsector of Telecommunications",
             "source_ref": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
             "target_ref": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.157915Z",
-            "modified": "2021-04-21T13:25:29.157915Z",
+            "created": "2021-09-19T22:14:43.404277Z",
+            "modified": "2021-09-19T22:14:43.404277Z",
             "name": "Consulting",
             "description": "Private entities providing expert advice in a specific field to external entities.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Professional services",
                 "HR Services",
@@ -1462,11 +1772,14 @@
             "spec_version": "2.1",
             "id": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15798Z",
-            "modified": "2021-04-21T13:25:29.15798Z",
+            "created": "2021-09-19T22:14:43.404349Z",
+            "modified": "2021-09-19T22:14:43.404349Z",
             "name": "Legal consulting",
             "description": "",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Legal"
             ]
@@ -1474,26 +1787,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--92adb28a-813e-4780-8218-821fe050da89",
+            "id": "relationship--df033a9d-4e43-4a4d-8f4f-8d50bb05f14d",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158049Z",
-            "modified": "2021-04-21T13:25:29.158049Z",
+            "created": "2021-09-19T22:14:43.404425Z",
+            "modified": "2021-09-19T22:14:43.404425Z",
             "relationship_type": "part-of",
             "description": "Sector Legal consulting is a subsector of Consulting",
             "source_ref": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
             "target_ref": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--360f3368-b911-4bb1-a7f9-0a8e4ef4e023",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158125Z",
-            "modified": "2021-04-21T13:25:29.158125Z",
+            "created": "2021-09-19T22:14:43.404508Z",
+            "modified": "2021-09-19T22:14:43.404508Z",
             "name": "Information Technologies Consulting",
             "description": "Includes Managed Services Providers (MSPs).",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Information Technology",
                 "IT Service Providers"
@@ -1502,26 +1821,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7fbd4e29-6f00-4c5c-827d-bcb12e3d4a65",
+            "id": "relationship--4a29c1a9-11dd-4cdb-8eb9-a43756706344",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158213Z",
-            "modified": "2021-04-21T13:25:29.158213Z",
+            "created": "2021-09-19T22:14:43.404611Z",
+            "modified": "2021-09-19T22:14:43.404611Z",
             "relationship_type": "part-of",
             "description": "Sector Information Technologies Consulting is a subsector of Consulting",
             "source_ref": "identity--360f3368-b911-4bb1-a7f9-0a8e4ef4e023",
             "target_ref": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--6612ac1e-8495-47b5-8819-f2033edba2e8",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158291Z",
-            "modified": "2021-04-21T13:25:29.158291Z",
+            "created": "2021-09-19T22:14:43.404695Z",
+            "modified": "2021-09-19T22:14:43.404695Z",
             "name": "Engineering consulting",
             "description": "",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Engineering"
             ]
@@ -1529,48 +1854,60 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--85c3bc13-2ab3-41ac-87a7-d15c149c11e6",
+            "id": "relationship--e19b61d3-8d9e-41d4-a74e-4cff7badc741",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158364Z",
-            "modified": "2021-04-21T13:25:29.158364Z",
+            "created": "2021-09-19T22:14:43.404772Z",
+            "modified": "2021-09-19T22:14:43.404772Z",
             "relationship_type": "part-of",
             "description": "Sector Engineering consulting is a subsector of Consulting",
             "source_ref": "identity--6612ac1e-8495-47b5-8819-f2033edba2e8",
             "target_ref": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--be6cc9cf-10a2-46b3-b5cd-4c3be99441f6",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15844Z",
-            "modified": "2021-04-21T13:25:29.15844Z",
+            "created": "2021-09-19T22:14:43.404855Z",
+            "modified": "2021-09-19T22:14:43.404855Z",
             "name": "Mining",
             "description": "Entities in charge of extracting minerals and other geological materials from the Earth.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--f3f6b9af-6048-46bc-8fe2-048cb27ca31c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158508Z",
-            "modified": "2021-04-21T13:25:29.158508Z",
+            "created": "2021-09-19T22:14:43.404926Z",
+            "modified": "2021-09-19T22:14:43.404926Z",
             "name": "Research",
             "description": "Private and public entities such as university research centers, labs, experimental centers etc. (except for defense, diplomacy and healthcare).",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--ec0d4d51-e8cb-4444-9377-3482b6ac8f5b",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158575Z",
-            "modified": "2021-04-21T13:25:29.158575Z",
+            "created": "2021-09-19T22:14:43.405001Z",
+            "modified": "2021-09-19T22:14:43.405001Z",
             "name": "Water distribution and supply",
             "description": "All public and private entities involved in the collection, transport and distribution of water for consumption purposes.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Dams",
                 "Water"
@@ -1581,22 +1918,28 @@
             "spec_version": "2.1",
             "id": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158641Z",
-            "modified": "2021-04-21T13:25:29.158641Z",
+            "created": "2021-09-19T22:14:43.405072Z",
+            "modified": "2021-09-19T22:14:43.405072Z",
             "name": "Civil society",
             "description": "The general public and all non-governmental entities, or individuals independent of governments, which may be linked by interests or activities aiming at promoting the interests and the will of citizens.",
-            "identity_class": "class"
+            "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--381bd576-3b81-4932-9589-18a67b355379",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158704Z",
-            "modified": "2021-04-21T13:25:29.158704Z",
+            "created": "2021-09-19T22:14:43.40514Z",
+            "modified": "2021-09-19T22:14:43.40514Z",
             "name": "Non-Governmental Organizations (NGOs)",
             "description": "A legally constituted non-commercial organization created by natural or legal persons with no participation or representation of any government.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "NGO",
                 "Human Rights",
@@ -1608,26 +1951,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--0d0f9a69-63ea-4c69-a3f3-854bb1f6a3ff",
+            "id": "relationship--df993011-82e5-4564-9b61-a2e3f41dca78",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158772Z",
-            "modified": "2021-04-21T13:25:29.158772Z",
+            "created": "2021-09-19T22:14:43.40522Z",
+            "modified": "2021-09-19T22:14:43.40522Z",
             "relationship_type": "part-of",
             "description": "Sector Non-Governmental Organizations (NGOs) is a subsector of Civil society",
             "source_ref": "identity--381bd576-3b81-4932-9589-18a67b355379",
             "target_ref": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--9afcd3be-12e7-4f54-8dbe-8c22cecb592c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158848Z",
-            "modified": "2021-04-21T13:25:29.158848Z",
+            "created": "2021-09-19T22:14:43.405311Z",
+            "modified": "2021-09-19T22:14:43.405311Z",
             "name": "Citizens",
             "description": "The general population of a country.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Religion"
             ]
@@ -1635,26 +1984,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--f642cd92-c6d2-43e3-a759-619e41f59008",
+            "id": "relationship--363d5133-297d-49f3-b1d4-83262535f923",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158917Z",
-            "modified": "2021-04-21T13:25:29.158917Z",
+            "created": "2021-09-19T22:14:43.405389Z",
+            "modified": "2021-09-19T22:14:43.405389Z",
             "relationship_type": "part-of",
             "description": "Sector Citizens is a subsector of Civil society",
             "source_ref": "identity--9afcd3be-12e7-4f54-8dbe-8c22cecb592c",
             "target_ref": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--84ba267e-9fdd-4086-b4d7-df02ab02f085",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.158991Z",
-            "modified": "2021-04-21T13:25:29.158991Z",
+            "created": "2021-09-19T22:14:43.405472Z",
+            "modified": "2021-09-19T22:14:43.405472Z",
             "name": "Political parties",
             "description": "A recognized or non recognized political group or party taking part into the political life of a country, weither by being part of the majority or opposed to the ruling power",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "Political opposition",
                 "Politics"
@@ -1663,26 +2018,32 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--b5c6f869-f66c-43b1-bd56-0e1bfb59604c",
+            "id": "relationship--63eb260e-87f5-4d3f-bcd2-a89eecb93bc9",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.15906Z",
-            "modified": "2021-04-21T13:25:29.15906Z",
+            "created": "2021-09-19T22:14:43.405548Z",
+            "modified": "2021-09-19T22:14:43.405548Z",
             "relationship_type": "part-of",
             "description": "Sector Political parties is a subsector of Civil society",
             "source_ref": "identity--84ba267e-9fdd-4086-b4d7-df02ab02f085",
             "target_ref": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         },
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--3292e7aa-d173-4adc-97d5-d303bdb9603c",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.159134Z",
-            "modified": "2021-04-21T13:25:29.159134Z",
+            "created": "2021-09-19T22:14:43.405633Z",
+            "modified": "2021-09-19T22:14:43.405633Z",
             "name": "Dissidents",
             "description": "Individuals publicly disagreeing with and criticizing their government.",
             "identity_class": "class",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
             "x_opencti_aliases": [
                 "activism"
             ]
@@ -1690,15 +2051,18 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--2868e5a4-6bad-4981-8bbc-292e0f926a81",
+            "id": "relationship--5e3d937d-3210-4165-b988-fc379b1a6b6d",
             "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
-            "created": "2021-04-21T13:25:29.159223Z",
-            "modified": "2021-04-21T13:25:29.159223Z",
+            "created": "2021-09-19T22:14:43.405712Z",
+            "modified": "2021-09-19T22:14:43.405712Z",
             "relationship_type": "part-of",
             "description": "Sector Dissidents is a subsector of Civil society",
             "source_ref": "identity--3292e7aa-d173-4adc-97d5-d303bdb9603c",
             "target_ref": "identity--00abb489-e6a5-4ec9-8c1c-aee74e920c33",
-            "confidence": 100
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
         }
     ]
 }
