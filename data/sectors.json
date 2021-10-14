@@ -257,7 +257,7 @@
             "created": "2021-09-19T22:14:43.397122Z",
             "modified": "2021-09-19T22:14:43.397122Z",
             "name": "Schools",
-            "description": "PPublic and private institutions for all primary and secondary school levels.",
+            "description": "Public and private institutions for all primary and secondary school levels.",
             "identity_class": "class",
             "object_marking_refs": [
                 "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
