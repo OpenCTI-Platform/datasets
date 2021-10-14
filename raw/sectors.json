@@ -59,7 +59,7 @@
             {
                 "stix_id": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
                 "name": "Schools",
-                "description": "PPublic and private institutions for all primary and secondary school levels.",
+                "description": "Public and private institutions for all primary and secondary school levels.",
                 "aliases": []
             }
         ]
