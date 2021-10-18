@@ -60,7 +60,7 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
     bundles = []
 
     with open(raw_companies_file) as csv_file:
-        csv_dict_reader = DictReader(csv_file, delimiter=';')
+        csv_dict_reader = DictReader(csv_file, delimiter=',')
         
         for row in csv_dict_reader:
             if row['name'] in companies:

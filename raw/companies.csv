@@ -1,33 +1,33 @@
-name;description;contact_information;roles;x_opencti_aliases;x_opencti_organization_type;x_opencti_reliability;sectors;standard_id;x_opencti_stix_ids;createdBy;objectMarking;objectLabel;external_references
-Fireeye;;mandiant.com;;;;;Technology;;identity--613f2e26-407d-48c7-9eca-b8e91df99dc9;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Mandiant;;fireeye.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Crowdstrike;;crowdstrike.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-BAE Systems;;;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-ESET;;eset.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-McAfee;;mcafee.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Symantec;;symantec.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Checkpoint;;checkpoint.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Kaspersky;;kaspersky.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Trendmicro;;trendmicro.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Proofpoint;;proofpoint.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Cylance;;cylance.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Telsy;;telsy.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Recorded Future;;recordedfuture.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-RiskIQ;;riskiq.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Gatewatcher ;;gatewatcher.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Group-IB;;Group-ib.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Nextron Systems;;Nextron-systems.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-GreyNoise;;greynoise.io;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Tenzir;;tenzir.com;;;;;Technology;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-BSI;;bsi.bund.de;;;csirt;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-ANSSI;;ssi.gouv.fr;;;csirt;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-CERT-EU;;cert.europa.eu;;;csirt;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-NCSC-UK;;ncsc.gov.uk;;;csirt;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-CERT-Bund;;cert-bund.de;;;csirt;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-CISA;;cisa.gov;;;csirt;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-FBI;;fbi.gov;;;;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Europol;;europol.europa.eu;;;;;Central administration and government;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-New York Times;;newyorktimes.com;;;;;Medias and audiovisual;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Washington Post;;washingtonpost.com;;;;;Medias and audiovisual;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-Malpedia;;malpedia.caad.fkie.fraunhofer.de;;;;;Technologies;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
-The Record;;therecord.media;;;;;Medias and audiovisual;;;Agence Nationale de la Sécurité des Systèmes d'Information;TLP:WHITE;;
+name,description,contact_information,roles,x_opencti_aliases,x_opencti_organization_type,x_opencti_reliability,sectors,standard_id,x_opencti_stix_ids,createdBy,objectMarking,objectLabel,external_references
+Fireeye,,mandiant.com,,,,,Technology,,identity--613f2e26-407d-48c7-9eca-b8e91df99dc9,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Mandiant,,fireeye.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Crowdstrike,,crowdstrike.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+BAE Systems,,,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+ESET,,eset.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+McAfee,,mcafee.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Symantec,,symantec.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Checkpoint,,checkpoint.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Kaspersky,,kaspersky.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Trendmicro,,trendmicro.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Proofpoint,,proofpoint.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Cylance,,cylance.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Telsy,,telsy.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Recorded Future,,recordedfuture.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+RiskIQ,,riskiq.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Gatewatcher ,,gatewatcher.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Group-IB,,Group-ib.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Nextron Systems,,Nextron-systems.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+GreyNoise,,greynoise.io,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Tenzir,,tenzir.com,,,,,Technology,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+BSI,,bsi.bund.de,,,csirt,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+ANSSI,,ssi.gouv.fr,,,csirt,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+CERT-EU,,cert.europa.eu,,,csirt,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+NCSC-UK,,ncsc.gov.uk,,,csirt,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+CERT-Bund,,cert-bund.de,,,csirt,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+CISA,,cisa.gov,,,csirt,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+FBI,,fbi.gov,,,,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Europol,,europol.europa.eu,,,,,Central administration and government,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+New York Times,,newyorktimes.com,,,,,Medias and audiovisual,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Washington Post,,washingtonpost.com,,,,,Medias and audiovisual,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+Malpedia,,malpedia.caad.fkie.fraunhofer.de,,,,,Technologies,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
+The Record,,therecord.media,,,,,Medias and audiovisual,,,Agence Nationale de la Sécurité des Systèmes d'Information,TLP:WHITE,,
