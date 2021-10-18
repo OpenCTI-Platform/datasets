@@ -1,0 +1,1132 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d7e2db9-9b74-4c1b-a3a3-71f94cc3588c",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--0d02be07-82ba-45e1-b678-2b331593b824",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.854017Z",
+            "modified": "2021-10-18T18:23:49.854017Z",
+            "name": "Fireeye",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "mandiant.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_aliases": [
+                ""
+            ],
+            "x_opencti_organization_type": "",
+            "x_opencti_stix_ids": [
+                "identity--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aca9c4f9-408a-453b-87e3-c58ea8764f79",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.857248Z",
+            "modified": "2021-10-18T18:23:49.857248Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Fireeye' is part of sector 'Technology'",
+            "source_ref": "identity--0d02be07-82ba-45e1-b678-2b331593b824",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--faf7b8a3-e454-47d4-a3b3-86744404bc62",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.858679Z",
+            "modified": "2021-10-18T18:23:49.858679Z",
+            "name": "Mandiant",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "fireeye.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10af714f-ff27-41d4-b583-39d0f4ebf771",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.859519Z",
+            "modified": "2021-10-18T18:23:49.859519Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Mandiant' is part of sector 'Technology'",
+            "source_ref": "identity--faf7b8a3-e454-47d4-a3b3-86744404bc62",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--a18b5f07-86c1-4b8e-8e49-ced27e47457a",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.860291Z",
+            "modified": "2021-10-18T18:23:49.860291Z",
+            "name": "Crowdstrike",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "crowdstrike.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--14c67f8f-f18f-48b9-b8fa-5c0d97878f58",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.861107Z",
+            "modified": "2021-10-18T18:23:49.861107Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Crowdstrike' is part of sector 'Technology'",
+            "source_ref": "identity--a18b5f07-86c1-4b8e-8e49-ced27e47457a",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--aefa8d72-0730-4107-b3ca-8b3bceb95d93",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.861891Z",
+            "modified": "2021-10-18T18:23:49.861891Z",
+            "name": "BAE Systems",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a9738291-4c70-4200-bd34-35da9aa4c466",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.862732Z",
+            "modified": "2021-10-18T18:23:49.862732Z",
+            "relationship_type": "part-of",
+            "description": "Company 'BAE Systems' is part of sector 'Technology'",
+            "source_ref": "identity--aefa8d72-0730-4107-b3ca-8b3bceb95d93",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--ec8833f0-b744-4565-9121-48c7fec36d4f",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.86348Z",
+            "modified": "2021-10-18T18:23:49.86348Z",
+            "name": "ESET",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "eset.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9edba70f-b0b1-42a2-a8c2-f238ed26d38a",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.864196Z",
+            "modified": "2021-10-18T18:23:49.864196Z",
+            "relationship_type": "part-of",
+            "description": "Company 'ESET' is part of sector 'Technology'",
+            "source_ref": "identity--ec8833f0-b744-4565-9121-48c7fec36d4f",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--44e398fd-881f-4d7a-ab34-63630a295809",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.864777Z",
+            "modified": "2021-10-18T18:23:49.864777Z",
+            "name": "McAfee",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "mcafee.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d05d993a-77f7-40fd-ac7e-597bfe4c5635",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.865208Z",
+            "modified": "2021-10-18T18:23:49.865208Z",
+            "relationship_type": "part-of",
+            "description": "Company 'McAfee' is part of sector 'Technology'",
+            "source_ref": "identity--44e398fd-881f-4d7a-ab34-63630a295809",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--289e7ac7-36ed-41a6-b8e8-fc9e4527907e",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.865658Z",
+            "modified": "2021-10-18T18:23:49.865658Z",
+            "name": "Symantec",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "symantec.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6287b656-66c2-4e08-bd59-532f9036dd32",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.866164Z",
+            "modified": "2021-10-18T18:23:49.866164Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Symantec' is part of sector 'Technology'",
+            "source_ref": "identity--289e7ac7-36ed-41a6-b8e8-fc9e4527907e",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f99090d3-014d-4ab4-a374-377b12e94a22",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.866482Z",
+            "modified": "2021-10-18T18:23:49.866482Z",
+            "name": "Checkpoint",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "checkpoint.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7cb9eba3-55c6-4ece-b291-8298b325144f",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.866809Z",
+            "modified": "2021-10-18T18:23:49.866809Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Checkpoint' is part of sector 'Technology'",
+            "source_ref": "identity--f99090d3-014d-4ab4-a374-377b12e94a22",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--92dacbd5-184b-41ef-93de-43f57baf404d",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.867105Z",
+            "modified": "2021-10-18T18:23:49.867105Z",
+            "name": "Kaspersky",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "kaspersky.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3c9ce5e0-493f-459b-9ebf-dca4c5e43270",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.867556Z",
+            "modified": "2021-10-18T18:23:49.867556Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Kaspersky' is part of sector 'Technology'",
+            "source_ref": "identity--92dacbd5-184b-41ef-93de-43f57baf404d",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--12f03875-fc32-4af2-9752-c7b78ca785c6",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.867868Z",
+            "modified": "2021-10-18T18:23:49.867868Z",
+            "name": "Trendmicro",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "trendmicro.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1a77d7ce-e61d-435e-92cf-54aa2ee9e230",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.868186Z",
+            "modified": "2021-10-18T18:23:49.868186Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Trendmicro' is part of sector 'Technology'",
+            "source_ref": "identity--12f03875-fc32-4af2-9752-c7b78ca785c6",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--69c0fb48-db9b-4a7d-b7ba-fe23fd6ab047",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.868478Z",
+            "modified": "2021-10-18T18:23:49.868478Z",
+            "name": "Proofpoint",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "proofpoint.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--79bea40e-49d7-4190-bd2a-e5a3b7b31696",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.868782Z",
+            "modified": "2021-10-18T18:23:49.868782Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Proofpoint' is part of sector 'Technology'",
+            "source_ref": "identity--69c0fb48-db9b-4a7d-b7ba-fe23fd6ab047",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--9a56b633-0b43-4032-9320-92798d145cfb",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.869066Z",
+            "modified": "2021-10-18T18:23:49.869066Z",
+            "name": "Cylance",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "cylance.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--db0b1c86-f0fc-4164-9b89-5bb37ea02641",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.869384Z",
+            "modified": "2021-10-18T18:23:49.869384Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Cylance' is part of sector 'Technology'",
+            "source_ref": "identity--9a56b633-0b43-4032-9320-92798d145cfb",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--2b33bd2b-8c17-4311-a962-45cf1dcbaea1",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.869679Z",
+            "modified": "2021-10-18T18:23:49.869679Z",
+            "name": "Telsy",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "telsy.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--124e986b-92da-48d5-96c0-374830da5790",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.869953Z",
+            "modified": "2021-10-18T18:23:49.869953Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Telsy' is part of sector 'Technology'",
+            "source_ref": "identity--2b33bd2b-8c17-4311-a962-45cf1dcbaea1",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--755dc995-9f34-4134-bfe9-63371f050d9b",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.870177Z",
+            "modified": "2021-10-18T18:23:49.870177Z",
+            "name": "Recorded Future",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "recordedfuture.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4df35358-b780-4e2e-a69b-a12efa5d9ea8",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.870446Z",
+            "modified": "2021-10-18T18:23:49.870446Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Recorded Future' is part of sector 'Technology'",
+            "source_ref": "identity--755dc995-9f34-4134-bfe9-63371f050d9b",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--8defad20-a8df-43a2-854a-22088a19eef8",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.870685Z",
+            "modified": "2021-10-18T18:23:49.870685Z",
+            "name": "RiskIQ",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "riskiq.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--65dd57d5-0696-450a-96b5-1d40571f6770",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.870932Z",
+            "modified": "2021-10-18T18:23:49.870932Z",
+            "relationship_type": "part-of",
+            "description": "Company 'RiskIQ' is part of sector 'Technology'",
+            "source_ref": "identity--8defad20-a8df-43a2-854a-22088a19eef8",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--2d7be39e-cb35-4c1b-88bd-ad385ae267cf",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.871153Z",
+            "modified": "2021-10-18T18:23:49.871153Z",
+            "name": "Gatewatcher ",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "gatewatcher.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1f83a681-333e-414e-8168-103e57fa7b9d",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.87151Z",
+            "modified": "2021-10-18T18:23:49.87151Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Gatewatcher ' is part of sector 'Technology'",
+            "source_ref": "identity--2d7be39e-cb35-4c1b-88bd-ad385ae267cf",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b0b7b54e-6a31-4216-ae35-164ee47e4ee3",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.871806Z",
+            "modified": "2021-10-18T18:23:49.871806Z",
+            "name": "Group-IB",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "Group-ib.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b9bff57f-b4b2-4ebb-bf98-4f7be503985c",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.872105Z",
+            "modified": "2021-10-18T18:23:49.872105Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Group-IB' is part of sector 'Technology'",
+            "source_ref": "identity--b0b7b54e-6a31-4216-ae35-164ee47e4ee3",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--cfe84c8f-08b8-4920-82f1-c02894d9fbf8",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.872374Z",
+            "modified": "2021-10-18T18:23:49.872374Z",
+            "name": "Nextron Systems",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "Nextron-systems.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0a9b4701-e23f-4080-a64f-01e9ceac0611",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.872657Z",
+            "modified": "2021-10-18T18:23:49.872657Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Nextron Systems' is part of sector 'Technology'",
+            "source_ref": "identity--cfe84c8f-08b8-4920-82f1-c02894d9fbf8",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--d3b422a0-2977-4c66-bb8e-b79942d16e55",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.872899Z",
+            "modified": "2021-10-18T18:23:49.872899Z",
+            "name": "GreyNoise",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "greynoise.io",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--478951b9-2946-41d5-b795-5711ae13dd79",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.873164Z",
+            "modified": "2021-10-18T18:23:49.873164Z",
+            "relationship_type": "part-of",
+            "description": "Company 'GreyNoise' is part of sector 'Technology'",
+            "source_ref": "identity--d3b422a0-2977-4c66-bb8e-b79942d16e55",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--fcabbeda-fdca-4dfd-85c8-ecffb56b3e02",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.873405Z",
+            "modified": "2021-10-18T18:23:49.873405Z",
+            "name": "Tenzir",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "tenzir.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2824c8fb-ddb2-4773-928a-624bc3503341",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.873671Z",
+            "modified": "2021-10-18T18:23:49.873671Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Tenzir' is part of sector 'Technology'",
+            "source_ref": "identity--fcabbeda-fdca-4dfd-85c8-ecffb56b3e02",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--17268b8e-237e-47e8-bb36-5b5056959db5",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.873993Z",
+            "modified": "2021-10-18T18:23:49.873993Z",
+            "name": "BSI",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "bsi.bund.de",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": "csirt"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--584b0b60-fe4d-44ec-87da-4221b7c52065",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.874247Z",
+            "modified": "2021-10-18T18:23:49.874247Z",
+            "relationship_type": "part-of",
+            "description": "Company 'BSI' is part of sector 'Central administration and government'",
+            "source_ref": "identity--17268b8e-237e-47e8-bb36-5b5056959db5",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--037963f7-4221-4265-88dc-825e37863b98",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.874487Z",
+            "modified": "2021-10-18T18:23:49.874487Z",
+            "name": "ANSSI",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "ssi.gouv.fr",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": "csirt"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--88655c83-41d9-4e57-a421-3cf9adc272a3",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.874715Z",
+            "modified": "2021-10-18T18:23:49.874715Z",
+            "relationship_type": "part-of",
+            "description": "Company 'ANSSI' is part of sector 'Central administration and government'",
+            "source_ref": "identity--037963f7-4221-4265-88dc-825e37863b98",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c440be83-3729-4901-99e0-fc1cbb39427c",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.874952Z",
+            "modified": "2021-10-18T18:23:49.874952Z",
+            "name": "CERT-EU",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "cert.europa.eu",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": "csirt"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b78e2496-f1fc-4760-814e-cac259540869",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.87518Z",
+            "modified": "2021-10-18T18:23:49.87518Z",
+            "relationship_type": "part-of",
+            "description": "Company 'CERT-EU' is part of sector 'Central administration and government'",
+            "source_ref": "identity--c440be83-3729-4901-99e0-fc1cbb39427c",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--0043e348-e36c-4dfc-b094-cd5e85e283aa",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.875423Z",
+            "modified": "2021-10-18T18:23:49.875423Z",
+            "name": "NCSC-UK",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "ncsc.gov.uk",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": "csirt"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--35330668-cff6-45bc-81c1-c08da39396c9",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.875653Z",
+            "modified": "2021-10-18T18:23:49.875653Z",
+            "relationship_type": "part-of",
+            "description": "Company 'NCSC-UK' is part of sector 'Central administration and government'",
+            "source_ref": "identity--0043e348-e36c-4dfc-b094-cd5e85e283aa",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--8929ee67-a695-43dd-b732-7f91cc138040",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.875875Z",
+            "modified": "2021-10-18T18:23:49.875875Z",
+            "name": "CERT-Bund",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "cert-bund.de",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": "csirt"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4d3cddab-7b75-455c-a30b-a6168876b811",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.876057Z",
+            "modified": "2021-10-18T18:23:49.876057Z",
+            "relationship_type": "part-of",
+            "description": "Company 'CERT-Bund' is part of sector 'Central administration and government'",
+            "source_ref": "identity--8929ee67-a695-43dd-b732-7f91cc138040",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--14e0d374-7e9b-49be-966e-1d0231485e62",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.876245Z",
+            "modified": "2021-10-18T18:23:49.876245Z",
+            "name": "CISA",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "cisa.gov",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": "csirt"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eb113854-1005-41b0-96a9-6bd976be83a0",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.876427Z",
+            "modified": "2021-10-18T18:23:49.876427Z",
+            "relationship_type": "part-of",
+            "description": "Company 'CISA' is part of sector 'Central administration and government'",
+            "source_ref": "identity--14e0d374-7e9b-49be-966e-1d0231485e62",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b7fab709-d84d-4605-965b-2f96feb04bab",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.87661Z",
+            "modified": "2021-10-18T18:23:49.87661Z",
+            "name": "FBI",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "fbi.gov",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--26591bea-7c12-44cf-96c4-8ebd774ed68d",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.876804Z",
+            "modified": "2021-10-18T18:23:49.876804Z",
+            "relationship_type": "part-of",
+            "description": "Company 'FBI' is part of sector 'Central administration and government'",
+            "source_ref": "identity--b7fab709-d84d-4605-965b-2f96feb04bab",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--1eec248a-540b-44e3-9497-1ff0e1de0e45",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.876998Z",
+            "modified": "2021-10-18T18:23:49.876998Z",
+            "name": "Europol",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "europol.europa.eu",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89fc32ce-4db6-49b7-bc5f-cb0a0a967e2d",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.877179Z",
+            "modified": "2021-10-18T18:23:49.877179Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Europol' is part of sector 'Central administration and government'",
+            "source_ref": "identity--1eec248a-540b-44e3-9497-1ff0e1de0e45",
+            "target_ref": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--88e4fa06-3669-4b54-8050-266ee9668263",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.877363Z",
+            "modified": "2021-10-18T18:23:49.877363Z",
+            "name": "New York Times",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "newyorktimes.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b7d70d61-59a6-404f-832c-be1b8f8cfbcc",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.877548Z",
+            "modified": "2021-10-18T18:23:49.877548Z",
+            "relationship_type": "part-of",
+            "description": "Company 'New York Times' is part of sector 'Medias and audiovisual'",
+            "source_ref": "identity--88e4fa06-3669-4b54-8050-266ee9668263",
+            "target_ref": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c9b504c0-d8f7-4f12-afb0-a1a5d488d7b5",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.877728Z",
+            "modified": "2021-10-18T18:23:49.877728Z",
+            "name": "Washington Post",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "washingtonpost.com",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e8e80fe2-8388-460d-91f8-1061d60c5127",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.878098Z",
+            "modified": "2021-10-18T18:23:49.878098Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Washington Post' is part of sector 'Medias and audiovisual'",
+            "source_ref": "identity--c9b504c0-d8f7-4f12-afb0-a1a5d488d7b5",
+            "target_ref": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--9612e2bd-3d51-4165-85f0-850993f7e28b",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.878293Z",
+            "modified": "2021-10-18T18:23:49.878293Z",
+            "name": "Malpedia",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "malpedia.caad.fkie.fraunhofer.de",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7b687f1f-2cf6-4424-8456-47e3af296909",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.878567Z",
+            "modified": "2021-10-18T18:23:49.878567Z",
+            "relationship_type": "part-of",
+            "description": "Company 'Malpedia' is part of sector 'Technologies'",
+            "source_ref": "identity--9612e2bd-3d51-4165-85f0-850993f7e28b",
+            "target_ref": "identity--84c3a483-2048-40d4-8d8f-5e57ff35da9c",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--d6ba1ed6-962a-49a2-b753-49037d41c66a",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.878862Z",
+            "modified": "2021-10-18T18:23:49.878862Z",
+            "name": "The Record",
+            "description": "",
+            "roles": [
+                ""
+            ],
+            "identity_class": "organization",
+            "contact_information": "therecord.media",
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_opencti_organization_type": ""
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9b65beec-b882-47fa-979d-bb89e26efcf6",
+            "created_by_ref": "identity--7b82b010-b1c0-4dae-981f-7756374a17df",
+            "created": "2021-10-18T18:23:49.879102Z",
+            "modified": "2021-10-18T18:23:49.879102Z",
+            "relationship_type": "part-of",
+            "description": "Company 'The Record' is part of sector 'Medias and audiovisual'",
+            "source_ref": "identity--d6ba1ed6-962a-49a2-b753-49037d41c66a",
+            "target_ref": "identity--354c9312-5f4a-4e07-b0cb-c7fa6ca626ba",
+            "confidence": 100,
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        }
+    ]
+}
