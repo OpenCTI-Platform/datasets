@@ -21,7 +21,7 @@
         "subsectors": [
             {   "stix_id": "identity--7095afff-2cf3-47a7-b782-7613f58b50f4",
                 "name": "Culture",
-                "description": "Private and public entities involved in creating, producting, and distributing goods and services that are cultural in nature, or protecting it.",
+                "description": "Private and public entities involved in creating, producing, and distributing goods and services that are cultural in nature, or protecting it.",
                 "aliases": ["Travel"]
             },
             {
@@ -97,7 +97,7 @@
             {
                 "stix_id": "identity--89f89245-0dfd-4d20-a157-57ce7c829847",
                 "name": "Renewable energies",
-                "description": "Public and private entities involved in the production of electricity based on renewable ressources.",
+                "description": "Public and private entities involved in the production of electricity based on renewable resources.",
                 "aliases": []
             }
         ]
@@ -214,7 +214,7 @@
                 "stix_id": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
                 "name": "International organizations",
                 "description": "International organizations made up primarily of sovereign states and involved in setting international agendas and policies.",
-                "aliases": []
+                "aliases": ["International Organisations"]
             }
         ]
     },
@@ -222,7 +222,7 @@
         "stix_id": "identity--f1b7c7a0-9fbf-42c4-8003-9865283d869b",
         "name": "Government and administrations",
         "description": "Civilian government institutions and administrations of the executive and legislative branches. The diplomatic and judicial branches are not included.",
-        "aliases": ["Government", "govenrment", "Election", "Governemnt", "Voting"],
+        "aliases": ["Government", "government", "Election", "Voting"],
         "subsectors": [
             {
                 "stix_id": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
@@ -279,7 +279,7 @@
             {
                 "stix_id": "identity--806e87ee-ed41-4629-ab47-28dc0424caef",
                 "name": "Lodging industry",
-                "description": "Entities offering short-term dwellings in exchange for money for people travelling or staying away from their home.",
+                "description": "Entities offering short-term dwellings in exchange for money for people traveling or staying away from their home.",
                 "aliases": []
             },
             {
@@ -328,7 +328,7 @@
         "stix_id": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
         "name": "Manufacturing",
         "description": "Private entities transforming and selling goods, products and equipment which are not included in other activity sectors.",
-        "aliases": ["Utilities", "industrial", "ICS"],
+        "aliases": ["Utilities", "industrial"],
         "subsectors": [
             {
                 "stix_id": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
@@ -346,7 +346,7 @@
                 "stix_id": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
                 "name": "Retail (distribution)",
                 "description": "Distribution and sale of goods directly to the consumer.",
-                "aliases": ["Retail", "Commercial", "Distrobution", "e-commerce", "Ecommerce", "commerce", "Wholesale"]
+                "aliases": ["Retail", "Commercial", "Distribution", "e-commerce", "Ecommerce", "commerce", "Wholesale"]
             }
         ]
     },
@@ -354,7 +354,7 @@
         "stix_id": "identity--f6d9f006-9631-4237-9197-f3eef2a08d25",
         "name": "Telecommunications",
         "description": "Private and public entities involved in the production, transport and dissemination of information and communication signals.",
-        "aliases": ["Communications", "Telecommunication", "Telecom", "telecommunicton", "Telecommunucations", "Telecoms"],
+        "aliases": ["Communications", "Telecommunication","Telecommunications", "Telecom", "Telecoms"],
         "subsectors": [
             {
                 "stix_id": "identity--d360e3ce-0eca-4f6d-829f-71a97d06d0b4",
