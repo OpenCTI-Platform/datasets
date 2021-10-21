@@ -254,7 +254,7 @@
                 "stix_id": "identity--33986379-9641-417e-b821-669588580ecb",
                 "name": "Healthcare services",
                 "description": "Hospitals and other direct medical practice activities.",
-                "aliases": ["Medical"]
+                "aliases": ["Medical", "Social Services"]
             },
             {
                 "stix_id": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
@@ -328,19 +328,19 @@
         "stix_id": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
         "name": "Manufacturing",
         "description": "Private entities transforming and selling goods, products and equipment which are not included in other activity sectors.",
-        "aliases": ["Utilities", "industrial", "ICS"],
+        "aliases": ["Utilities", "industrial", "ICS", "Industrial Control Systems"],
         "subsectors": [
             {
                 "stix_id": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
                 "name": "Heavy industries",
                 "description": "Private entities working to transform raw materials into manufactured products (Chemicals, metal etc.).",
-                "aliases": ["Chemical", "Petrochemicals", "Industry", "Metal", "Infrastructure", "Critical Infrastructure", "Metallurgical", "metals", "heavy industry", "Critical Infrastrctures"]
+                "aliases": ["Chemical", "Petrochemicals", "Industry", "Metal", "Infrastructure", "Critical Infrastructure", "Metallurgical", "metals", "heavy industry", "Critical Infrastructures", "Textile"]
             },
             {
                 "stix_id": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
                 "name": "Construction",
                 "description": "Private entities engaged in preparation of land and construction, alteration and repair of building, structures and other real estate properties.",
-                "aliases": ["Building", "Offshore Engineering", "Offshore"]
+                "aliases": ["Building", "Offshore Engineering", "Offshore", "Real Estate"]
             },
             {
                 "stix_id": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
@@ -386,7 +386,7 @@
         "stix_id": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
         "name": "Consulting",
         "description": "Private entities providing expert advice in a specific field to external entities.",
-        "aliases": ["Professional services", "Professionnal & consumer services", "HR Services", "Marketing / Public Relations", "Marketing", "Public Relations", "Advisory"],
+        "aliases": ["Professional services", "Professional & consumer services", "HR Services", "Marketing / Public Relations", "Marketing", "Public Relations", "Advisory"],
         "subsectors": [
             {
                 "stix_id": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
