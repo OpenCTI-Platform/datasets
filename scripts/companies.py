@@ -69,7 +69,6 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
             entity_id = None
             entity_creation_date = None
             if row['name'] in companies:
-                print(f"{row['name']} is already present in the dataset")
                 entity_id = companies[row['name']]['id']
                 entity_creation_date = companies[row['name']]['created']
                
@@ -125,7 +124,6 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                 relationship_name = f"{company.id}_{relevant_sector['id']}"
                 relationship_creation_date = None
                 if relationship_name in companies:
-                    print(f"Relationship {row['name']} is already present in the dataset")
                     relationship_id = companies[relationship_name]['id']
                     relationship_creation_date = companies[relationship_name]['created']
 
