@@ -10,7 +10,7 @@
         "stix_id": "identity--0ff292ef-8468-478c-8f29-d31246bf0a35",
         "name": "Logistics",
         "description": "Entities managing the flow of goods, equipment, materials, supplies etc.",
-        "aliases": [],
+        "aliases": ["Logistic"],
         "subsectors": []
     },
     {
@@ -54,7 +54,7 @@
                 "stix_id": "identity--1d7205a8-5a46-4bf2-9007-d56be02dcad6",
                 "name": "Universities",
                 "description": "Public and private institutions for higher education.",
-                "aliases": ["Higher education", "Academic", "Academics"]
+                "aliases": ["Higher education", "Academic", "Academics", "Academic Sector"]
             },
             {
                 "stix_id": "identity--b8ce168d-3820-435d-9bcf-dd1938ae4235",
@@ -86,7 +86,7 @@
                 "stix_id": "identity--4a3c2734-f6fb-40ae-91c9-0ef2e1a43114",
                 "name": "Gas",
                 "description": "Public or private entities involved in exploration, extraction, refining, transporting and marketing of natural gas products.",
-                "aliases": ["Oil and Gas", "Natural Gas Utilities", "Gas and Oil", "Oil &amp; Gas Manufacturing"]
+                "aliases": ["Oil and Gas", "Natural Gas Utilities", "Gas and Oil", "Oil &amp; Gas Manufacturing", "Gas And"]
             },
             {
                 "stix_id": "identity--22d9e69f-d211-41cc-a5e5-d012366eaa73",
@@ -112,7 +112,7 @@
                 "stix_id": "identity--f1aeb7a2-0f3e-4fb0-ade5-a50297afe65d",
                 "name": "Air transport",
                 "description": "All entities transporting people or goods by plane, managing or exploiting airports and structures, traffic authorities and plane manufacturers. Includes all civilian space activities.",
-                "aliases": ["Aerospace", "Aviation", "Satellite", "Satellite and communications"]
+                "aliases": ["Aerospace", "Aviation", "Satellite", "Satellite and communications", "Airline"]
             },
             {
                 "stix_id": "identity--0f5a665e-fb32-411a-ac6f-f63eeb71f71e",
@@ -196,7 +196,7 @@
         "stix_id": "identity--633851ae-0d22-46b4-b0a9-aa3e657e721f",
         "name": "Diplomacy",
         "description": "Public or private entities which are actors of or involved in international relations activities.",
-        "aliases": ["Diplomatic"],
+        "aliases": ["Diplomatic", "Foreign"],
         "subsectors": [
             {
                 "stix_id": "identity--332b79eb-2090-4b7f-9b0b-9b95fbdca682",
@@ -214,7 +214,7 @@
                 "stix_id": "identity--8bbac3ec-ac14-4244-b8b2-4f8641e4a5d8",
                 "name": "International organizations",
                 "description": "International organizations made up primarily of sovereign states and involved in setting international agendas and policies.",
-                "aliases": []
+                "aliases": ["Diplomatic Organizations"]
             }
         ]
     },
@@ -228,7 +228,7 @@
                 "stix_id": "identity--4a650617-1771-4e3b-bcc5-38047b81e807",
                 "name": "Central administration and government",
                 "description": "All central administrations and government bodies in charge of the executive power, except for the Ministries of Foreign Affairs, of Defense and of Justice.",
-                "aliases": ["Government-National", "Emergency-Services", "Government-Public-Services", "Law Enforcement", "Police", "Security"]
+                "aliases": ["Government-National", "Emergency-Services", "Government-Public-Services", "Law Enforcement", "Police", "Security", "Critical Public"]
             },
             {
                 "stix_id": "identity--c5d9f749-f61c-43dd-a11e-785a8aeab032",
@@ -254,7 +254,7 @@
                 "stix_id": "identity--33986379-9641-417e-b821-669588580ecb",
                 "name": "Healthcare services",
                 "description": "Hospitals and other direct medical practice activities.",
-                "aliases": ["Medical"]
+                "aliases": ["Medical", "Social Services"]
             },
             {
                 "stix_id": "identity--a0ba9dba-f8d0-4cfb-b037-e227d4c7dc41",
@@ -266,7 +266,7 @@
                 "stix_id": "identity--769af810-c705-4743-aea3-936fc7c426cd",
                 "name": "Healthcare research",
                 "description": "Entities involved in the scientific investigation of understanding how different factors affect people’s health and their access to healthcare.",
-                "aliases": []
+                "aliases": ["Biomedical"]
             }
         ]
     },
@@ -286,7 +286,7 @@
                 "stix_id": "identity--fe504e16-8bfd-4843-bb21-b1b76b04099e",
                 "name": "Food and drinks businesses",
                 "description": "Businesses preparing and serving food and drinks to customers in exchange for money.",
-                "aliases": ["Food", "Restaurant", "Restaurant Chains"]
+                "aliases": ["Food", "Restaurant", "Restaurant Chains", "Beverage"]
             },
             {
                 "stix_id": "identity--701de654-fcbb-4e0a-8188-67c88f21131e",
@@ -328,19 +328,19 @@
         "stix_id": "identity--b02efd41-e1f2-4fc3-adf0-8cca8b826e86",
         "name": "Manufacturing",
         "description": "Private entities transforming and selling goods, products and equipment which are not included in other activity sectors.",
-        "aliases": ["Utilities", "industrial", "ICS"],
+        "aliases": ["Utilities", "industrial", "ICS", "Industrial Control Systems"],
         "subsectors": [
             {
                 "stix_id": "identity--cb0278bb-78ce-4ea9-b444-21dfe2090b73",
                 "name": "Heavy industries",
                 "description": "Private entities working to transform raw materials into manufactured products (Chemicals, metal etc.).",
-                "aliases": ["Chemical", "Petrochemicals", "Industry", "Metal", "Infrastructure", "Critical Infrastructure", "Metallurgical", "metals", "heavy industry"]
+                "aliases": ["Chemical", "Petrochemicals", "Industry", "Metal", "Infrastructure", "Critical Infrastructure", "Metallurgical", "metals", "heavy industry", "Critical Infrastructures", "Textile"]
             },
             {
                 "stix_id": "identity--0e7a8868-7788-4e47-b83a-9e76ec48f9ee",
                 "name": "Construction",
                 "description": "Private entities engaged in preparation of land and construction, alteration and repair of building, structures and other real estate properties.",
-                "aliases": ["Building", "Offshore Engineering", "Offshore"]
+                "aliases": ["Building", "Offshore Engineering", "Offshore", "Real Estate"]
             },
             {
                 "stix_id": "identity--3be17acd-4485-42b8-a6f1-bdb260dcc389",
@@ -386,7 +386,7 @@
         "stix_id": "identity--5556c4ab-3e5e-4d56-8410-60b29cecbeb6",
         "name": "Consulting",
         "description": "Private entities providing expert advice in a specific field to external entities.",
-        "aliases": ["Professional services", "HR Services", "Marketing / Public Relations", "Marketing", "Public Relations"],
+        "aliases": ["Professional services", "Professional & consumer services", "HR Services", "Marketing / Public Relations", "Marketing", "Public Relations", "Advisory"],
         "subsectors": [
             {
                 "stix_id": "identity--506e29e3-75dc-42c0-9c7e-5925ff659b38",
@@ -426,7 +426,7 @@
         "stix_id": "identity--ec0d4d51-e8cb-4444-9377-3482b6ac8f5b",
         "name": "Water distribution and supply",
         "description": "All public and private entities involved in the collection, transport and distribution of water for consumption purposes.",
-        "aliases": ["Dams", "Water"],
+        "aliases": ["Dams", "Water", "Water Treatment Plants"],
         "subsectors": []
     },
     {
@@ -439,19 +439,19 @@
                 "stix_id": "identity--381bd576-3b81-4932-9589-18a67b355379",
                 "name": "Non-Governmental Organizations (NGOs)",
                 "description": "A legally constituted non-commercial organization created by natural or legal persons with no participation or representation of any government.",
-                "aliases": ["NGO", "Human Rights", "Non-Profit", "Environmental", "Humanitarian"]
+                "aliases": ["NGO", "Human Rights", "Non-Profit", "Environmental", "Humanitarian", "Charitable Organizations"]
             },
             {
                 "stix_id": "identity--9afcd3be-12e7-4f54-8dbe-8c22cecb592c",
                 "name": "Citizens",
                 "description": "The general population of a country.",
-                "aliases": ["Religion"]
+                "aliases": ["Religion", "Religious"]
             },
             {
                 "stix_id": "identity--84ba267e-9fdd-4086-b4d7-df02ab02f085",
                 "name": "Political parties",
                 "description": "A recognized or non recognized political group or party taking part into the political life of a country, weither by being part of the majority or opposed to the ruling power",
-                "aliases": ["Political opposition", "Politics"]
+                "aliases": ["Political opposition", "Politics", "Political"]
             },
             {
                 "stix_id": "identity--3292e7aa-d173-4adc-97d5-d303bdb9603c",
