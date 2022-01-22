@@ -44,6 +44,8 @@ def get_name_and_ids(in_file: str, classes: list):
             return result_dict, bundle_id
         
         for item in data['objects']:
+            if item['type'] == "relationship":
+                result_dict[f"{item['source_ref']}_{item['target_ref']}"] = item
             if item['type'] in classes:
                 result_dict[item['name']] = item
      
@@ -51,10 +53,6 @@ def get_name_and_ids(in_file: str, classes: list):
 
     return result_dict, bundle_id
 
-
-companies_json, bundle_id = get_name_and_ids(out_file, ['identity'])
-
-sectors_json, _ = get_name_and_ids(sector_file, ['identity'])
 
 def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sectors: dict) -> Bundle:
     bundles = []
@@ -66,19 +64,21 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
             if row['createdBy'] == "ANSSI":
                 creator = anssi
             else:
-                creator = row['createdBy'] # has to be a STIX ID
+                creator = row['createdBy']  # has to be a STIX ID
 
+            entity_id = None
+            entity_creation_date = None
             if row['name'] in companies:
                 print(f"{row['name']} is already present in the dataset")
-                # TODO verify that relationship is also already present
-                continue
+                entity_id = companies[row['name']]['id']
+                entity_creation_date = companies[row['name']]['created']
                
-            if row['x_opencti_stix_ids']:
+            if row['x_opencti_aliases']:
                 aliases = row['x_opencti_aliases'].split(',')
             else:
                 aliases = []
             
-            if row['x_opencti_stix_ids']:
+            if row['other_stix_ids']:
                 stix_ids = row['x_opencti_stix_ids'].split(',')
             else:
                 stix_ids = []
@@ -86,7 +86,9 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
             markings = row['objectMarking'].split(',')
                     
             company = Identity(
+                id=entity_id,
                 name=row['name'],
+                created=entity_creation_date,
                 description=row['description'],
                 contact_information=row['contact_information'],
                 roles="",   # There's no real point for having a role here. Only companies/entities here, no people
@@ -118,8 +120,18 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                 if relevant_sector is None:
                     print(f"Sector '{company_sector}' for company '{row['name']}' can't be found")
                     continue
-            
+
+                relationship_id = None
+                relationship_name = f"{company.id}_{relevant_sector['id']}"
+                relationship_creation_date = None
+                if relationship_name in companies:
+                    print(f"Relationship {row['name']} is already present in the dataset")
+                    relationship_id = companies[relationship_name]['id']
+                    relationship_creation_date = companies[relationship_name]['created']
+
                 sector_relationship = Relationship(
+                    id=relationship_id,
+                    created=relationship_creation_date,
                     relationship_type='part-of',
                     source_ref=company.id,
                     target_ref=relevant_sector['id'],
@@ -146,7 +158,9 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
     return bundle
 
 
-bundle = update_list(bundle_id, raw_file, {}, sectors_json)
+companies_json, bundle_id = get_name_and_ids(out_file, ['identity'])
+sectors_json, _ = get_name_and_ids(sector_file, ['identity'])
+bundle = update_list(bundle_id, raw_file, companies_json, sectors_json)
 with open(out_file, 'w') as fh:
     fh.write(bundle.serialize())
 
