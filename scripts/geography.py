@@ -120,7 +120,7 @@ for row in geography:
         bundle_objects.append(stix_country_relationship)
     i += 1
 
-bundle = Bundle(objects=bundle_objects)
+bundle = Bundle(objects=bundle_objects, allow_custom=True)
 fh = open('../data/geography.json', 'w')
 fh.write(str(bundle))
 fh.close()

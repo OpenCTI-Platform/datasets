@@ -57,7 +57,7 @@ for sector in sectors:
             )
             bundle_objects.append(stix_subsector_relationship)
 
-bundle = Bundle(objects=bundle_objects)
+bundle = Bundle(objects=bundle_objects, allow_custom=True)
 fh = open('../data/sectors.json', 'w')
 fh.write(str(bundle))
 fh.close()
