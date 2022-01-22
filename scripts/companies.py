@@ -63,6 +63,11 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
         csv_dict_reader = DictReader(csv_file, delimiter=',')
         
         for row in csv_dict_reader:
+            if row['createdBy'] == "ANSSI":
+                creator = anssi
+            else:
+                creator = row['createdBy'] # has to be a STIX ID
+
             if row['name'] in companies:
                 print(f"{row['name']} is already present in the dataset")
                 # TODO verify that relationship is also already present
@@ -77,14 +82,16 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                 stix_ids = row['x_opencti_stix_ids'].split(',')
             else:
                 stix_ids = []
+
+            markings = row['objectMarking'].split(',')
                     
             company = Identity(
                 name=row['name'],
                 description=row['description'],
                 contact_information=row['contact_information'],
-                roles=row['roles'],
+                roles="",   # There's no real point for having a role here. Only companies/entities here, no people
                 identity_class='organization',
-                created_by_ref=anssi,
+                created_by_ref=creator,
                 object_marking_refs=[TLP_WHITE],
                 custom_properties={
                     'x_opencti_aliases': aliases,
@@ -107,42 +114,41 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                         aliases = sector.get('x_opencti_aliases', [])
                         if company_sector in aliases:
                             relevant_sector = sector
-                
-                
+
                 if relevant_sector is None:
-                    print(f"Sector '{company_sector}' can't be found")
+                    print(f"Sector '{company_sector}' for company '{row['name']}' can't be found")
                     continue
             
-                sector_relationship =  Relationship(
+                sector_relationship = Relationship(
                     relationship_type='part-of',
                     source_ref=company.id,
                     target_ref=relevant_sector['id'],
                     description=f"Company '{row['name']}' is part of sector '{company_sector}'",
                     confidence=100,
-                    created_by_ref=anssi,
+                    created_by_ref=creator,
                     object_marking_refs=[TLP_WHITE],
                 )
                 
                 bundles.append(sector_relationship)
-            
-            
+
     if bundle_id:
         bundle = Bundle(
             objects=bundles,
-            id=bundle_id
+            id=bundle_id,
+            allow_custom=True
         )
     else:
         bundle = Bundle(
             objects=bundles,
+            allow_custom=True
         )
             
     return bundle
 
 
 bundle = update_list(bundle_id, raw_file, {}, sectors_json)
-fh = open(out_file, 'w')
-fh.write(str(bundle))
-fh.close()
+with open(out_file, 'w') as fh:
+    fh.write(bundle.serialize())
 
 
 
