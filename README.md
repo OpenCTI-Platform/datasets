@@ -1,7 +1,7 @@
 # OpenCTI datasets
 
 [![Website](https://img.shields.io/badge/website-opencti.io-blue.svg)](https://www.opencti.io)
-[![Slack Status](https://slack.luatix.org/badge.svg)](https://slack.luatix.org)
+[![Slack Status](https://slack.filigran.io/badge.svg)](https://community.filigran.io)
 
 The following repository is used to store the OpenCTI data samples used by the OpenCTI connectors for synchronize catalogs of sectors, regions and countries.
 
