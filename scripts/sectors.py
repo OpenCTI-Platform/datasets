@@ -12,6 +12,8 @@ anssi = Identity(
     description="The Agence nationale de la sécurité des systèmes d'information (ANSSI; English: National Cybersecurity Agency of France) is a French service created on 7 July 2009 with responsibility for computer security.",
     identity_class='organization',
     object_marking_refs=[TLP_WHITE],
+    confidence=100,
+    revoked=False,
     custom_properties={
         'x_opencti_aliases': ['ANSSI'],
         'x_opencti_organization_type': 'csirt',
@@ -27,6 +29,8 @@ for sector in sectors:
         identity_class='class',
         created_by_ref=anssi,
         object_marking_refs=[TLP_WHITE],
+        confidence=100,
+        revoked=False,
         custom_properties={
             'x_opencti_aliases': sector['aliases'],
         }
@@ -41,6 +45,8 @@ for sector in sectors:
                 identity_class='class',
                 created_by_ref=anssi,
                 object_marking_refs=[TLP_WHITE],
+                confidence=100,
+                revoked=False,
                 custom_properties={
                     'x_opencti_aliases': subsector['aliases'],
                 }
@@ -54,10 +60,11 @@ for sector in sectors:
                 created_by_ref=anssi,
                 object_marking_refs=[TLP_WHITE],
                 confidence=100,
+                revoked=False,
             )
             bundle_objects.append(stix_subsector_relationship)
 
 bundle = Bundle(objects=bundle_objects, allow_custom=True)
 fh = open('../data/sectors.json', 'w')
-fh.write(str(bundle))
+fh.write(bundle.serialize(pretty=True, include_optional_defaults=True))
 fh.close()

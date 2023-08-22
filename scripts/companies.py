@@ -90,10 +90,11 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                 created=entity_creation_date,
                 description=row['description'],
                 contact_information=row['contact_information'],
-                roles="",   # There's no real point for having a role here. Only companies/entities here, no people
                 identity_class='organization',
                 created_by_ref=creator,
                 object_marking_refs=[TLP_WHITE],
+                confidence=100,
+                revoked=False,
                 custom_properties={
                     'x_opencti_aliases': aliases,
                     'x_opencti_organization_type': row['x_opencti_organization_type'],
@@ -135,6 +136,7 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                     target_ref=relevant_sector['id'],
                     description=f"Company '{row['name']}' is part of sector '{company_sector}'",
                     confidence=100,
+                    revoked=False,
                     created_by_ref=creator,
                     object_marking_refs=[TLP_WHITE],
                 )
@@ -160,7 +162,7 @@ companies_json, bundle_id = get_name_and_ids(out_file, ['identity'])
 sectors_json, _ = get_name_and_ids(sector_file, ['identity'])
 bundle = update_list(bundle_id, raw_file, companies_json, sectors_json)
 with open(out_file, 'w') as fh:
-    fh.write(bundle.serialize())
+    fh.write(bundle.serialize(pretty=True, include_optional_defaults=True))
 
 
 

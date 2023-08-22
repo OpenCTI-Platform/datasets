@@ -49,6 +49,8 @@ for row in geography:
                 longitude=float(regionlng) if len(regionlng) > 0 else None,
                 created_by_ref=anssi,
                 object_marking_refs=[TLP_WHITE],
+                confidence=100,
+                revoked=False,
                 custom_properties={
                     'x_opencti_location_type': 'Region'
                 }
@@ -65,6 +67,8 @@ for row in geography:
                 longitude=float(subregionlng) if len(subregionlng) > 0 else None,
                 created_by_ref=anssi,
                 object_marking_refs=[TLP_WHITE],
+                confidence=100,
+                revoked=False,
                 custom_properties={
                     'x_opencti_location_type': 'Region'
                 }
@@ -78,6 +82,7 @@ for row in geography:
                     target_ref=regions[region].id,
                     description='Region ' + stix_subregion.name + ' is located in ' + regions[region].name,
                     confidence=100,
+                    revoked=False,
                     created_by_ref=anssi,
                     object_marking_refs=[TLP_WHITE],
                 )
@@ -90,6 +95,8 @@ for row in geography:
         longitude=float(country_lng) if len(country_lng) > 0 else None,
         created_by_ref=anssi,
         object_marking_refs=[TLP_WHITE],
+        confidence=100,
+        revoked=False,
         custom_properties={
             'x_opencti_location_type': 'Country',
             'x_opencti_aliases': [country_code, country_code2]
@@ -102,8 +109,9 @@ for row in geography:
             source_ref=stix_country.id,
             target_ref=subregions[subregion].id,
             description='Country ' + stix_country.name + ' is located in ' + subregions[subregion].name,
-            confidence=100,
             object_marking_refs=[TLP_WHITE],
+            confidence=100,
+            revoked=False,
             created_by_ref=anssi,
         )
         bundle_objects.append(stix_country_relationship)
@@ -113,8 +121,9 @@ for row in geography:
             source_ref=stix_country.id,
             target_ref=regions[region].id,
             description='Country ' + stix_country.name + ' is located in ' + regions[region].name,
-            confidence=100,
             object_marking_refs=[TLP_WHITE],
+            confidence=100,
+            revoked=False,
             created_by_ref=anssi,
         )
         bundle_objects.append(stix_country_relationship)
@@ -122,5 +131,5 @@ for row in geography:
 
 bundle = Bundle(objects=bundle_objects, allow_custom=True)
 fh = open('../data/geography.json', 'w')
-fh.write(str(bundle))
+fh.write(bundle.serialize(pretty=True, include_optional_defaults=True))
 fh.close()
