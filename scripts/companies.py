@@ -57,7 +57,7 @@ def get_name_and_ids(in_file: str, classes: list):
 def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sectors: dict) -> Bundle:
     bundles = []
 
-    with open(raw_companies_file) as csv_file:
+    with open(raw_companies_file, mode='r', encoding='utf-8') as csv_file:
         csv_dict_reader = DictReader(csv_file, delimiter=',')
         
         for row in csv_dict_reader:

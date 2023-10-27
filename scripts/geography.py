@@ -1,7 +1,9 @@
+# coding: utf-8
+
 import csv
 from stix2 import Bundle, Identity, Location, Relationship, TLP_WHITE
 
-csv_file = open('../raw/geo.csv')
+csv_file = open('../raw/geo.csv', mode='r', encoding='utf-8')
 
 geography = csv.reader(csv_file, delimiter=',', quotechar='"')
 anssi = Identity(

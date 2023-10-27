@@ -3,7 +3,7 @@
 import json
 from stix2 import Bundle, Identity, Relationship, TLP_WHITE
 
-with open('../raw/sectors.json') as json_file:
+with open('../raw/sectors.json', mode='r', encoding='utf-8') as json_file:
     sectors = json.load(json_file)
 
 anssi = Identity(
