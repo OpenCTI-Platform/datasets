@@ -13,15 +13,16 @@ out_file = '../data/companies.json'
 sector_file = '../data/sectors.json'
 geograph_file = '../data/geography.json'
 
-anssi = Identity(
-    id='identity--7b82b010-b1c0-4dae-981f-7756374a17df',
-    name="Agence Nationale de la Sécurité des Systèmes d'Information",
-    description="The Agence nationale de la sécurité des systèmes d'information (ANSSI; English: National Cybersecurity Agency of France) is a French service created on 7 July 2009 with responsibility for computer security.",
-    identity_class='organization',
+filigran = Identity(
+    id='identity--8cb00c79-ab20-5ed4-b37d-337241b96a29',
+    name="Filigran",
+    description="Filigran is a cybertech founded in 2022, providing cyber threat intelligence, adversary simulation and crisis management solutions to cybersecurity teams across the world.",
+    identity_class="organization",
     object_marking_refs=[TLP_WHITE],
+    confidence=100,
+    revoked=False,
     custom_properties={
-        'x_opencti_aliases': ['ANSSI'],
-        'x_opencti_organization_type': 'csirt',
+        'x_opencti_organization_type': 'vendor',
     }
 )
 
@@ -55,14 +56,14 @@ def get_name_and_ids(in_file: str, classes: list):
 
 
 def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sectors: dict) -> Bundle:
-    bundles = []
+    bundles = [filigran]
 
     with open(raw_companies_file, mode='r', encoding='utf-8') as csv_file:
         csv_dict_reader = DictReader(csv_file, delimiter=',')
         
         for row in csv_dict_reader:
-            if row['createdBy'] == "ANSSI":
-                creator = anssi
+            if row['createdBy'] == "Filigran":
+                creator = filigran
             else:
                 creator = row['createdBy']  # has to be a STIX ID
 
@@ -81,8 +82,6 @@ def update_list(bundle_id: str, raw_companies_file: str, companies: dict, sector
                 stix_ids = row['x_opencti_stix_ids'].split(',')
             else:
                 stix_ids = []
-
-            markings = row['objectMarking'].split(',')
                     
             company = Identity(
                 id=entity_id,
