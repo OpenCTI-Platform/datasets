@@ -5321,7 +5321,8 @@
             ],
             "x_opencti_aliases": [
                 "TWA",
-                "TW"
+                "TW",
+                "TWN"
             ],
             "x_opencti_location_type": "Country"
         },
