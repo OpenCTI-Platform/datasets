@@ -7,6 +7,7 @@ The following repository is used to store the OpenCTI data samples used by the O
 
 ## About
 
-OpenCTI is a product designed and developed by the company [Filigran](https://www.filigran.io).
+OpenCTI is a product designed and developed by the company [Filigran](https://filigran.io).
 
-<a href="https://www.filigran.io" alt="Filigran"><img src="https://www.filigran.io/wp-content/uploads/2022/08/filigran_text_horizontal_dense_margin.png" width="230" /></a>
+![Filigran](https://github.com/OpenCTI-Platform/opencti/raw/master/.github/img/logo_filigran_dark.png#gh-dark-mode-only)
+![Filigran](https://github.com/OpenCTI-Platform/opencti/raw/master/.github/img/logo_filigran_light.png#gh-light-mode-only)
