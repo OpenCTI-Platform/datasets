@@ -7,3 +7,6 @@ pycti.egg-info
 logs
 test.py
 .idea
+
+# Keep the GitHub issue template chooser config (the bare config.yml rule above would otherwise ignore it)
+!.github/ISSUE_TEMPLATE/config.yml
